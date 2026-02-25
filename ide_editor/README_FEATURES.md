@@ -19,6 +19,11 @@ This editor now includes a functional core for game-source, asset, and data edit
   - Command dispatch + hotkey routing.
   - Theme switching and UI panel layout management.
   - Project + settings persistence (`autosave_project.db`, `editor_settings.ini`).
+  - Source workspace scan/open/save/compile (`source_tools.*`) with active-file tracking.
+  - Source line operations: insert stub, delete cursor line, next `#include` search.
+  - Interactive command palette (toggle/filter/select/execute) with keyboard navigation.
+  - Center viewport now renders a live Game Boy-style 20x18 preview (tiles + actors + triggers).
+  - Runtime game-logic simulation module (`engine_runtime.*`) with quests/entities/combat tick.
 
 ## Unreal-Style Editor Framework Added
 - Settings/options system (`editor_settings.*`)
@@ -38,6 +43,20 @@ This editor now includes a functional core for game-source, asset, and data edit
 
 ## Build
 `build.bat` compiles all C files in `ide_editor`.
+
+### New Hotkeys
+- `F3`: Find next `#include` in active source file
+- `F4`: Save active source file
+- `F7`: Scan source folder
+- `F8`: Compile active source
+- `F9`: Toggle command palette
+- `I`: Runtime tick
+- `F`: Player runtime attack
+- `[` and `]`: Quest next/progress
+
+## Planning
+- Full roadmap and missing systems checklist:
+  - `IDE_FULL_TODO.md`
 
 ## Next Expansion Targets
 - Real UI backend (SDL/ImGui/native) for visible tool interaction.

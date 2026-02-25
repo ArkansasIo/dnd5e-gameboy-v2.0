@@ -16,6 +16,7 @@
 #include "gb_studio_tools.h"
 #include "menu_interaction.h"
 #include "source_tools.h"
+#include "engine_runtime.h"
 
 // Forward declarations
 struct EditorWindow;
@@ -45,7 +46,13 @@ typedef struct {
     InteractiveMenuState interactive_menu;
     bool mouse_menu_open;
     int mouse_menu_top;
+    bool command_palette_open;
+    int command_palette_index;
+    char command_palette_filter[32];
     SourceWorkspace sources;
+    int source_search_line;
+    char source_search_term[32];
+    EngineRuntime runtime;
     GBStudioProject gb_project;
     bool gb_play_mode;
     int frame_count;

@@ -15,6 +15,7 @@
 #include <stdio.h>
 #include <string.h>
 #include <stdarg.h>
+#include <ctype.h>
 #include <conio.h>
 #include <windows.h>
 
@@ -25,10 +26,13 @@
 #define KEY_RIGHT (KEY_EXT_BASE + 77)
 #define KEY_F1 (KEY_EXT_BASE + 59)
 #define KEY_F2 (KEY_EXT_BASE + 60)
+#define KEY_F3 (KEY_EXT_BASE + 61)
+#define KEY_F4 (KEY_EXT_BASE + 62)
 #define KEY_F5 (KEY_EXT_BASE + 63)
 #define KEY_F6 (KEY_EXT_BASE + 64)
 #define KEY_F7 (KEY_EXT_BASE + 65)
 #define KEY_F8 (KEY_EXT_BASE + 66)
+#define KEY_F9 (KEY_EXT_BASE + 67)
 #define KEY_F10 (KEY_EXT_BASE + 68)
 
 static void register_commands(IDEEditorApp *app) {
@@ -54,6 +58,12 @@ static void register_commands(IDEEditorApp *app) {
 
     command_registry_add(&app->command_registry, "engine.validate.encounter", "Validate encounter budget");
     command_registry_add(&app->command_registry, "engine.rebuild.worldgen", "Trigger worldgen rebuild hook");
+    command_registry_add(&app->command_registry, "engine.runtime.tick", "Advance runtime simulation by one turn");
+    command_registry_add(&app->command_registry, "engine.runtime.spawn_enemy", "Spawn a hostile runtime entity");
+    command_registry_add(&app->command_registry, "engine.runtime.attack", "Player attacks nearest hostile entity");
+    command_registry_add(&app->command_registry, "engine.quest.next", "Switch active runtime quest");
+    command_registry_add(&app->command_registry, "engine.quest.progress", "Increment active runtime quest progress");
+    command_registry_add(&app->command_registry, "engine.quest.complete", "Complete active runtime quest when ready");
 
     command_registry_add(&app->command_registry, "gb.scene.new", "Create GB Studio scene");
     command_registry_add(&app->command_registry, "gb.actor.add", "Add GB Studio actor to active scene");
@@ -80,6 +90,14 @@ static void register_commands(IDEEditorApp *app) {
     command_registry_add(&app->command_registry, "source.compile.active", "Compile active source file");
     command_registry_add(&app->command_registry, "source.compile.asm", "Compile active source as assembly");
     command_registry_add(&app->command_registry, "source.compile.c", "Compile active source as C");
+    command_registry_add(&app->command_registry, "source.insert.stub", "Insert TODO stub line at top of active source");
+    command_registry_add(&app->command_registry, "source.delete.line", "Delete current source line");
+    command_registry_add(&app->command_registry, "source.search.includes", "Find next include line in active source");
+
+    command_registry_add(&app->command_registry, "editor.command_palette.toggle", "Toggle command palette");
+    command_registry_add(&app->command_registry, "editor.command_palette.next", "Select next command in palette");
+    command_registry_add(&app->command_registry, "editor.command_palette.prev", "Select previous command in palette");
+    command_registry_add(&app->command_registry, "editor.command_palette.run", "Run selected command palette item");
 }
 
 static void add_menu(IDEEditorApp *app, const char *path, const char *command_id) {
@@ -101,6 +119,9 @@ static void build_menus(IDEEditorApp *app) {
     add_menu(app, "File/Source/Previous File", "source.prev");
     add_menu(app, "File/Source/Open Active", "source.open");
     add_menu(app, "File/Source/Save Active", "source.save");
+    add_menu(app, "File/Source/Insert Stub Line", "source.insert.stub");
+    add_menu(app, "File/Source/Delete Current Line", "source.delete.line");
+    add_menu(app, "File/Source/Search/Next Include", "source.search.includes");
     add_menu(app, "File/Export/Manifest", "file.export_manifest");
     add_menu(app, "File/Export/Build Package", "file.export_manifest");
 
@@ -130,6 +151,12 @@ static void build_menus(IDEEditorApp *app) {
     add_menu(app, "Tools/Objects/Scale", "tools.object");
     add_menu(app, "Tools/Debug/Validate Encounter", "engine.validate.encounter");
     add_menu(app, "Tools/Debug/Rebuild Worldgen", "engine.rebuild.worldgen");
+    add_menu(app, "Tools/Runtime/Tick", "engine.runtime.tick");
+    add_menu(app, "Tools/Runtime/Spawn Enemy", "engine.runtime.spawn_enemy");
+    add_menu(app, "Tools/Runtime/Player Attack", "engine.runtime.attack");
+    add_menu(app, "Tools/Runtime/Quest/Next", "engine.quest.next");
+    add_menu(app, "Tools/Runtime/Quest/Progress +1", "engine.quest.progress");
+    add_menu(app, "Tools/Runtime/Quest/Complete", "engine.quest.complete");
 
     add_menu(app, "Blueprint/New Graph", "file.new_project");
     add_menu(app, "Blueprint/Compile Graph", "engine.rebuild.worldgen");
@@ -166,6 +193,10 @@ static void build_menus(IDEEditorApp *app) {
     add_menu(app, "Window/Layout/Load Unreal GB Preset", "file.open_project");
     add_menu(app, "Window/Layout/Save Current Layout", "file.save_project");
     add_menu(app, "Window/Layout/Reset Layout", "file.open_project");
+    add_menu(app, "Window/Command Palette/Toggle", "editor.command_palette.toggle");
+    add_menu(app, "Window/Command Palette/Next", "editor.command_palette.next");
+    add_menu(app, "Window/Command Palette/Previous", "editor.command_palette.prev");
+    add_menu(app, "Window/Command Palette/Run Selected", "editor.command_palette.run");
 
     add_menu(app, "Help/Quick Start", "file.open_project");
     add_menu(app, "Help/Controls", "file.open_project");
@@ -355,6 +386,144 @@ static int appendf(char *buf, int cap, int pos, const char *fmt, ...) {
     return pos;
 }
 
+static int contains_case_insensitive(const char *text, const char *pattern) {
+    char t[256];
+    char p[64];
+    int i;
+    int j;
+    if (!text || !pattern || !pattern[0]) return 1;
+    strncpy(t, text, sizeof(t) - 1);
+    t[sizeof(t) - 1] = '\0';
+    strncpy(p, pattern, sizeof(p) - 1);
+    p[sizeof(p) - 1] = '\0';
+    for (i = 0; t[i]; ++i) t[i] = (char)tolower((unsigned char)t[i]);
+    for (j = 0; p[j]; ++j) p[j] = (char)tolower((unsigned char)p[j]);
+    return strstr(t, p) != NULL;
+}
+
+static int source_find_next_line(const SourceWorkspace *ws, const char *term, int from_line) {
+    int i;
+    if (!ws || !ws->active_buffer || !term || !term[0]) return -1;
+    if (from_line < 0) from_line = 0;
+    for (i = from_line; i < ws->active_buffer->line_count; ++i) {
+        if (contains_case_insensitive(ws->active_buffer->lines[i], term)) {
+            return i;
+        }
+    }
+    return -1;
+}
+
+static char tile_to_gb_char(int tile_id) {
+    static const char lut[] = " .,:;ox%#@";
+    int n = (int)(sizeof(lut) - 1);
+    int idx = tile_id;
+    if (idx < 0) idx = -idx;
+    idx %= n;
+    return lut[idx];
+}
+
+static void append_center_game_preview(IDEEditorApp *app, char *out, int out_len, int *pos) {
+    enum { GW = 20, GH = 18 };
+    char grid[GH][GW + 1];
+    int i;
+    int x;
+    int y;
+    int scene_w = app->active_map ? app->active_map->width : GW;
+    int scene_h = app->active_map ? app->active_map->height : GH;
+    int cam_x = 0;
+    int cam_y = 0;
+    int center_actor_x = 0;
+    int center_actor_y = 0;
+    int found_center_actor = 0;
+
+    if (!app || !out || !pos) return;
+
+    for (i = 0; i < app->gb_project.scene_count; ++i) {
+        if (app->gb_project.scenes[i].id == app->gb_project.active_scene_id) {
+            scene_w = app->gb_project.scenes[i].width;
+            scene_h = app->gb_project.scenes[i].height;
+            break;
+        }
+    }
+    if (app->active_map) {
+        if (scene_w > app->active_map->width) scene_w = app->active_map->width;
+        if (scene_h > app->active_map->height) scene_h = app->active_map->height;
+    }
+    if (scene_w < 1) scene_w = GW;
+    if (scene_h < 1) scene_h = GH;
+
+    for (i = 0; i < app->gb_project.actor_count; ++i) {
+        const GBActor *a = &app->gb_project.actors[i];
+        if (a->scene_id == app->gb_project.active_scene_id) {
+            center_actor_x = a->x;
+            center_actor_y = a->y;
+            found_center_actor = 1;
+            break;
+        }
+    }
+    if (!found_center_actor) {
+        center_actor_x = scene_w / 2;
+        center_actor_y = scene_h / 2;
+    }
+
+    cam_x = center_actor_x - (GW / 2);
+    cam_y = center_actor_y - (GH / 2);
+    if (cam_x < 0) cam_x = 0;
+    if (cam_y < 0) cam_y = 0;
+    if (cam_x + GW > scene_w) cam_x = scene_w - GW;
+    if (cam_y + GH > scene_h) cam_y = scene_h - GH;
+    if (cam_x < 0) cam_x = 0;
+    if (cam_y < 0) cam_y = 0;
+
+    for (y = 0; y < GH; ++y) {
+        for (x = 0; x < GW; ++x) {
+            int mx = cam_x + x;
+            int my = cam_y + y;
+            int t = 0;
+            if (app->active_map && mx >= 0 && my >= 0 && mx < app->active_map->width && my < app->active_map->height) {
+                t = tilemap_get(app->active_map, mx, my);
+            }
+            grid[y][x] = tile_to_gb_char(t);
+        }
+        grid[y][GW] = '\0';
+    }
+
+    for (i = 0; i < app->gb_project.trigger_count; ++i) {
+        const GBTrigger *tr = &app->gb_project.triggers[i];
+        int tx;
+        int ty;
+        if (tr->scene_id != app->gb_project.active_scene_id) continue;
+        for (ty = 0; ty < tr->height; ++ty) {
+            for (tx = 0; tx < tr->width; ++tx) {
+                int gx = tr->x + tx - cam_x;
+                int gy = tr->y + ty - cam_y;
+                if (gx >= 0 && gy >= 0 && gx < GW && gy < GH) grid[gy][gx] = 't';
+            }
+        }
+    }
+
+    for (i = 0; i < app->gb_project.actor_count; ++i) {
+        const GBActor *a = &app->gb_project.actors[i];
+        int gx;
+        int gy;
+        if (a->scene_id != app->gb_project.active_scene_id) continue;
+        gx = a->x - cam_x;
+        gy = a->y - cam_y;
+        if (gx >= 0 && gy >= 0 && gx < GW && gy < GH) {
+            grid[gy][gx] = a->hostile ? 'E' : 'N';
+        }
+    }
+
+    *pos = appendf(out, out_len, *pos, "\nCenter Viewport (GB Studio style 20x18):\n");
+    *pos = appendf(out, out_len, *pos, "Camera: (%d,%d)  Scene: %dx%d\n", cam_x, cam_y, scene_w, scene_h);
+    for (y = 0; y < GH; ++y) {
+        *pos = appendf(out, out_len, *pos, "  |%s|\n", grid[y]);
+    }
+    *pos = appendf(out, out_len, *pos, "Legend: N=npc E=enemy t=trigger\n");
+}
+
+static void run_selected_palette_command(IDEEditorApp *app);
+
 static void execute_command(IDEEditorApp *app, const char *command_id);
 
 static void build_overlay_text(IDEEditorApp *app, char *out, int out_len) {
@@ -408,6 +577,58 @@ static void build_overlay_text(IDEEditorApp *app, char *out, int out_len) {
         pos = appendf(out, out_len, pos, "  Active File: %s\n",
             active ? active->name : "(none)");
         pos = appendf(out, out_len, pos, "  Status: %s\n", app->sources.last_status);
+        if (app->sources.active_buffer) {
+            int start = app->sources.active_buffer->cursor_line - 1;
+            int end = app->sources.active_buffer->cursor_line + 1;
+            int ln;
+            if (start < 0) start = 0;
+            if (end >= app->sources.active_buffer->line_count) end = app->sources.active_buffer->line_count - 1;
+            pos = appendf(out, out_len, pos, "  Cursor Line: %d\n", app->sources.active_buffer->cursor_line + 1);
+            for (ln = start; ln <= end && ln >= 0; ++ln) {
+                const char *mark = (ln == app->sources.active_buffer->cursor_line) ? ">" : " ";
+                pos = appendf(out, out_len, pos, "  %s%4d: %.72s\n", mark, ln + 1, app->sources.active_buffer->lines[ln]);
+            }
+        }
+    }
+
+    {
+        char rt[256];
+        int shown = 0;
+        int i;
+        engine_runtime_summary(&app->runtime, rt, (int)sizeof(rt));
+        pos = appendf(out, out_len, pos, "\nRuntime Logic:\n  %s\n", rt);
+        for (i = 0; i < app->runtime.entity_count && shown < 6; i++) {
+            const EREntity *e = &app->runtime.entities[i];
+            pos = appendf(out, out_len, pos, "  - %s hp:%d/%d (%s) %s\n",
+                e->name,
+                e->hp,
+                e->hp_max,
+                e->faction == ER_FACTION_HOSTILE ? "hostile" : (e->faction == ER_FACTION_PLAYER ? "player" : "friendly"),
+                e->alive ? "alive" : "down");
+            shown++;
+        }
+        pos = appendf(out, out_len, pos, "  Event: %s\n", app->runtime.last_event);
+    }
+
+    append_center_game_preview(app, out, out_len, &pos);
+
+    if (app->command_palette_open) {
+        int i;
+        int shown = 0;
+        pos = appendf(out, out_len, pos, "\nCommand Palette (F9 to toggle):\n");
+        for (i = 0; i < app->command_registry.count && shown < 14; ++i) {
+            const EditorCommandDef *def = &app->command_registry.defs[i];
+            if (contains_case_insensitive(def->id, app->command_palette_filter) ||
+                contains_case_insensitive(def->description, app->command_palette_filter)) {
+                const char *mark = (shown == app->command_palette_index) ? ">" : " ";
+                pos = appendf(out, out_len, pos, "  %s %-34s : %s\n", mark, def->id, def->description);
+                shown++;
+            }
+        }
+        if (shown == 0) {
+            pos = appendf(out, out_len, pos, "  (no commands match filter)\n");
+        }
+        pos = appendf(out, out_len, pos, "  Filter: \"%s\"\n", app->command_palette_filter);
     }
 
     pos = appendf(out, out_len, pos, "\nHotkeys: TAB interactive menu, G/H/J/K/V/B/N/X/L/Y/Z + Q/Esc quit");
@@ -468,6 +689,7 @@ static void build_ui_actions(IDEEditorApp *app, EditorUIAction *actions, int *ou
     ui_action_add(actions, &count, max_count, 486, toolbar_y + 4, 88, tool_h - 8, "Validate", "gb.validate.all");
     ui_action_add(actions, &count, max_count, 578, toolbar_y + 4, 84, tool_h - 8, "Scan Src", "source.scan");
     ui_action_add(actions, &count, max_count, 666, toolbar_y + 4, 104, tool_h - 8, "Compile Src", "source.compile.active");
+    ui_action_add(actions, &count, max_count, 774, toolbar_y + 4, 120, tool_h - 8, "Cmd Palette", "editor.command_palette.toggle");
 
     ui_action_add(actions, &count, max_count, right_x, 140, 120, 24, "Paint", "tools.paint");
     ui_action_add(actions, &count, max_count, right_x, 168, 120, 24, "Fill", "tools.fill");
@@ -477,8 +699,52 @@ static void build_ui_actions(IDEEditorApp *app, EditorUIAction *actions, int *ou
     ui_action_add(actions, &count, max_count, right_x, 298, 120, 24, "Actor+", "gb.actor.add");
     ui_action_add(actions, &count, max_count, right_x, 326, 120, 24, "Trigger+", "gb.trigger.add");
     ui_action_add(actions, &count, max_count, right_x, 354, 120, 24, "ScriptRun", "gb.script.run_last");
+    ui_action_add(actions, &count, max_count, right_x, 392, 120, 24, "RT Tick", "engine.runtime.tick");
+    ui_action_add(actions, &count, max_count, right_x, 420, 120, 24, "RT Attack", "engine.runtime.attack");
+    ui_action_add(actions, &count, max_count, right_x, 448, 120, 24, "Quest+1", "engine.quest.progress");
+    ui_action_add(actions, &count, max_count, right_x, 476, 120, 24, "Quest Done", "engine.quest.complete");
 
     *out_count = count;
+}
+
+static const EditorCommandDef *palette_command_at(const IDEEditorApp *app, int visible_index) {
+    int i;
+    int shown = 0;
+    if (!app || visible_index < 0) return NULL;
+    for (i = 0; i < app->command_registry.count; ++i) {
+        const EditorCommandDef *def = &app->command_registry.defs[i];
+        if (contains_case_insensitive(def->id, app->command_palette_filter) ||
+            contains_case_insensitive(def->description, app->command_palette_filter)) {
+            if (shown == visible_index) return def;
+            shown++;
+        }
+    }
+    return NULL;
+}
+
+static int palette_visible_count(const IDEEditorApp *app) {
+    int i;
+    int shown = 0;
+    if (!app) return 0;
+    for (i = 0; i < app->command_registry.count; ++i) {
+        const EditorCommandDef *def = &app->command_registry.defs[i];
+        if (contains_case_insensitive(def->id, app->command_palette_filter) ||
+            contains_case_insensitive(def->description, app->command_palette_filter)) {
+            shown++;
+        }
+    }
+    return shown;
+}
+
+static void run_selected_palette_command(IDEEditorApp *app) {
+    const EditorCommandDef *def;
+    if (!app) return;
+    def = palette_command_at(app, app->command_palette_index);
+    if (def && strcmp(def->id, "editor.command_palette.run") != 0) {
+        execute_command(app, def->id);
+    } else {
+        ui_api_push_notification(&app->ui, UI_NOTIFY_WARN, "No command selected in palette", 160);
+    }
 }
 
 static void handle_ui_action(IDEEditorApp *app, const char *command_id) {
@@ -549,6 +815,36 @@ static void execute_command(IDEEditorApp *app, const char *command_id) {
         b.enemy_cr_total = 18;
         game_tools_validate_encounter(&b, reason, sizeof(reason));
         printf("[IDE] Encounter validation: %s\n", reason);
+    } else if (strcmp(command_id, "engine.runtime.tick") == 0) {
+        engine_runtime_tick(&app->runtime);
+        ui_api_push_notification(&app->ui, UI_NOTIFY_INFO, app->runtime.last_event, 120);
+        printf("[Runtime] %s\n", app->runtime.last_event);
+    } else if (strcmp(command_id, "engine.runtime.spawn_enemy") == 0) {
+        char nm[32];
+        snprintf(nm, sizeof(nm), "Enemy%d", app->runtime.turn + app->runtime.entity_count + 1);
+        if (engine_runtime_spawn_enemy(&app->runtime, nm, 10 + (app->runtime.turn % 7), 18, 10)) {
+            ui_api_push_notification(&app->ui, UI_NOTIFY_INFO, app->runtime.last_event, 140);
+        } else {
+            ui_api_push_notification(&app->ui, UI_NOTIFY_WARN, "Runtime enemy spawn failed", 160);
+        }
+        printf("[Runtime] %s\n", app->runtime.last_event);
+    } else if (strcmp(command_id, "engine.runtime.attack") == 0) {
+        engine_runtime_player_attack(&app->runtime);
+        ui_api_push_notification(&app->ui, UI_NOTIFY_INFO, app->runtime.last_event, 120);
+        printf("[Runtime] %s\n", app->runtime.last_event);
+    } else if (strcmp(command_id, "engine.quest.next") == 0) {
+        engine_runtime_quest_next(&app->runtime);
+        ui_api_push_notification(&app->ui, UI_NOTIFY_INFO, app->runtime.last_event, 120);
+    } else if (strcmp(command_id, "engine.quest.progress") == 0) {
+        engine_runtime_quest_progress(&app->runtime, 1);
+        ui_api_push_notification(&app->ui, UI_NOTIFY_INFO, app->runtime.last_event, 120);
+    } else if (strcmp(command_id, "engine.quest.complete") == 0) {
+        if (engine_runtime_quest_complete_active(&app->runtime)) {
+            ui_api_push_notification(&app->ui, UI_NOTIFY_INFO, app->runtime.last_event, 140);
+        } else {
+            ui_api_push_notification(&app->ui, UI_NOTIFY_WARN, "Quest not ready to complete", 140);
+        }
+        printf("[Runtime] %s\n", app->runtime.last_event);
     } else if (strcmp(command_id, "gb.scene.new") == 0) {
         char name[48];
         int scene_id;
@@ -665,6 +961,70 @@ static void execute_command(IDEEditorApp *app, const char *command_id) {
             ui_api_push_notification(&app->ui, UI_NOTIFY_ERROR, "GB project load failed", 240);
             printf("[GB Studio] Project load failed\n");
         }
+    } else if (strcmp(command_id, "editor.command_palette.toggle") == 0) {
+        app->command_palette_open = !app->command_palette_open;
+        if (app->command_palette_index < 0) app->command_palette_index = 0;
+        ui_api_push_notification(&app->ui, UI_NOTIFY_INFO, app->command_palette_open ? "Command palette opened" : "Command palette closed", 140);
+    } else if (strcmp(command_id, "editor.command_palette.next") == 0) {
+        int count = palette_visible_count(app);
+        if (count > 0) {
+            app->command_palette_index = (app->command_palette_index + 1) % count;
+        }
+    } else if (strcmp(command_id, "editor.command_palette.prev") == 0) {
+        int count = palette_visible_count(app);
+        if (count > 0) {
+            app->command_palette_index--;
+            if (app->command_palette_index < 0) app->command_palette_index = count - 1;
+        }
+    } else if (strcmp(command_id, "editor.command_palette.run") == 0) {
+        run_selected_palette_command(app);
+    } else if (strcmp(command_id, "source.insert.stub") == 0) {
+        if (!app->sources.active_buffer) {
+            source_workspace_open_active(&app->sources);
+        }
+        if (app->sources.active_buffer) {
+            editor_file_insert(app->sources.active_buffer, 0, "/* TODO: implement feature */\n");
+            app->sources.active_buffer->cursor_line = 0;
+            snprintf(app->sources.last_status, sizeof(app->sources.last_status), "inserted stub line in %s",
+                source_workspace_active(&app->sources) ? source_workspace_active(&app->sources)->name : "source");
+            ui_api_push_notification(&app->ui, UI_NOTIFY_INFO, app->sources.last_status, 180);
+        } else {
+            ui_api_push_notification(&app->ui, UI_NOTIFY_WARN, "No active source file", 180);
+        }
+    } else if (strcmp(command_id, "source.delete.line") == 0) {
+        if (app->sources.active_buffer && app->sources.active_buffer->line_count > 0) {
+            int line = app->sources.active_buffer->cursor_line;
+            if (line < 0) line = 0;
+            if (line >= app->sources.active_buffer->line_count) line = app->sources.active_buffer->line_count - 1;
+            editor_file_delete(app->sources.active_buffer, line);
+            if (line >= app->sources.active_buffer->line_count) line = app->sources.active_buffer->line_count - 1;
+            if (line < 0) line = 0;
+            app->sources.active_buffer->cursor_line = line;
+            snprintf(app->sources.last_status, sizeof(app->sources.last_status), "deleted line %d", line + 1);
+            ui_api_push_notification(&app->ui, UI_NOTIFY_INFO, app->sources.last_status, 180);
+        } else {
+            ui_api_push_notification(&app->ui, UI_NOTIFY_WARN, "No source line to delete", 180);
+        }
+    } else if (strcmp(command_id, "source.search.includes") == 0) {
+        int next;
+        strncpy(app->source_search_term, "#include", sizeof(app->source_search_term) - 1);
+        app->source_search_term[sizeof(app->source_search_term) - 1] = '\0';
+        if (!app->sources.active_buffer) {
+            source_workspace_open_active(&app->sources);
+        }
+        next = source_find_next_line(&app->sources, app->source_search_term,
+            app->sources.active_buffer ? (app->sources.active_buffer->cursor_line + 1) : 0);
+        if (next < 0) {
+            next = source_find_next_line(&app->sources, app->source_search_term, 0);
+        }
+        if (next >= 0 && app->sources.active_buffer) {
+            app->sources.active_buffer->cursor_line = next;
+            app->source_search_line = next;
+            snprintf(app->sources.last_status, sizeof(app->sources.last_status), "found include at line %d", next + 1);
+            ui_api_push_notification(&app->ui, UI_NOTIFY_INFO, app->sources.last_status, 180);
+        } else {
+            ui_api_push_notification(&app->ui, UI_NOTIFY_WARN, "No include line found", 180);
+        }
     } else if (strcmp(command_id, "source.scan") == 0) {
         source_workspace_scan(&app->sources);
         source_workspace_open_active(&app->sources);
@@ -754,6 +1114,29 @@ static void process_hotkeys(IDEEditorApp *app, int ch) {
         return;
     }
 
+    if (app->command_palette_open) {
+        int len = (int)strlen(app->command_palette_filter);
+        if (ch == 27) {
+            execute_command(app, "editor.command_palette.toggle");
+        } else if (ch == 13) {
+            execute_command(app, "editor.command_palette.run");
+        } else if (ch == KEY_UP) {
+            execute_command(app, "editor.command_palette.prev");
+        } else if (ch == KEY_DOWN) {
+            execute_command(app, "editor.command_palette.next");
+        } else if (ch == 8) {
+            if (len > 0) {
+                app->command_palette_filter[len - 1] = '\0';
+                app->command_palette_index = 0;
+            }
+        } else if (ch >= 32 && ch <= 126 && len < (int)sizeof(app->command_palette_filter) - 1) {
+            app->command_palette_filter[len] = (char)ch;
+            app->command_palette_filter[len + 1] = '\0';
+            app->command_palette_index = 0;
+        }
+        return;
+    }
+
     switch (ch) {
         case '1': execute_command(app, "tools.paint"); break;
         case '2': execute_command(app, "tools.fill"); break;
@@ -781,6 +1164,10 @@ static void process_hotkeys(IDEEditorApp *app, int ch) {
         case 'l': case 'L': execute_command(app, "gb.play.toggle"); break;
         case 'y': case 'Y': execute_command(app, "gb.project.save"); break;
         case 'z': case 'Z': execute_command(app, "gb.project.load"); break;
+        case 'i': case 'I': execute_command(app, "engine.runtime.tick"); break;
+        case 'f': case 'F': execute_command(app, "engine.runtime.attack"); break;
+        case ']': execute_command(app, "engine.quest.progress"); break;
+        case '[': execute_command(app, "engine.quest.next"); break;
         case KEY_F5:
             build_run_project("build.bat", &build_output);
             show_build_output = 1;
@@ -789,11 +1176,20 @@ static void process_hotkeys(IDEEditorApp *app, int ch) {
             build_run_project("ide_editor_x64.exe", &build_output);
             show_build_output = 1;
             break;
+        case KEY_F3:
+            execute_command(app, "source.search.includes");
+            break;
+        case KEY_F4:
+            execute_command(app, "source.save");
+            break;
         case KEY_F7:
             execute_command(app, "source.scan");
             break;
         case KEY_F8:
             execute_command(app, "source.compile.active");
+            break;
+        case KEY_F9:
+            execute_command(app, "editor.command_palette.toggle");
             break;
         case KEY_F10:
             if (!settings_ui) settings_ui = settings_ui_create();
@@ -858,8 +1254,15 @@ IDEEditorApp *ide_editor_create_with_backend(EditorBackendMode mode) {
     app->autosave_enabled = true;
     app->mouse_menu_open = false;
     app->mouse_menu_top = -1;
+    app->command_palette_open = false;
+    app->command_palette_index = 0;
+    app->command_palette_filter[0] = '\0';
+    app->source_search_line = -1;
+    app->source_search_term[0] = '\0';
     app->gb_play_mode = false;
     source_workspace_init(&app->sources, "..\\src");
+    engine_runtime_init(&app->runtime);
+    engine_runtime_seed_defaults(&app->runtime);
 
     register_commands(app);
     build_menus(app);
@@ -904,6 +1307,8 @@ void ide_editor_run(IDEEditorApp *app) {
         app->ui.widget_count,
         app->ui.menu_item_count);
     printf("[IDE] Hotkeys: 1/2/3/4 tools, P apply, U undo, R redo, S save, O open, T theme,\n");
+    printf("      F3 include-search, F4 source-save, F7 source-scan, F8 source-compile, F9 command palette,\n");
+    printf("      I runtime-tick, F runtime-attack, [ quest-next, ] quest-progress,\n");
     printf("      G/H/J/K/V GB authoring, B validate-all, N/X scene nav, L play mode, Y save, Z load, Q/Esc quit.\n");
     ui_api_render_unreal_layout(&app->ui);
 
@@ -924,6 +1329,9 @@ void ide_editor_run(IDEEditorApp *app) {
         }
         if (app->gb_play_mode) {
             gbstudio_tick_game_logic(&app->gb_project);
+            if ((app->frame_count % 15) == 0) {
+                engine_runtime_tick(&app->runtime);
+            }
         }
         ui_api_tick(&app->ui);
 

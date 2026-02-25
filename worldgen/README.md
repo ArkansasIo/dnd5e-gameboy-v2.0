@@ -7,6 +7,7 @@ This folder provides source code and generated data files for a large DND5E-styl
 - `src/generate_monster_compendium.js`: Generates a large DND5E-style monster catalog.
 - `src/generate_player_classes_5e.js`: Generates all base DND5E player classes and subclasses.
 - `src/generate_story_mode_og.js`: Generates OG story mode (12 acts, 50 chapters, quests).
+- `src/generate_elden_dnd5e_compendium.js`: Generates Elden-inspired DND5E gear/item/enemy/boss compendium.
 
 ## Generated Files
 - `generated/world.json`
@@ -24,6 +25,8 @@ This folder provides source code and generated data files for a large DND5E-styl
 - `generated/player_classes_5e.json`
 - `generated/story_mode_og_12acts_50chapters.json`
 - `generated/story_mode_og_guide.md`
+- `generated/elden_dnd5e_compendium.json`
+- `generated/elden_dnd5e_compendium_guide.md`
 - `generated/lore/*.md` (one markdown lore file per kingdom)
 
 ## What It Generates
@@ -45,6 +48,7 @@ This folder provides source code and generated data files for a large DND5E-styl
 - Large monster compendium dataset for content production.
 - All base player classes with class fundamentals and subclasses.
 - OG campaign story mode with 12 acts, 50 chapters, and detailed quest lines.
+- Elden-inspired DND5E compendium for weapons, armor, items, enemies, and bosses.
 
 ## Run
 ```powershell
@@ -67,6 +71,12 @@ Story mode only:
 
 ```powershell
 npm run worldgen:story
+```
+
+Elden-inspired compendium:
+
+```powershell
+npm run worldgen:elden
 ```
 
 or

@@ -1,0 +1,5 @@
+{
+  "manifestVersion": 1,
+  "root": "res",
+  "note": "Populate with scanned assets via future dir walker."
+}

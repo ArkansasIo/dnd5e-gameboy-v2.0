@@ -1,0 +1,10 @@
+[project]
+asset_count=5
+map_size=64x48
+
+[assets]
+1|1|start_zone|res/maps/start_zone.csv|zone-map|1
+2|0|dungeon_tiles|res/tiles/dungeon.bin|tileset|1
+3|4|act01_intro|worldgen/generated/story_mode_og_12acts_50chapters.json|story|1
+4|5|encounters|worldgen/generated/encounter_tables.json|balance|1
+5|5|classes|worldgen/generated/player_classes_5e.json|rpg|1

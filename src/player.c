@@ -1,3 +1,17 @@
+// Set equipment in a slot
+void set_equipment(Player *p, EquipmentSlot slot, uint16_t item_id) {
+  if (slot >= 0 && slot < 12) {
+    p->equipment[slot] = item_id;
+  }
+}
+
+// Get equipment from a slot
+uint16_t get_equipment(const Player *p, EquipmentSlot slot) {
+  if (slot >= 0 && slot < 12) {
+    return p->equipment[slot];
+  }
+  return 0;
+}
 #pragma bank 4
 
 #include <gb/gb.h>

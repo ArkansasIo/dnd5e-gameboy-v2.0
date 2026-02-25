@@ -102,6 +102,13 @@ typedef struct Player {
    * Player's name.
    */
   char name[8];
+
+  /**
+   * Equipment slots (12-slot character sheet).
+   * 0: Head, 1: Neck, 2: Shoulders, 3: Chest, 4: Arms, 5: Hands,
+   * 6: Ring1, 7: Ring2, 8: Waist, 9: Legs, 10: Feet, 11: Trinket
+   */
+  uint16_t equipment[12];
   /**
    * The player's class.
    */
@@ -245,6 +252,34 @@ typedef struct Player {
    */
   uint8_t trip_turns;
 } Player;
+
+/**
+ * Equipment slot indices for clarity.
+ */
+typedef enum EquipmentSlot {
+  EQUIP_HEAD = 0,
+  EQUIP_NECK = 1,
+  EQUIP_SHOULDERS = 2,
+  EQUIP_CHEST = 3,
+  EQUIP_ARMS = 4,
+  EQUIP_HANDS = 5,
+  EQUIP_RING1 = 6,
+  EQUIP_RING2 = 7,
+  EQUIP_WAIST = 8,
+  EQUIP_LEGS = 9,
+  EQUIP_FEET = 10,
+  EQUIP_TRINKET = 11
+} EquipmentSlot;
+
+/**
+ * Set equipment in a slot.
+ */
+void set_equipment(Player *p, EquipmentSlot slot, uint16_t item_id);
+
+/**
+ * Get equipment from a slot.
+ */
+uint16_t get_equipment(const Player *p, EquipmentSlot slot);
 
 /**
  * The global player object. Used by various systems (e.g. world map, battle,

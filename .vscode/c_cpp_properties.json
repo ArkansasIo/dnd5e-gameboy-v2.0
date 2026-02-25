@@ -13,7 +13,7 @@
       "defines": [
         "__PORT_sm83"
       ],
-      "compilerPath": "",
+      "compilerPath": "D:/llvm-mingw-20260224-msvcrt-i686/llvm-mingw-20260224-msvcrt-i686/bin/gcc.exe",
       "cStandard": "c11",
       "cppStandard": "c++17",
       "intelliSenseMode": "windows-gcc-x64",

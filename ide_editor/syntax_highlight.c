@@ -1,4 +1,5 @@
 #include "syntax_highlight.h"
+#include <stdbool.h>
 #include <string.h>
 #include <ctype.h>
 

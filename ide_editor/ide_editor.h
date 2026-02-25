@@ -14,6 +14,8 @@
 #include "command_registry.h"
 #include "editor_backend.h"
 #include "gb_studio_tools.h"
+#include "menu_interaction.h"
+#include "source_tools.h"
 
 // Forward declarations
 struct EditorWindow;
@@ -40,6 +42,10 @@ typedef struct {
     UIContext ui;
     EditorToolRegistry tool_registry;
     EditorCommandRegistry command_registry;
+    InteractiveMenuState interactive_menu;
+    bool mouse_menu_open;
+    int mouse_menu_top;
+    SourceWorkspace sources;
     GBStudioProject gb_project;
     bool gb_play_mode;
     int frame_count;

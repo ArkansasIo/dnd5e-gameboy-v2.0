@@ -4,6 +4,24 @@
 #include <stdio.h>
 #include <string.h>
 #include "math_bits.h"
+#include <windows.h>
+
+static LONG WINAPI ide_crash_handler(struct _EXCEPTION_POINTERS *ep) {
+    FILE *f = fopen("ide_editor_crash.log", "a");
+    if (f) {
+        SYSTEMTIME st;
+        GetLocalTime(&st);
+        fprintf(
+            f,
+            "[%04u-%02u-%02u %02u:%02u:%02u] Unhandled exception: code=0x%08lX address=%p\n",
+            st.wYear, st.wMonth, st.wDay, st.wHour, st.wMinute, st.wSecond,
+            ep && ep->ExceptionRecord ? ep->ExceptionRecord->ExceptionCode : 0UL,
+            ep && ep->ExceptionRecord ? ep->ExceptionRecord->ExceptionAddress : NULL
+        );
+        fclose(f);
+    }
+    return EXCEPTION_EXECUTE_HANDLER;
+}
 
 static void print_usage(const char *exe_name) {
     printf("Usage: %s [--backend <console|sdl2|imgui>] [--no-splash]\n", exe_name);
@@ -13,6 +31,8 @@ int main(int argc, char **argv) {
     EditorBackendMode mode = EDITOR_BACKEND_CONSOLE;
     int show_splash = 1;
     int i;
+
+    SetUnhandledExceptionFilter(ide_crash_handler);
 
     for (i = 1; i < argc; ++i) {
         if ((strcmp(argv[i], "--backend") == 0 || strcmp(argv[i], "-b") == 0) && (i + 1) < argc) {

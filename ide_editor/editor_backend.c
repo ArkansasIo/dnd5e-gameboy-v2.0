@@ -6,6 +6,9 @@ typedef struct {
     bool (*init)(void *state, const char *title, int width, int height);
     void (*poll)(void *state);
     void (*render)(void *state);
+    void (*set_overlay)(void *state, const char *text);
+    void (*set_ui_actions)(void *state, const EditorUIAction *actions, int count);
+    bool (*pop_ui_action)(void *state, char *out_command, int out_len);
     bool (*is_running)(void *state);
     void (*shutdown)(void *state);
     const char *name;
@@ -84,6 +87,21 @@ void editor_backend_poll(EditorBackend *backend) {
 void editor_backend_render(EditorBackend *backend) {
     if (!backend || !backend->ops.render) return;
     backend->ops.render(backend->state);
+}
+
+void editor_backend_set_overlay(EditorBackend *backend, const char *text) {
+    if (!backend || !backend->ops.set_overlay) return;
+    backend->ops.set_overlay(backend->state, text);
+}
+
+void editor_backend_set_ui_actions(EditorBackend *backend, const EditorUIAction *actions, int count) {
+    if (!backend || !backend->ops.set_ui_actions) return;
+    backend->ops.set_ui_actions(backend->state, actions, count);
+}
+
+bool editor_backend_pop_ui_action(EditorBackend *backend, char *out_command, int out_len) {
+    if (!backend || !backend->ops.pop_ui_action) return false;
+    return backend->ops.pop_ui_action(backend->state, out_command, out_len);
 }
 
 void editor_backend_shutdown(EditorBackend *backend) {

@@ -8,7 +8,7 @@ EditorFileBuffer *editor_file_load(const char *filename) {
     buf->line_count = 0;
     buf->cursor_line = 0;
     buf->cursor_col = 0;
-    buf->modified = false;
+    buf->modified = 0;
     FILE *f = fopen(filename, "r");
     if (f) {
         char line[EDITOR_FILE_MAX_LINE_LENGTH];
@@ -29,7 +29,7 @@ void editor_file_save(EditorFileBuffer *buf, const char *filename) {
             fputs(buf->lines[i], f);
         }
         fclose(f);
-        buf->modified = false;
+        buf->modified = 0;
     }
 }
 
@@ -45,7 +45,7 @@ void editor_file_insert(EditorFileBuffer *buf, int line, const char *text) {
     strncpy(buf->lines[line], text, EDITOR_FILE_MAX_LINE_LENGTH-1);
     buf->lines[line][EDITOR_FILE_MAX_LINE_LENGTH-1] = '\0';
     buf->line_count++;
-    buf->modified = true;
+    buf->modified = 1;
 }
 
 void editor_file_delete(EditorFileBuffer *buf, int line) {
@@ -54,5 +54,5 @@ void editor_file_delete(EditorFileBuffer *buf, int line) {
         strncpy(buf->lines[i], buf->lines[i+1], EDITOR_FILE_MAX_LINE_LENGTH);
     }
     buf->line_count--;
-    buf->modified = true;
+    buf->modified = 1;
 }

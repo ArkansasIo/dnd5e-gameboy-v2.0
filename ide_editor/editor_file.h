@@ -2,7 +2,6 @@
 #ifndef EDITOR_FILE_H
 #define EDITOR_FILE_H
 
-#include <stdbool.h>
 #include <stdio.h>
 #include <stdint.h>
 
@@ -15,7 +14,7 @@ typedef struct {
     int line_count;
     int cursor_line;
     int cursor_col;
-    bool modified;
+    uint8_t modified;
 } EditorFileBuffer;
 
 EditorFileBuffer *editor_file_load(const char *filename);

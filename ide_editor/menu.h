@@ -3,7 +3,7 @@
 
 #include <stdbool.h>
 
-#define MENU_MAX_ITEMS 64
+#define MENU_MAX_ITEMS 256
 
 typedef struct EditorMenu EditorMenu;
 

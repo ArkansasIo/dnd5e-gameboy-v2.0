@@ -21,6 +21,7 @@ struct EditorWindow {
     int back_h;
     int width, height;
     bool open;
+    bool tracking_mouse_leave;
 };
 
 static const char *EDITOR_WIN_CLASS = "IDEEditorWindowClass";
@@ -61,7 +62,18 @@ static LRESULT CALLBACK editor_window_proc(HWND hwnd, UINT msg, WPARAM wparam, L
                 int mx = GET_X_LPARAM(lparam);
                 int my = GET_Y_LPARAM(lparam);
                 int i;
+                TRACKMOUSEEVENT tme;
+                int prev_hover = win->hover_action;
                 win->hover_action = -1;
+                if (!win->tracking_mouse_leave) {
+                    tme.cbSize = sizeof(tme);
+                    tme.dwFlags = TME_LEAVE;
+                    tme.hwndTrack = hwnd;
+                    tme.dwHoverTime = 0;
+                    if (TrackMouseEvent(&tme)) {
+                        win->tracking_mouse_leave = true;
+                    }
+                }
                 for (i = 0; i < win->action_count; i++) {
                     const WindowUIAction *a = &win->actions[i];
                     if (mx >= a->x && mx < (a->x + a->w) && my >= a->y && my < (a->y + a->h)) {
@@ -69,9 +81,38 @@ static LRESULT CALLBACK editor_window_proc(HWND hwnd, UINT msg, WPARAM wparam, L
                         break;
                     }
                 }
+                if (prev_hover != win->hover_action) {
+                    InvalidateRect(hwnd, NULL, FALSE);
+                }
+            }
+            return 0;
+        case WM_MOUSELEAVE:
+            if (win) {
+                win->tracking_mouse_leave = false;
+                if (win->hover_action != -1) {
+                    win->hover_action = -1;
+                    InvalidateRect(hwnd, NULL, FALSE);
+                }
             }
             return 0;
         case WM_LBUTTONDOWN:
+            if (win) {
+                int mx = GET_X_LPARAM(lparam);
+                int my = GET_Y_LPARAM(lparam);
+                int i;
+                SetFocus(hwnd);
+                for (i = 0; i < win->action_count; i++) {
+                    const WindowUIAction *a = &win->actions[i];
+                    if (mx >= a->x && mx < (a->x + a->w) && my >= a->y && my < (a->y + a->h)) {
+                        strncpy(win->pending_command, a->command_id, sizeof(win->pending_command) - 1);
+                        win->pending_command[sizeof(win->pending_command) - 1] = '\0';
+                        InvalidateRect(hwnd, NULL, FALSE);
+                        break;
+                    }
+                }
+            }
+            return 0;
+        case WM_LBUTTONUP:
             if (win) {
                 int mx = GET_X_LPARAM(lparam);
                 int my = GET_Y_LPARAM(lparam);
@@ -81,6 +122,7 @@ static LRESULT CALLBACK editor_window_proc(HWND hwnd, UINT msg, WPARAM wparam, L
                     if (mx >= a->x && mx < (a->x + a->w) && my >= a->y && my < (a->y + a->h)) {
                         strncpy(win->pending_command, a->command_id, sizeof(win->pending_command) - 1);
                         win->pending_command[sizeof(win->pending_command) - 1] = '\0';
+                        InvalidateRect(hwnd, NULL, FALSE);
                         break;
                     }
                 }
@@ -141,6 +183,7 @@ EditorWindow *window_create(const char *title, int width, int height) {
     win->back_old_bmp = NULL;
     win->back_w = 0;
     win->back_h = 0;
+    win->tracking_mouse_leave = false;
 
     r.left = 0;
     r.top = 0;

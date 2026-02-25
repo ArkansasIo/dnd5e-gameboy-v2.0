@@ -562,6 +562,7 @@ static void build_overlay_text(IDEEditorApp *app, char *out, int out_len) {
 
     pos = appendf(out, out_len, pos, "Labyrinth IDE - GUI API\n");
     pos = appendf(out, out_len, pos, "Theme: %s  Backend: %s\n", editor_theme_name(app->theme_id), editor_backend_name(app->backend));
+    pos = appendf(out, out_len, pos, "Last Command: %s\n", app->last_command[0] ? app->last_command : "(none)");
     pos = appendf(out, out_len, pos, "Play:%s  Scene:%d  HP:%d/%d  Gold:%d\n\n",
         app->gb_play_mode ? "ON" : "OFF",
         app->gb_project.active_scene_id,
@@ -799,6 +800,8 @@ static void handle_ui_action(IDEEditorApp *app, const char *command_id) {
         }
         return;
     }
+    strncpy(app->last_command, command_id, sizeof(app->last_command) - 1);
+    app->last_command[sizeof(app->last_command) - 1] = '\0';
     execute_command(app, command_id);
     app->mouse_menu_open = false;
     app->mouse_menu_top = -1;
@@ -1349,6 +1352,7 @@ IDEEditorApp *ide_editor_create_with_backend(EditorBackendMode mode) {
     app->command_palette_filter[0] = '\0';
     app->source_search_line = -1;
     app->source_search_term[0] = '\0';
+    app->last_command[0] = '\0';
     app->gb_play_mode = false;
     source_workspace_init(&app->sources, "..\\src");
     engine_runtime_init(&app->runtime);

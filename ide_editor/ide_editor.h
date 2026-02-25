@@ -52,6 +52,7 @@ typedef struct {
     SourceWorkspace sources;
     int source_search_line;
     char source_search_term[32];
+    char last_command[64];
     EngineRuntime runtime;
     GBStudioProject gb_project;
     bool gb_play_mode;

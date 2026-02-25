@@ -9,6 +9,7 @@
 #include "item.h"
 #include "map.h"
 #include "sound.h"
+#include "multidim_grid.h"
 #include "stats.h"
 
 #define SET_MAGIC_KEYS(n) do { \

@@ -1,5 +1,6 @@
 #include <stdio.h>
 #include "core.h"
+#include "multidim_grid.h"
 
 uint8_t *debug = (void *)0xB000;
 uint16_t *debug16 = (void *)0xB800;

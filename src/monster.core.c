@@ -5,6 +5,7 @@
 #include "battle.h"
 #include "data.h"
 #include "monster.h"
+#include "multidim_grid.h"
 #include "battle.effects.h"
 #include "stats.h"
 #include "strings.h"

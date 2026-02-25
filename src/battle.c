@@ -17,6 +17,7 @@
 #include "sound.h"
 #include "strings.h"
 #include "text_writer.h"
+#include "multidim_grid.h"
 
 BattleState battle_state;
 BattleMenu battle_menu;

@@ -1,6 +1,10 @@
 # Labyrinth of the Dragon (GBC)
 An 8-bit Adventure RPG with D&D Monsters!
 
+## Documentation
+
+Project design and engineering docs are in [docs/README.md](docs/README.md).
+
 ## How to Build the ROM
 
 ### Depedencies
@@ -20,6 +24,21 @@ To build the ROM run the following commands:
 * `npm install`
 * `make assets`
 * `make`
+
+## GBDK-2020 for 32-bit and 64-bit Windows
+
+To build this project on Windows, you need GBDK-2020. Download the version that matches your OS:
+
+- **64-bit Windows:** [gbdk-win64.zip](https://github.com/gbdk-2020/gbdk-2020/releases/latest/download/gbdk-win64.zip)
+- **32-bit Windows:** [gbdk-win32.zip](https://github.com/gbdk-2020/gbdk-2020/releases/latest/download/gbdk-win32.zip)
+
+Extract the archive (e.g., to `D:/gbdk`).
+
+Add `D:/gbdk/bin` to your system PATH for command-line tools (optional).
+
+Update your include path in VS Code or your build system to point to `D:/gbdk/include`.
+
+The engine and all config files are compatible with both 32-bit and 64-bit systems.
 
 ## Save and Load System
 

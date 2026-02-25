@@ -100,6 +100,7 @@ const races = [
 ];
 
 const classes = [
+  { class: 'Artificer', subclasses: ['Alchemist', 'Armorer', 'Artillerist', 'Battle Smith'] },
   { class: 'Barbarian', subclasses: ['Berserker', 'Totem Warrior', 'Zealot'] },
   { class: 'Bard', subclasses: ['Lore', 'Valor', 'Whispers'] },
   { class: 'Cleric', subclasses: ['Life', 'Light', 'War', 'Trickery'] },

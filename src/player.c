@@ -12,6 +12,7 @@
 #include "player.h"
 #include "monster.h"
 #include "tables.h"
+#include "tables_data.h"
 #include "sound.h"
 #include "strings.h"
 

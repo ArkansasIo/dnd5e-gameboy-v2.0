@@ -3,6 +3,7 @@
 #include "core.h"
 #include "data.h"
 #include "monster.h"
+#include "multidim_grid.h"
 
 //------------------------------------------------------------------------------
 // Tilesets

@@ -4,6 +4,7 @@
 
 #include "battle.effects.h"
 #include "encounter.h"
+#include "multidim_grid.h"
 #include "monster.h"
 #include "sound.h"
 

@@ -1,6 +1,7 @@
 #pragma bank 0
 
 #include "player.h"
+#include "multidim_grid.h"
 #include "strings.h"
 
 const palette_color_t hero_colors[16] = {

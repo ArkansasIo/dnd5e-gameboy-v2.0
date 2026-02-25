@@ -1,6 +1,7 @@
 #pragma bank 5
 
 #include "stats.h"
+#include "multidim_grid.h"
 #include "player.h"
 
 uint16_t get_exp(uint8_t level) BANKED {

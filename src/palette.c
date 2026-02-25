@@ -1,4 +1,5 @@
 #include "palette.h"
+#include "multidim_grid.h"
 
 FadeType fade_type;
 uint8_t fade_step = 0;

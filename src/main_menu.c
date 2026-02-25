@@ -6,6 +6,7 @@
 
 #include "core.h"
 #include "main_menu.h"
+#include "multidim_grid.h"
 #include "player.h"
 #include "saveload.h"
 #include "title_screen.h"

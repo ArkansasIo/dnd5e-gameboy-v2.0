@@ -12,6 +12,7 @@
 #include "core.h"
 #include "floor.h"
 #include "map.h"
+#include "multidim_grid.h"
 #include "sound.h"
 
 Exit active_exit;

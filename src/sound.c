@@ -2,6 +2,7 @@
 
 #include "core.h"
 #include "sound.h"
+#include "multidim_grid.h"
 
 /**
  * Denotes the end of a sound register array.

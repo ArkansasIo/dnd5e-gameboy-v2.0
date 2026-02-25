@@ -8,8 +8,8 @@
     "role": "Guildmaster",
     "race": "Elf",
     "raceSubtype": "Wood Elf",
-    "class": "Bard",
-    "subclass": "Valor"
+    "class": "Barbarian",
+    "subclass": "Totem Warrior"
   },
   {
     "npcId": "npc-0002",
@@ -20,8 +20,8 @@
     "role": "Spymaster",
     "race": "Halfling",
     "raceSubtype": "Stout",
-    "class": "Fighter",
-    "subclass": "Champion"
+    "class": "Druid",
+    "subclass": "Land"
   },
   {
     "npcId": "npc-0003",
@@ -32,8 +32,8 @@
     "role": "Guildmaster",
     "race": "Dragonborn",
     "raceSubtype": "Gem",
-    "class": "Ranger",
-    "subclass": "Gloom Stalker"
+    "class": "Paladin",
+    "subclass": "Vengeance"
   },
   {
     "npcId": "npc-0004",
@@ -44,8 +44,8 @@
     "role": "Governor",
     "race": "Gnome",
     "raceSubtype": "Rock Gnome",
-    "class": "Fighter",
-    "subclass": "Battle Master"
+    "class": "Druid",
+    "subclass": "Moon"
   },
   {
     "npcId": "npc-0005",
@@ -56,8 +56,8 @@
     "role": "Temple Warden",
     "race": "Tiefling",
     "raceSubtype": "Infernal",
-    "class": "Ranger",
-    "subclass": "Hunter"
+    "class": "Paladin",
+    "subclass": "Devotion"
   },
   {
     "npcId": "npc-0006",
@@ -68,8 +68,8 @@
     "role": "Governor",
     "race": "Half-Orc",
     "raceSubtype": "Gray Orc Bloodline",
-    "class": "Warlock",
-    "subclass": "Great Old One"
+    "class": "Sorcerer",
+    "subclass": "Shadow Magic"
   },
   {
     "npcId": "npc-0007",
@@ -80,8 +80,8 @@
     "role": "Spymaster",
     "race": "Half-Elf",
     "raceSubtype": "Sun-Touched",
-    "class": "Ranger",
-    "subclass": "Beast Master"
+    "class": "Paladin",
+    "subclass": "Ancients"
   },
   {
     "npcId": "npc-0008",
@@ -92,8 +92,8 @@
     "role": "Guildmaster",
     "race": "Orc",
     "raceSubtype": "Plains Orc",
-    "class": "Warlock",
-    "subclass": "Fiend"
+    "class": "Sorcerer",
+    "subclass": "Draconic"
   },
   {
     "npcId": "npc-0009",
@@ -104,8 +104,8 @@
     "role": "Spymaster",
     "race": "Goliath",
     "raceSubtype": "Stone Clan",
-    "class": "Bard",
-    "subclass": "Whispers"
+    "class": "Artificer",
+    "subclass": "Battle Smith"
   },
   {
     "npcId": "npc-0010",
@@ -116,8 +116,8 @@
     "role": "Temple Warden",
     "race": "Aasimar",
     "raceSubtype": "Scourge",
-    "class": "Warlock",
-    "subclass": "Archfey"
+    "class": "Sorcerer",
+    "subclass": "Wild Magic"
   },
   {
     "npcId": "npc-0011",
@@ -128,8 +128,8 @@
     "role": "Governor",
     "race": "Tabaxi",
     "raceSubtype": "Jungle Stalker",
-    "class": "Bard",
-    "subclass": "Lore"
+    "class": "Artificer",
+    "subclass": "Alchemist"
   },
   {
     "npcId": "npc-0012",
@@ -140,8 +140,8 @@
     "role": "Temple Warden",
     "race": "Genasi",
     "raceSubtype": "Fire",
-    "class": "Fighter",
-    "subclass": "Eldritch Knight"
+    "class": "Cleric",
+    "subclass": "War"
   },
   {
     "npcId": "npc-0013",
@@ -152,8 +152,8 @@
     "role": "Guildmaster",
     "race": "Triton",
     "raceSubtype": "Wave Herald",
-    "class": "Bard",
-    "subclass": "Valor"
+    "class": "Artificer",
+    "subclass": "Armorer"
   },
   {
     "npcId": "npc-0014",
@@ -164,8 +164,8 @@
     "role": "Spymaster",
     "race": "Human",
     "raceSubtype": "Calishite",
-    "class": "Fighter",
-    "subclass": "Champion"
+    "class": "Cleric",
+    "subclass": "Trickery"
   },
   {
     "npcId": "npc-0015",
@@ -176,8 +176,8 @@
     "role": "Guildmaster",
     "race": "Dwarf",
     "raceSubtype": "Duergar",
-    "class": "Ranger",
-    "subclass": "Gloom Stalker"
+    "class": "Monk",
+    "subclass": "Kensei"
   },
   {
     "npcId": "npc-0016",
@@ -188,8 +188,8 @@
     "role": "Governor",
     "race": "Elf",
     "raceSubtype": "Wood Elf",
-    "class": "Fighter",
-    "subclass": "Battle Master"
+    "class": "Cleric",
+    "subclass": "Life"
   },
   {
     "npcId": "npc-0017",
@@ -200,8 +200,8 @@
     "role": "Temple Warden",
     "race": "Halfling",
     "raceSubtype": "Lightfoot",
-    "class": "Ranger",
-    "subclass": "Hunter"
+    "class": "Monk",
+    "subclass": "Open Hand"
   },
   {
     "npcId": "npc-0018",
@@ -212,8 +212,8 @@
     "role": "Governor",
     "race": "Dragonborn",
     "raceSubtype": "Gem",
-    "class": "Warlock",
-    "subclass": "Great Old One"
+    "class": "Rogue",
+    "subclass": "Arcane Trickster"
   },
   {
     "npcId": "npc-0019",
@@ -224,8 +224,8 @@
     "role": "Spymaster",
     "race": "Gnome",
     "raceSubtype": "Rock Gnome",
-    "class": "Ranger",
-    "subclass": "Beast Master"
+    "class": "Monk",
+    "subclass": "Shadow"
   },
   {
     "npcId": "npc-0020",
@@ -236,8 +236,8 @@
     "role": "Guildmaster",
     "race": "Tiefling",
     "raceSubtype": "Infernal",
-    "class": "Warlock",
-    "subclass": "Fiend"
+    "class": "Rogue",
+    "subclass": "Thief"
   },
   {
     "npcId": "npc-0021",
@@ -248,8 +248,8 @@
     "role": "Spymaster",
     "race": "Half-Orc",
     "raceSubtype": "Green Orc Bloodline",
-    "class": "Bard",
-    "subclass": "Whispers"
+    "class": "Wizard",
+    "subclass": "Necromancy"
   },
   {
     "npcId": "npc-0022",
@@ -260,8 +260,8 @@
     "role": "Temple Warden",
     "race": "Half-Elf",
     "raceSubtype": "Moon-Touched",
-    "class": "Warlock",
-    "subclass": "Archfey"
+    "class": "Rogue",
+    "subclass": "Assassin"
   },
   {
     "npcId": "npc-0023",
@@ -272,8 +272,8 @@
     "role": "Governor",
     "race": "Orc",
     "raceSubtype": "Mountain Orc",
-    "class": "Bard",
-    "subclass": "Lore"
+    "class": "Wizard",
+    "subclass": "Evocation"
   },
   {
     "npcId": "npc-0024",
@@ -284,8 +284,8 @@
     "role": "Temple Warden",
     "race": "Goliath",
     "raceSubtype": "Cloud Clan",
-    "class": "Fighter",
-    "subclass": "Eldritch Knight"
+    "class": "Bard",
+    "subclass": "Whispers"
   },
   {
     "npcId": "npc-0025",
@@ -296,8 +296,8 @@
     "role": "Guildmaster",
     "race": "Aasimar",
     "raceSubtype": "Scourge",
-    "class": "Bard",
-    "subclass": "Valor"
+    "class": "Wizard",
+    "subclass": "Abjuration"
   },
   {
     "npcId": "npc-0026",
@@ -308,8 +308,8 @@
     "role": "Spymaster",
     "race": "Tabaxi",
     "raceSubtype": "Sand Runner",
-    "class": "Fighter",
-    "subclass": "Champion"
+    "class": "Bard",
+    "subclass": "Lore"
   },
   {
     "npcId": "npc-0027",
@@ -320,8 +320,8 @@
     "role": "Guildmaster",
     "race": "Genasi",
     "raceSubtype": "Earth",
-    "class": "Ranger",
-    "subclass": "Gloom Stalker"
+    "class": "Fighter",
+    "subclass": "Eldritch Knight"
   },
   {
     "npcId": "npc-0028",
@@ -332,8 +332,8 @@
     "role": "Governor",
     "race": "Triton",
     "raceSubtype": "Abyss Guard",
-    "class": "Fighter",
-    "subclass": "Battle Master"
+    "class": "Bard",
+    "subclass": "Valor"
   },
   {
     "npcId": "npc-0029",
@@ -344,8 +344,8 @@
     "role": "Temple Warden",
     "race": "Human",
     "raceSubtype": "Calishite",
-    "class": "Ranger",
-    "subclass": "Hunter"
+    "class": "Fighter",
+    "subclass": "Champion"
   },
   {
     "npcId": "npc-0030",
@@ -356,8 +356,8 @@
     "role": "Governor",
     "race": "Dwarf",
     "raceSubtype": "Duergar",
-    "class": "Warlock",
-    "subclass": "Great Old One"
+    "class": "Ranger",
+    "subclass": "Gloom Stalker"
   },
   {
     "npcId": "npc-0031",
@@ -368,8 +368,8 @@
     "role": "Spymaster",
     "race": "Elf",
     "raceSubtype": "Wood Elf",
-    "class": "Ranger",
-    "subclass": "Beast Master"
+    "class": "Fighter",
+    "subclass": "Battle Master"
   },
   {
     "npcId": "npc-0032",
@@ -380,8 +380,8 @@
     "role": "Guildmaster",
     "race": "Halfling",
     "raceSubtype": "Stout",
-    "class": "Warlock",
-    "subclass": "Fiend"
+    "class": "Ranger",
+    "subclass": "Hunter"
   },
   {
     "npcId": "npc-0033",
@@ -392,8 +392,8 @@
     "role": "Spymaster",
     "race": "Dragonborn",
     "raceSubtype": "Gem",
-    "class": "Bard",
-    "subclass": "Whispers"
+    "class": "Warlock",
+    "subclass": "Great Old One"
   },
   {
     "npcId": "npc-0034",
@@ -404,8 +404,8 @@
     "role": "Temple Warden",
     "race": "Gnome",
     "raceSubtype": "Rock Gnome",
-    "class": "Warlock",
-    "subclass": "Archfey"
+    "class": "Ranger",
+    "subclass": "Beast Master"
   },
   {
     "npcId": "npc-0035",
@@ -416,8 +416,8 @@
     "role": "Governor",
     "race": "Tiefling",
     "raceSubtype": "Infernal",
-    "class": "Bard",
-    "subclass": "Lore"
+    "class": "Warlock",
+    "subclass": "Fiend"
   },
   {
     "npcId": "npc-0036",
@@ -428,8 +428,8 @@
     "role": "Temple Warden",
     "race": "Half-Orc",
     "raceSubtype": "Gray Orc Bloodline",
-    "class": "Fighter",
-    "subclass": "Eldritch Knight"
+    "class": "Barbarian",
+    "subclass": "Zealot"
   },
   {
     "npcId": "npc-0037",
@@ -440,8 +440,8 @@
     "role": "Guildmaster",
     "race": "Half-Elf",
     "raceSubtype": "Sun-Touched",
-    "class": "Bard",
-    "subclass": "Valor"
+    "class": "Warlock",
+    "subclass": "Archfey"
   },
   {
     "npcId": "npc-0038",
@@ -452,8 +452,8 @@
     "role": "Spymaster",
     "race": "Orc",
     "raceSubtype": "Plains Orc",
-    "class": "Fighter",
-    "subclass": "Champion"
+    "class": "Barbarian",
+    "subclass": "Berserker"
   },
   {
     "npcId": "npc-0039",
@@ -464,8 +464,8 @@
     "role": "Guildmaster",
     "race": "Goliath",
     "raceSubtype": "Stone Clan",
-    "class": "Ranger",
-    "subclass": "Gloom Stalker"
+    "class": "Druid",
+    "subclass": "Stars"
   },
   {
     "npcId": "npc-0040",
@@ -476,8 +476,8 @@
     "role": "Governor",
     "race": "Aasimar",
     "raceSubtype": "Scourge",
-    "class": "Fighter",
-    "subclass": "Battle Master"
+    "class": "Barbarian",
+    "subclass": "Totem Warrior"
   },
   {
     "npcId": "npc-0041",
@@ -488,8 +488,8 @@
     "role": "Temple Warden",
     "race": "Tabaxi",
     "raceSubtype": "Jungle Stalker",
-    "class": "Ranger",
-    "subclass": "Hunter"
+    "class": "Druid",
+    "subclass": "Land"
   },
   {
     "npcId": "npc-0042",
@@ -500,8 +500,8 @@
     "role": "Governor",
     "race": "Genasi",
     "raceSubtype": "Air",
-    "class": "Warlock",
-    "subclass": "Great Old One"
+    "class": "Paladin",
+    "subclass": "Vengeance"
   },
   {
     "npcId": "npc-0043",
@@ -512,8 +512,8 @@
     "role": "Spymaster",
     "race": "Triton",
     "raceSubtype": "Wave Herald",
-    "class": "Ranger",
-    "subclass": "Beast Master"
+    "class": "Druid",
+    "subclass": "Moon"
   },
   {
     "npcId": "npc-0044",
@@ -524,8 +524,8 @@
     "role": "Guildmaster",
     "race": "Human",
     "raceSubtype": "Calishite",
-    "class": "Warlock",
-    "subclass": "Fiend"
+    "class": "Paladin",
+    "subclass": "Devotion"
   },
   {
     "npcId": "npc-0045",
@@ -536,8 +536,8 @@
     "role": "Spymaster",
     "race": "Dwarf",
     "raceSubtype": "Duergar",
-    "class": "Bard",
-    "subclass": "Whispers"
+    "class": "Sorcerer",
+    "subclass": "Shadow Magic"
   },
   {
     "npcId": "npc-0046",
@@ -548,8 +548,8 @@
     "role": "Temple Warden",
     "race": "Elf",
     "raceSubtype": "Wood Elf",
-    "class": "Warlock",
-    "subclass": "Archfey"
+    "class": "Paladin",
+    "subclass": "Ancients"
   },
   {
     "npcId": "npc-0047",
@@ -560,8 +560,8 @@
     "role": "Governor",
     "race": "Halfling",
     "raceSubtype": "Lightfoot",
-    "class": "Bard",
-    "subclass": "Lore"
+    "class": "Sorcerer",
+    "subclass": "Draconic"
   },
   {
     "npcId": "npc-0048",
@@ -572,8 +572,8 @@
     "role": "Temple Warden",
     "race": "Dragonborn",
     "raceSubtype": "Gem",
-    "class": "Fighter",
-    "subclass": "Eldritch Knight"
+    "class": "Artificer",
+    "subclass": "Artillerist"
   },
   {
     "npcId": "npc-0049",
@@ -584,8 +584,8 @@
     "role": "Guildmaster",
     "race": "Gnome",
     "raceSubtype": "Rock Gnome",
-    "class": "Bard",
-    "subclass": "Valor"
+    "class": "Sorcerer",
+    "subclass": "Wild Magic"
   },
   {
     "npcId": "npc-0050",
@@ -596,8 +596,8 @@
     "role": "Spymaster",
     "race": "Tiefling",
     "raceSubtype": "Infernal",
-    "class": "Fighter",
-    "subclass": "Champion"
+    "class": "Artificer",
+    "subclass": "Battle Smith"
   },
   {
     "npcId": "npc-0051",
@@ -608,8 +608,8 @@
     "role": "Guildmaster",
     "race": "Half-Orc",
     "raceSubtype": "Green Orc Bloodline",
-    "class": "Ranger",
-    "subclass": "Gloom Stalker"
+    "class": "Cleric",
+    "subclass": "Light"
   },
   {
     "npcId": "npc-0052",
@@ -620,8 +620,8 @@
     "role": "Governor",
     "race": "Half-Elf",
     "raceSubtype": "Moon-Touched",
-    "class": "Fighter",
-    "subclass": "Battle Master"
+    "class": "Artificer",
+    "subclass": "Alchemist"
   },
   {
     "npcId": "npc-0053",
@@ -632,8 +632,8 @@
     "role": "Temple Warden",
     "race": "Orc",
     "raceSubtype": "Mountain Orc",
-    "class": "Ranger",
-    "subclass": "Hunter"
+    "class": "Cleric",
+    "subclass": "War"
   },
   {
     "npcId": "npc-0054",
@@ -644,8 +644,8 @@
     "role": "Governor",
     "race": "Goliath",
     "raceSubtype": "Cloud Clan",
-    "class": "Warlock",
-    "subclass": "Great Old One"
+    "class": "Monk",
+    "subclass": "Kensei"
   },
   {
     "npcId": "npc-0055",
@@ -656,8 +656,8 @@
     "role": "Spymaster",
     "race": "Aasimar",
     "raceSubtype": "Scourge",
-    "class": "Ranger",
-    "subclass": "Beast Master"
+    "class": "Cleric",
+    "subclass": "Trickery"
   },
   {
     "npcId": "npc-0056",
@@ -668,8 +668,8 @@
     "role": "Guildmaster",
     "race": "Tabaxi",
     "raceSubtype": "Sand Runner",
-    "class": "Warlock",
-    "subclass": "Fiend"
+    "class": "Monk",
+    "subclass": "Open Hand"
   },
   {
     "npcId": "npc-0057",
@@ -680,8 +680,8 @@
     "role": "Spymaster",
     "race": "Genasi",
     "raceSubtype": "Water",
-    "class": "Bard",
-    "subclass": "Whispers"
+    "class": "Rogue",
+    "subclass": "Arcane Trickster"
   },
   {
     "npcId": "npc-0058",
@@ -692,8 +692,8 @@
     "role": "Temple Warden",
     "race": "Triton",
     "raceSubtype": "Abyss Guard",
-    "class": "Warlock",
-    "subclass": "Archfey"
+    "class": "Monk",
+    "subclass": "Shadow"
   },
   {
     "npcId": "npc-0059",
@@ -704,8 +704,8 @@
     "role": "Governor",
     "race": "Human",
     "raceSubtype": "Calishite",
-    "class": "Bard",
-    "subclass": "Lore"
+    "class": "Rogue",
+    "subclass": "Thief"
   },
   {
     "npcId": "npc-0060",
@@ -716,8 +716,8 @@
     "role": "Temple Warden",
     "race": "Dwarf",
     "raceSubtype": "Duergar",
-    "class": "Fighter",
-    "subclass": "Eldritch Knight"
+    "class": "Wizard",
+    "subclass": "Necromancy"
   },
   {
     "npcId": "npc-0061",
@@ -728,8 +728,8 @@
     "role": "Guildmaster",
     "race": "Elf",
     "raceSubtype": "Wood Elf",
-    "class": "Bard",
-    "subclass": "Valor"
+    "class": "Rogue",
+    "subclass": "Assassin"
   },
   {
     "npcId": "npc-0062",
@@ -740,8 +740,8 @@
     "role": "Spymaster",
     "race": "Halfling",
     "raceSubtype": "Stout",
-    "class": "Fighter",
-    "subclass": "Champion"
+    "class": "Wizard",
+    "subclass": "Evocation"
   },
   {
     "npcId": "npc-0063",
@@ -752,8 +752,8 @@
     "role": "Guildmaster",
     "race": "Dragonborn",
     "raceSubtype": "Gem",
-    "class": "Ranger",
-    "subclass": "Gloom Stalker"
+    "class": "Bard",
+    "subclass": "Whispers"
   },
   {
     "npcId": "npc-0064",
@@ -764,8 +764,8 @@
     "role": "Governor",
     "race": "Gnome",
     "raceSubtype": "Rock Gnome",
-    "class": "Fighter",
-    "subclass": "Battle Master"
+    "class": "Wizard",
+    "subclass": "Abjuration"
   },
   {
     "npcId": "npc-0065",
@@ -776,8 +776,8 @@
     "role": "Temple Warden",
     "race": "Tiefling",
     "raceSubtype": "Infernal",
-    "class": "Ranger",
-    "subclass": "Hunter"
+    "class": "Bard",
+    "subclass": "Lore"
   },
   {
     "npcId": "npc-0066",
@@ -788,8 +788,8 @@
     "role": "Governor",
     "race": "Half-Orc",
     "raceSubtype": "Gray Orc Bloodline",
-    "class": "Warlock",
-    "subclass": "Great Old One"
+    "class": "Fighter",
+    "subclass": "Eldritch Knight"
   },
   {
     "npcId": "npc-0067",
@@ -800,8 +800,8 @@
     "role": "Spymaster",
     "race": "Half-Elf",
     "raceSubtype": "Sun-Touched",
-    "class": "Ranger",
-    "subclass": "Beast Master"
+    "class": "Bard",
+    "subclass": "Valor"
   },
   {
     "npcId": "npc-0068",
@@ -812,8 +812,8 @@
     "role": "Guildmaster",
     "race": "Orc",
     "raceSubtype": "Plains Orc",
-    "class": "Warlock",
-    "subclass": "Fiend"
+    "class": "Fighter",
+    "subclass": "Champion"
   },
   {
     "npcId": "npc-0069",
@@ -824,8 +824,8 @@
     "role": "Spymaster",
     "race": "Goliath",
     "raceSubtype": "Stone Clan",
-    "class": "Bard",
-    "subclass": "Whispers"
+    "class": "Ranger",
+    "subclass": "Gloom Stalker"
   },
   {
     "npcId": "npc-0070",
@@ -836,8 +836,8 @@
     "role": "Temple Warden",
     "race": "Aasimar",
     "raceSubtype": "Scourge",
-    "class": "Warlock",
-    "subclass": "Archfey"
+    "class": "Fighter",
+    "subclass": "Battle Master"
   },
   {
     "npcId": "npc-0071",
@@ -848,8 +848,8 @@
     "role": "Governor",
     "race": "Tabaxi",
     "raceSubtype": "Jungle Stalker",
-    "class": "Bard",
-    "subclass": "Lore"
+    "class": "Ranger",
+    "subclass": "Hunter"
   },
   {
     "npcId": "npc-0072",
@@ -860,8 +860,8 @@
     "role": "Temple Warden",
     "race": "Genasi",
     "raceSubtype": "Fire",
-    "class": "Fighter",
-    "subclass": "Eldritch Knight"
+    "class": "Warlock",
+    "subclass": "Great Old One"
   },
   {
     "npcId": "npc-0073",
@@ -872,8 +872,8 @@
     "role": "Guildmaster",
     "race": "Triton",
     "raceSubtype": "Wave Herald",
-    "class": "Bard",
-    "subclass": "Valor"
+    "class": "Ranger",
+    "subclass": "Beast Master"
   },
   {
     "npcId": "npc-0074",
@@ -884,8 +884,8 @@
     "role": "Spymaster",
     "race": "Human",
     "raceSubtype": "Calishite",
-    "class": "Fighter",
-    "subclass": "Champion"
+    "class": "Warlock",
+    "subclass": "Fiend"
   },
   {
     "npcId": "npc-0075",
@@ -896,8 +896,8 @@
     "role": "Guildmaster",
     "race": "Dwarf",
     "raceSubtype": "Duergar",
-    "class": "Ranger",
-    "subclass": "Gloom Stalker"
+    "class": "Barbarian",
+    "subclass": "Zealot"
   },
   {
     "npcId": "npc-0076",
@@ -908,8 +908,8 @@
     "role": "Governor",
     "race": "Elf",
     "raceSubtype": "Wood Elf",
-    "class": "Fighter",
-    "subclass": "Battle Master"
+    "class": "Warlock",
+    "subclass": "Archfey"
   },
   {
     "npcId": "npc-0077",
@@ -920,8 +920,8 @@
     "role": "Temple Warden",
     "race": "Halfling",
     "raceSubtype": "Lightfoot",
-    "class": "Ranger",
-    "subclass": "Hunter"
+    "class": "Barbarian",
+    "subclass": "Berserker"
   },
   {
     "npcId": "npc-0078",
@@ -932,8 +932,8 @@
     "role": "Governor",
     "race": "Dragonborn",
     "raceSubtype": "Gem",
-    "class": "Warlock",
-    "subclass": "Great Old One"
+    "class": "Druid",
+    "subclass": "Stars"
   },
   {
     "npcId": "npc-0079",
@@ -944,8 +944,8 @@
     "role": "Spymaster",
     "race": "Gnome",
     "raceSubtype": "Rock Gnome",
-    "class": "Ranger",
-    "subclass": "Beast Master"
+    "class": "Barbarian",
+    "subclass": "Totem Warrior"
   },
   {
     "npcId": "npc-0080",
@@ -956,8 +956,8 @@
     "role": "Guildmaster",
     "race": "Tiefling",
     "raceSubtype": "Infernal",
-    "class": "Warlock",
-    "subclass": "Fiend"
+    "class": "Druid",
+    "subclass": "Land"
   },
   {
     "npcId": "npc-0081",
@@ -968,8 +968,8 @@
     "role": "Spymaster",
     "race": "Half-Orc",
     "raceSubtype": "Green Orc Bloodline",
-    "class": "Bard",
-    "subclass": "Whispers"
+    "class": "Paladin",
+    "subclass": "Vengeance"
   },
   {
     "npcId": "npc-0082",
@@ -980,8 +980,8 @@
     "role": "Temple Warden",
     "race": "Half-Elf",
     "raceSubtype": "Moon-Touched",
-    "class": "Warlock",
-    "subclass": "Archfey"
+    "class": "Druid",
+    "subclass": "Moon"
   },
   {
     "npcId": "npc-0083",
@@ -992,8 +992,8 @@
     "role": "Governor",
     "race": "Orc",
     "raceSubtype": "Mountain Orc",
-    "class": "Bard",
-    "subclass": "Lore"
+    "class": "Paladin",
+    "subclass": "Devotion"
   },
   {
     "npcId": "npc-0084",
@@ -1004,8 +1004,8 @@
     "role": "Temple Warden",
     "race": "Goliath",
     "raceSubtype": "Cloud Clan",
-    "class": "Fighter",
-    "subclass": "Eldritch Knight"
+    "class": "Sorcerer",
+    "subclass": "Shadow Magic"
   },
   {
     "npcId": "npc-0085",
@@ -1016,8 +1016,8 @@
     "role": "Guildmaster",
     "race": "Aasimar",
     "raceSubtype": "Scourge",
-    "class": "Bard",
-    "subclass": "Valor"
+    "class": "Paladin",
+    "subclass": "Ancients"
   },
   {
     "npcId": "npc-0086",
@@ -1028,8 +1028,8 @@
     "role": "Spymaster",
     "race": "Tabaxi",
     "raceSubtype": "Sand Runner",
-    "class": "Fighter",
-    "subclass": "Champion"
+    "class": "Sorcerer",
+    "subclass": "Draconic"
   },
   {
     "npcId": "npc-0087",
@@ -1040,8 +1040,8 @@
     "role": "Guildmaster",
     "race": "Genasi",
     "raceSubtype": "Earth",
-    "class": "Ranger",
-    "subclass": "Gloom Stalker"
+    "class": "Artificer",
+    "subclass": "Armorer"
   },
   {
     "npcId": "npc-0088",
@@ -1052,8 +1052,8 @@
     "role": "Governor",
     "race": "Triton",
     "raceSubtype": "Abyss Guard",
-    "class": "Fighter",
-    "subclass": "Battle Master"
+    "class": "Sorcerer",
+    "subclass": "Wild Magic"
   },
   {
     "npcId": "npc-0089",
@@ -1064,8 +1064,8 @@
     "role": "Temple Warden",
     "race": "Human",
     "raceSubtype": "Calishite",
-    "class": "Ranger",
-    "subclass": "Hunter"
+    "class": "Artificer",
+    "subclass": "Artillerist"
   },
   {
     "npcId": "npc-0090",
@@ -1076,8 +1076,8 @@
     "role": "Governor",
     "race": "Dwarf",
     "raceSubtype": "Duergar",
-    "class": "Warlock",
-    "subclass": "Great Old One"
+    "class": "Cleric",
+    "subclass": "Life"
   },
   {
     "npcId": "npc-0091",
@@ -1088,8 +1088,8 @@
     "role": "Spymaster",
     "race": "Elf",
     "raceSubtype": "Wood Elf",
-    "class": "Ranger",
-    "subclass": "Beast Master"
+    "class": "Artificer",
+    "subclass": "Battle Smith"
   },
   {
     "npcId": "npc-0092",
@@ -1100,8 +1100,8 @@
     "role": "Guildmaster",
     "race": "Halfling",
     "raceSubtype": "Stout",
-    "class": "Warlock",
-    "subclass": "Fiend"
+    "class": "Cleric",
+    "subclass": "Light"
   },
   {
     "npcId": "npc-0093",
@@ -1112,8 +1112,8 @@
     "role": "Spymaster",
     "race": "Dragonborn",
     "raceSubtype": "Gem",
-    "class": "Bard",
-    "subclass": "Whispers"
+    "class": "Monk",
+    "subclass": "Kensei"
   },
   {
     "npcId": "npc-0094",
@@ -1124,8 +1124,8 @@
     "role": "Temple Warden",
     "race": "Gnome",
     "raceSubtype": "Rock Gnome",
-    "class": "Warlock",
-    "subclass": "Archfey"
+    "class": "Cleric",
+    "subclass": "War"
   },
   {
     "npcId": "npc-0095",
@@ -1136,8 +1136,8 @@
     "role": "Governor",
     "race": "Tiefling",
     "raceSubtype": "Infernal",
-    "class": "Bard",
-    "subclass": "Lore"
+    "class": "Monk",
+    "subclass": "Open Hand"
   },
   {
     "npcId": "npc-0096",
@@ -1148,8 +1148,8 @@
     "role": "Temple Warden",
     "race": "Half-Orc",
     "raceSubtype": "Gray Orc Bloodline",
-    "class": "Fighter",
-    "subclass": "Eldritch Knight"
+    "class": "Rogue",
+    "subclass": "Arcane Trickster"
   },
   {
     "npcId": "npc-0097",
@@ -1160,8 +1160,8 @@
     "role": "Guildmaster",
     "race": "Half-Elf",
     "raceSubtype": "Sun-Touched",
-    "class": "Bard",
-    "subclass": "Valor"
+    "class": "Monk",
+    "subclass": "Shadow"
   },
   {
     "npcId": "npc-0098",
@@ -1172,8 +1172,8 @@
     "role": "Spymaster",
     "race": "Orc",
     "raceSubtype": "Plains Orc",
-    "class": "Fighter",
-    "subclass": "Champion"
+    "class": "Rogue",
+    "subclass": "Thief"
   },
   {
     "npcId": "npc-0099",
@@ -1184,8 +1184,8 @@
     "role": "Guildmaster",
     "race": "Goliath",
     "raceSubtype": "Stone Clan",
-    "class": "Ranger",
-    "subclass": "Gloom Stalker"
+    "class": "Wizard",
+    "subclass": "Necromancy"
   },
   {
     "npcId": "npc-0100",
@@ -1196,8 +1196,8 @@
     "role": "Governor",
     "race": "Aasimar",
     "raceSubtype": "Scourge",
-    "class": "Fighter",
-    "subclass": "Battle Master"
+    "class": "Rogue",
+    "subclass": "Assassin"
   },
   {
     "npcId": "npc-0101",
@@ -1208,8 +1208,8 @@
     "role": "Temple Warden",
     "race": "Tabaxi",
     "raceSubtype": "Jungle Stalker",
-    "class": "Ranger",
-    "subclass": "Hunter"
+    "class": "Wizard",
+    "subclass": "Evocation"
   },
   {
     "npcId": "npc-0102",
@@ -1220,8 +1220,8 @@
     "role": "Governor",
     "race": "Genasi",
     "raceSubtype": "Air",
-    "class": "Warlock",
-    "subclass": "Great Old One"
+    "class": "Bard",
+    "subclass": "Whispers"
   },
   {
     "npcId": "npc-0103",
@@ -1232,8 +1232,8 @@
     "role": "Spymaster",
     "race": "Triton",
     "raceSubtype": "Wave Herald",
-    "class": "Ranger",
-    "subclass": "Beast Master"
+    "class": "Wizard",
+    "subclass": "Abjuration"
   },
   {
     "npcId": "npc-0104",
@@ -1244,8 +1244,8 @@
     "role": "Guildmaster",
     "race": "Human",
     "raceSubtype": "Calishite",
-    "class": "Warlock",
-    "subclass": "Fiend"
+    "class": "Bard",
+    "subclass": "Lore"
   },
   {
     "npcId": "npc-0105",
@@ -1256,8 +1256,8 @@
     "role": "Spymaster",
     "race": "Dwarf",
     "raceSubtype": "Duergar",
-    "class": "Bard",
-    "subclass": "Whispers"
+    "class": "Fighter",
+    "subclass": "Eldritch Knight"
   },
   {
     "npcId": "npc-0106",
@@ -1268,8 +1268,8 @@
     "role": "Temple Warden",
     "race": "Elf",
     "raceSubtype": "Wood Elf",
-    "class": "Warlock",
-    "subclass": "Archfey"
+    "class": "Bard",
+    "subclass": "Valor"
   },
   {
     "npcId": "npc-0107",
@@ -1280,8 +1280,8 @@
     "role": "Governor",
     "race": "Halfling",
     "raceSubtype": "Lightfoot",
-    "class": "Bard",
-    "subclass": "Lore"
+    "class": "Fighter",
+    "subclass": "Champion"
   },
   {
     "npcId": "npc-0108",
@@ -1292,8 +1292,8 @@
     "role": "Temple Warden",
     "race": "Dragonborn",
     "raceSubtype": "Gem",
-    "class": "Fighter",
-    "subclass": "Eldritch Knight"
+    "class": "Ranger",
+    "subclass": "Gloom Stalker"
   },
   {
     "npcId": "npc-0109",
@@ -1304,8 +1304,8 @@
     "role": "Guildmaster",
     "race": "Gnome",
     "raceSubtype": "Rock Gnome",
-    "class": "Bard",
-    "subclass": "Valor"
+    "class": "Fighter",
+    "subclass": "Battle Master"
   },
   {
     "npcId": "npc-0110",
@@ -1316,8 +1316,8 @@
     "role": "Spymaster",
     "race": "Tiefling",
     "raceSubtype": "Infernal",
-    "class": "Fighter",
-    "subclass": "Champion"
+    "class": "Ranger",
+    "subclass": "Hunter"
   },
   {
     "npcId": "npc-0111",
@@ -1328,8 +1328,8 @@
     "role": "Guildmaster",
     "race": "Half-Orc",
     "raceSubtype": "Green Orc Bloodline",
-    "class": "Ranger",
-    "subclass": "Gloom Stalker"
+    "class": "Warlock",
+    "subclass": "Great Old One"
   },
   {
     "npcId": "npc-0112",
@@ -1340,8 +1340,8 @@
     "role": "Governor",
     "race": "Half-Elf",
     "raceSubtype": "Moon-Touched",
-    "class": "Fighter",
-    "subclass": "Battle Master"
+    "class": "Ranger",
+    "subclass": "Beast Master"
   },
   {
     "npcId": "npc-0113",
@@ -1352,8 +1352,8 @@
     "role": "Temple Warden",
     "race": "Orc",
     "raceSubtype": "Mountain Orc",
-    "class": "Ranger",
-    "subclass": "Hunter"
+    "class": "Warlock",
+    "subclass": "Fiend"
   },
   {
     "npcId": "npc-0114",
@@ -1364,8 +1364,8 @@
     "role": "Governor",
     "race": "Goliath",
     "raceSubtype": "Cloud Clan",
-    "class": "Warlock",
-    "subclass": "Great Old One"
+    "class": "Barbarian",
+    "subclass": "Zealot"
   },
   {
     "npcId": "npc-0115",
@@ -1376,8 +1376,8 @@
     "role": "Spymaster",
     "race": "Aasimar",
     "raceSubtype": "Scourge",
-    "class": "Ranger",
-    "subclass": "Beast Master"
+    "class": "Warlock",
+    "subclass": "Archfey"
   },
   {
     "npcId": "npc-0116",
@@ -1388,8 +1388,8 @@
     "role": "Guildmaster",
     "race": "Tabaxi",
     "raceSubtype": "Sand Runner",
-    "class": "Warlock",
-    "subclass": "Fiend"
+    "class": "Barbarian",
+    "subclass": "Berserker"
   },
   {
     "npcId": "npc-0117",
@@ -1400,8 +1400,8 @@
     "role": "Spymaster",
     "race": "Genasi",
     "raceSubtype": "Water",
-    "class": "Bard",
-    "subclass": "Whispers"
+    "class": "Druid",
+    "subclass": "Stars"
   },
   {
     "npcId": "npc-0118",
@@ -1412,8 +1412,8 @@
     "role": "Temple Warden",
     "race": "Triton",
     "raceSubtype": "Abyss Guard",
-    "class": "Warlock",
-    "subclass": "Archfey"
+    "class": "Barbarian",
+    "subclass": "Totem Warrior"
   },
   {
     "npcId": "npc-0119",
@@ -1424,8 +1424,8 @@
     "role": "Governor",
     "race": "Human",
     "raceSubtype": "Calishite",
-    "class": "Bard",
-    "subclass": "Lore"
+    "class": "Druid",
+    "subclass": "Land"
   },
   {
     "npcId": "npc-0120",
@@ -1436,8 +1436,8 @@
     "role": "Temple Warden",
     "race": "Dwarf",
     "raceSubtype": "Duergar",
-    "class": "Fighter",
-    "subclass": "Eldritch Knight"
+    "class": "Paladin",
+    "subclass": "Vengeance"
   },
   {
     "npcId": "npc-0121",
@@ -1448,8 +1448,8 @@
     "role": "Guildmaster",
     "race": "Elf",
     "raceSubtype": "Wood Elf",
-    "class": "Bard",
-    "subclass": "Valor"
+    "class": "Druid",
+    "subclass": "Moon"
   },
   {
     "npcId": "npc-0122",
@@ -1460,8 +1460,8 @@
     "role": "Spymaster",
     "race": "Halfling",
     "raceSubtype": "Stout",
-    "class": "Fighter",
-    "subclass": "Champion"
+    "class": "Paladin",
+    "subclass": "Devotion"
   },
   {
     "npcId": "npc-0123",
@@ -1472,8 +1472,8 @@
     "role": "Guildmaster",
     "race": "Dragonborn",
     "raceSubtype": "Gem",
-    "class": "Ranger",
-    "subclass": "Gloom Stalker"
+    "class": "Sorcerer",
+    "subclass": "Shadow Magic"
   },
   {
     "npcId": "npc-0124",
@@ -1484,8 +1484,8 @@
     "role": "Governor",
     "race": "Gnome",
     "raceSubtype": "Rock Gnome",
-    "class": "Fighter",
-    "subclass": "Battle Master"
+    "class": "Paladin",
+    "subclass": "Ancients"
   },
   {
     "npcId": "npc-0125",
@@ -1496,8 +1496,8 @@
     "role": "Temple Warden",
     "race": "Tiefling",
     "raceSubtype": "Infernal",
-    "class": "Ranger",
-    "subclass": "Hunter"
+    "class": "Sorcerer",
+    "subclass": "Draconic"
   },
   {
     "npcId": "npc-0126",
@@ -1508,8 +1508,8 @@
     "role": "Governor",
     "race": "Half-Orc",
     "raceSubtype": "Gray Orc Bloodline",
-    "class": "Warlock",
-    "subclass": "Great Old One"
+    "class": "Artificer",
+    "subclass": "Alchemist"
   },
   {
     "npcId": "npc-0127",
@@ -1520,8 +1520,8 @@
     "role": "Spymaster",
     "race": "Half-Elf",
     "raceSubtype": "Sun-Touched",
-    "class": "Ranger",
-    "subclass": "Beast Master"
+    "class": "Sorcerer",
+    "subclass": "Wild Magic"
   },
   {
     "npcId": "npc-0128",
@@ -1532,8 +1532,8 @@
     "role": "Guildmaster",
     "race": "Orc",
     "raceSubtype": "Plains Orc",
-    "class": "Warlock",
-    "subclass": "Fiend"
+    "class": "Artificer",
+    "subclass": "Armorer"
   },
   {
     "npcId": "npc-0129",
@@ -1544,8 +1544,8 @@
     "role": "Spymaster",
     "race": "Goliath",
     "raceSubtype": "Stone Clan",
-    "class": "Bard",
-    "subclass": "Whispers"
+    "class": "Cleric",
+    "subclass": "Trickery"
   },
   {
     "npcId": "npc-0130",
@@ -1556,8 +1556,8 @@
     "role": "Temple Warden",
     "race": "Aasimar",
     "raceSubtype": "Scourge",
-    "class": "Warlock",
-    "subclass": "Archfey"
+    "class": "Artificer",
+    "subclass": "Artillerist"
   },
   {
     "npcId": "npc-0131",
@@ -1568,8 +1568,8 @@
     "role": "Governor",
     "race": "Tabaxi",
     "raceSubtype": "Jungle Stalker",
-    "class": "Bard",
-    "subclass": "Lore"
+    "class": "Cleric",
+    "subclass": "Life"
   },
   {
     "npcId": "npc-0132",
@@ -1580,8 +1580,8 @@
     "role": "Temple Warden",
     "race": "Genasi",
     "raceSubtype": "Fire",
-    "class": "Fighter",
-    "subclass": "Eldritch Knight"
+    "class": "Monk",
+    "subclass": "Kensei"
   },
   {
     "npcId": "npc-0133",
@@ -1592,8 +1592,8 @@
     "role": "Guildmaster",
     "race": "Triton",
     "raceSubtype": "Wave Herald",
-    "class": "Bard",
-    "subclass": "Valor"
+    "class": "Cleric",
+    "subclass": "Light"
   },
   {
     "npcId": "npc-0134",
@@ -1604,8 +1604,8 @@
     "role": "Spymaster",
     "race": "Human",
     "raceSubtype": "Calishite",
-    "class": "Fighter",
-    "subclass": "Champion"
+    "class": "Monk",
+    "subclass": "Open Hand"
   },
   {
     "npcId": "npc-0135",
@@ -1616,8 +1616,8 @@
     "role": "Guildmaster",
     "race": "Dwarf",
     "raceSubtype": "Duergar",
-    "class": "Ranger",
-    "subclass": "Gloom Stalker"
+    "class": "Rogue",
+    "subclass": "Arcane Trickster"
   },
   {
     "npcId": "npc-0136",
@@ -1628,8 +1628,8 @@
     "role": "Governor",
     "race": "Elf",
     "raceSubtype": "Wood Elf",
-    "class": "Fighter",
-    "subclass": "Battle Master"
+    "class": "Monk",
+    "subclass": "Shadow"
   },
   {
     "npcId": "npc-0137",
@@ -1640,8 +1640,8 @@
     "role": "Temple Warden",
     "race": "Halfling",
     "raceSubtype": "Lightfoot",
-    "class": "Ranger",
-    "subclass": "Hunter"
+    "class": "Rogue",
+    "subclass": "Thief"
   },
   {
     "npcId": "npc-0138",
@@ -1652,8 +1652,8 @@
     "role": "Governor",
     "race": "Dragonborn",
     "raceSubtype": "Gem",
-    "class": "Warlock",
-    "subclass": "Great Old One"
+    "class": "Wizard",
+    "subclass": "Necromancy"
   },
   {
     "npcId": "npc-0139",
@@ -1664,8 +1664,8 @@
     "role": "Spymaster",
     "race": "Gnome",
     "raceSubtype": "Rock Gnome",
-    "class": "Ranger",
-    "subclass": "Beast Master"
+    "class": "Rogue",
+    "subclass": "Assassin"
   },
   {
     "npcId": "npc-0140",
@@ -1676,8 +1676,8 @@
     "role": "Guildmaster",
     "race": "Tiefling",
     "raceSubtype": "Infernal",
-    "class": "Warlock",
-    "subclass": "Fiend"
+    "class": "Wizard",
+    "subclass": "Evocation"
   },
   {
     "npcId": "npc-0141",
@@ -1700,8 +1700,8 @@
     "role": "Temple Warden",
     "race": "Half-Elf",
     "raceSubtype": "Moon-Touched",
-    "class": "Warlock",
-    "subclass": "Archfey"
+    "class": "Wizard",
+    "subclass": "Abjuration"
   },
   {
     "npcId": "npc-0143",
@@ -1832,8 +1832,8 @@
     "role": "Spymaster",
     "race": "Dragonborn",
     "raceSubtype": "Gem",
-    "class": "Bard",
-    "subclass": "Whispers"
+    "class": "Barbarian",
+    "subclass": "Zealot"
   },
   {
     "npcId": "npc-0154",
@@ -1856,8 +1856,8 @@
     "role": "Governor",
     "race": "Tiefling",
     "raceSubtype": "Infernal",
-    "class": "Bard",
-    "subclass": "Lore"
+    "class": "Barbarian",
+    "subclass": "Berserker"
   },
   {
     "npcId": "npc-0156",
@@ -1868,8 +1868,8 @@
     "role": "Temple Warden",
     "race": "Half-Orc",
     "raceSubtype": "Gray Orc Bloodline",
-    "class": "Fighter",
-    "subclass": "Eldritch Knight"
+    "class": "Druid",
+    "subclass": "Stars"
   },
   {
     "npcId": "npc-0157",
@@ -1880,8 +1880,8 @@
     "role": "Guildmaster",
     "race": "Half-Elf",
     "raceSubtype": "Sun-Touched",
-    "class": "Bard",
-    "subclass": "Valor"
+    "class": "Barbarian",
+    "subclass": "Totem Warrior"
   },
   {
     "npcId": "npc-0158",
@@ -1892,8 +1892,8 @@
     "role": "Spymaster",
     "race": "Orc",
     "raceSubtype": "Plains Orc",
-    "class": "Fighter",
-    "subclass": "Champion"
+    "class": "Druid",
+    "subclass": "Land"
   },
   {
     "npcId": "npc-0159",
@@ -1904,8 +1904,8 @@
     "role": "Guildmaster",
     "race": "Goliath",
     "raceSubtype": "Stone Clan",
-    "class": "Ranger",
-    "subclass": "Gloom Stalker"
+    "class": "Paladin",
+    "subclass": "Vengeance"
   },
   {
     "npcId": "npc-0160",
@@ -1916,8 +1916,8 @@
     "role": "Governor",
     "race": "Aasimar",
     "raceSubtype": "Scourge",
-    "class": "Fighter",
-    "subclass": "Battle Master"
+    "class": "Druid",
+    "subclass": "Moon"
   },
   {
     "npcId": "npc-0161",
@@ -1928,8 +1928,8 @@
     "role": "Temple Warden",
     "race": "Tabaxi",
     "raceSubtype": "Jungle Stalker",
-    "class": "Ranger",
-    "subclass": "Hunter"
+    "class": "Paladin",
+    "subclass": "Devotion"
   },
   {
     "npcId": "npc-0162",
@@ -1940,8 +1940,8 @@
     "role": "Governor",
     "race": "Genasi",
     "raceSubtype": "Air",
-    "class": "Warlock",
-    "subclass": "Great Old One"
+    "class": "Sorcerer",
+    "subclass": "Shadow Magic"
   },
   {
     "npcId": "npc-0163",
@@ -1952,8 +1952,8 @@
     "role": "Spymaster",
     "race": "Triton",
     "raceSubtype": "Wave Herald",
-    "class": "Ranger",
-    "subclass": "Beast Master"
+    "class": "Paladin",
+    "subclass": "Ancients"
   },
   {
     "npcId": "npc-0164",
@@ -1964,8 +1964,8 @@
     "role": "Guildmaster",
     "race": "Human",
     "raceSubtype": "Calishite",
-    "class": "Warlock",
-    "subclass": "Fiend"
+    "class": "Sorcerer",
+    "subclass": "Draconic"
   },
   {
     "npcId": "npc-0165",
@@ -1976,8 +1976,8 @@
     "role": "Spymaster",
     "race": "Dwarf",
     "raceSubtype": "Duergar",
-    "class": "Bard",
-    "subclass": "Whispers"
+    "class": "Artificer",
+    "subclass": "Battle Smith"
   },
   {
     "npcId": "npc-0166",
@@ -1988,8 +1988,8 @@
     "role": "Temple Warden",
     "race": "Elf",
     "raceSubtype": "Wood Elf",
-    "class": "Warlock",
-    "subclass": "Archfey"
+    "class": "Sorcerer",
+    "subclass": "Wild Magic"
   },
   {
     "npcId": "npc-0167",
@@ -2000,8 +2000,8 @@
     "role": "Governor",
     "race": "Halfling",
     "raceSubtype": "Lightfoot",
-    "class": "Bard",
-    "subclass": "Lore"
+    "class": "Artificer",
+    "subclass": "Alchemist"
   },
   {
     "npcId": "npc-0168",
@@ -2012,8 +2012,8 @@
     "role": "Temple Warden",
     "race": "Dragonborn",
     "raceSubtype": "Gem",
-    "class": "Fighter",
-    "subclass": "Eldritch Knight"
+    "class": "Cleric",
+    "subclass": "War"
   },
   {
     "npcId": "npc-0169",
@@ -2024,8 +2024,8 @@
     "role": "Guildmaster",
     "race": "Gnome",
     "raceSubtype": "Rock Gnome",
-    "class": "Bard",
-    "subclass": "Valor"
+    "class": "Artificer",
+    "subclass": "Armorer"
   },
   {
     "npcId": "npc-0170",
@@ -2036,8 +2036,8 @@
     "role": "Spymaster",
     "race": "Tiefling",
     "raceSubtype": "Infernal",
-    "class": "Fighter",
-    "subclass": "Champion"
+    "class": "Cleric",
+    "subclass": "Trickery"
   },
   {
     "npcId": "npc-0171",
@@ -2048,8 +2048,8 @@
     "role": "Guildmaster",
     "race": "Half-Orc",
     "raceSubtype": "Green Orc Bloodline",
-    "class": "Ranger",
-    "subclass": "Gloom Stalker"
+    "class": "Monk",
+    "subclass": "Kensei"
   },
   {
     "npcId": "npc-0172",
@@ -2060,8 +2060,8 @@
     "role": "Governor",
     "race": "Half-Elf",
     "raceSubtype": "Moon-Touched",
-    "class": "Fighter",
-    "subclass": "Battle Master"
+    "class": "Cleric",
+    "subclass": "Life"
   },
   {
     "npcId": "npc-0173",
@@ -2072,8 +2072,8 @@
     "role": "Temple Warden",
     "race": "Orc",
     "raceSubtype": "Mountain Orc",
-    "class": "Ranger",
-    "subclass": "Hunter"
+    "class": "Monk",
+    "subclass": "Open Hand"
   },
   {
     "npcId": "npc-0174",
@@ -2084,8 +2084,8 @@
     "role": "Governor",
     "race": "Goliath",
     "raceSubtype": "Cloud Clan",
-    "class": "Warlock",
-    "subclass": "Great Old One"
+    "class": "Rogue",
+    "subclass": "Arcane Trickster"
   },
   {
     "npcId": "npc-0175",
@@ -2096,8 +2096,8 @@
     "role": "Spymaster",
     "race": "Aasimar",
     "raceSubtype": "Scourge",
-    "class": "Ranger",
-    "subclass": "Beast Master"
+    "class": "Monk",
+    "subclass": "Shadow"
   },
   {
     "npcId": "npc-0176",
@@ -2108,8 +2108,8 @@
     "role": "Guildmaster",
     "race": "Tabaxi",
     "raceSubtype": "Sand Runner",
-    "class": "Warlock",
-    "subclass": "Fiend"
+    "class": "Rogue",
+    "subclass": "Thief"
   },
   {
     "npcId": "npc-0177",
@@ -2120,8 +2120,8 @@
     "role": "Spymaster",
     "race": "Genasi",
     "raceSubtype": "Water",
-    "class": "Bard",
-    "subclass": "Whispers"
+    "class": "Wizard",
+    "subclass": "Necromancy"
   },
   {
     "npcId": "npc-0178",
@@ -2132,8 +2132,8 @@
     "role": "Temple Warden",
     "race": "Triton",
     "raceSubtype": "Abyss Guard",
-    "class": "Warlock",
-    "subclass": "Archfey"
+    "class": "Rogue",
+    "subclass": "Assassin"
   },
   {
     "npcId": "npc-0179",
@@ -2144,8 +2144,8 @@
     "role": "Governor",
     "race": "Human",
     "raceSubtype": "Calishite",
-    "class": "Bard",
-    "subclass": "Lore"
+    "class": "Wizard",
+    "subclass": "Evocation"
   },
   {
     "npcId": "npc-0180",
@@ -2156,8 +2156,8 @@
     "role": "Temple Warden",
     "race": "Dwarf",
     "raceSubtype": "Duergar",
-    "class": "Fighter",
-    "subclass": "Eldritch Knight"
+    "class": "Bard",
+    "subclass": "Whispers"
   },
   {
     "npcId": "npc-0181",
@@ -2168,8 +2168,8 @@
     "role": "Guildmaster",
     "race": "Elf",
     "raceSubtype": "Wood Elf",
-    "class": "Bard",
-    "subclass": "Valor"
+    "class": "Wizard",
+    "subclass": "Abjuration"
   },
   {
     "npcId": "npc-0182",
@@ -2180,8 +2180,8 @@
     "role": "Spymaster",
     "race": "Halfling",
     "raceSubtype": "Stout",
-    "class": "Fighter",
-    "subclass": "Champion"
+    "class": "Bard",
+    "subclass": "Lore"
   },
   {
     "npcId": "npc-0183",
@@ -2192,8 +2192,8 @@
     "role": "Guildmaster",
     "race": "Dragonborn",
     "raceSubtype": "Gem",
-    "class": "Ranger",
-    "subclass": "Gloom Stalker"
+    "class": "Fighter",
+    "subclass": "Eldritch Knight"
   },
   {
     "npcId": "npc-0184",
@@ -2204,8 +2204,8 @@
     "role": "Governor",
     "race": "Gnome",
     "raceSubtype": "Rock Gnome",
-    "class": "Fighter",
-    "subclass": "Battle Master"
+    "class": "Bard",
+    "subclass": "Valor"
   },
   {
     "npcId": "npc-0185",
@@ -2216,8 +2216,8 @@
     "role": "Temple Warden",
     "race": "Tiefling",
     "raceSubtype": "Infernal",
-    "class": "Ranger",
-    "subclass": "Hunter"
+    "class": "Fighter",
+    "subclass": "Champion"
   },
   {
     "npcId": "npc-0186",
@@ -2228,8 +2228,8 @@
     "role": "Governor",
     "race": "Half-Orc",
     "raceSubtype": "Gray Orc Bloodline",
-    "class": "Warlock",
-    "subclass": "Great Old One"
+    "class": "Ranger",
+    "subclass": "Gloom Stalker"
   },
   {
     "npcId": "npc-0187",
@@ -2240,8 +2240,8 @@
     "role": "Spymaster",
     "race": "Half-Elf",
     "raceSubtype": "Sun-Touched",
-    "class": "Ranger",
-    "subclass": "Beast Master"
+    "class": "Fighter",
+    "subclass": "Battle Master"
   },
   {
     "npcId": "npc-0188",
@@ -2252,8 +2252,8 @@
     "role": "Guildmaster",
     "race": "Orc",
     "raceSubtype": "Plains Orc",
-    "class": "Warlock",
-    "subclass": "Fiend"
+    "class": "Ranger",
+    "subclass": "Hunter"
   },
   {
     "npcId": "npc-0189",
@@ -2264,8 +2264,8 @@
     "role": "Spymaster",
     "race": "Goliath",
     "raceSubtype": "Stone Clan",
-    "class": "Bard",
-    "subclass": "Whispers"
+    "class": "Warlock",
+    "subclass": "Great Old One"
   },
   {
     "npcId": "npc-0190",
@@ -2276,8 +2276,8 @@
     "role": "Temple Warden",
     "race": "Aasimar",
     "raceSubtype": "Scourge",
-    "class": "Warlock",
-    "subclass": "Archfey"
+    "class": "Ranger",
+    "subclass": "Beast Master"
   },
   {
     "npcId": "npc-0191",
@@ -2288,8 +2288,8 @@
     "role": "Governor",
     "race": "Tabaxi",
     "raceSubtype": "Jungle Stalker",
-    "class": "Bard",
-    "subclass": "Lore"
+    "class": "Warlock",
+    "subclass": "Fiend"
   },
   {
     "npcId": "npc-0192",
@@ -2300,8 +2300,8 @@
     "role": "Temple Warden",
     "race": "Genasi",
     "raceSubtype": "Fire",
-    "class": "Fighter",
-    "subclass": "Eldritch Knight"
+    "class": "Barbarian",
+    "subclass": "Zealot"
   },
   {
     "npcId": "npc-0193",
@@ -2312,8 +2312,8 @@
     "role": "Guildmaster",
     "race": "Triton",
     "raceSubtype": "Wave Herald",
-    "class": "Bard",
-    "subclass": "Valor"
+    "class": "Warlock",
+    "subclass": "Archfey"
   },
   {
     "npcId": "npc-0194",
@@ -2324,8 +2324,8 @@
     "role": "Spymaster",
     "race": "Human",
     "raceSubtype": "Calishite",
-    "class": "Fighter",
-    "subclass": "Champion"
+    "class": "Barbarian",
+    "subclass": "Berserker"
   },
   {
     "npcId": "npc-0195",
@@ -2336,8 +2336,8 @@
     "role": "Guildmaster",
     "race": "Dwarf",
     "raceSubtype": "Duergar",
-    "class": "Ranger",
-    "subclass": "Gloom Stalker"
+    "class": "Druid",
+    "subclass": "Stars"
   },
   {
     "npcId": "npc-0196",
@@ -2348,8 +2348,8 @@
     "role": "Governor",
     "race": "Elf",
     "raceSubtype": "Wood Elf",
-    "class": "Fighter",
-    "subclass": "Battle Master"
+    "class": "Barbarian",
+    "subclass": "Totem Warrior"
   },
   {
     "npcId": "npc-0197",
@@ -2360,8 +2360,8 @@
     "role": "Temple Warden",
     "race": "Halfling",
     "raceSubtype": "Lightfoot",
-    "class": "Ranger",
-    "subclass": "Hunter"
+    "class": "Druid",
+    "subclass": "Land"
   },
   {
     "npcId": "npc-0198",
@@ -2372,8 +2372,8 @@
     "role": "Governor",
     "race": "Dragonborn",
     "raceSubtype": "Gem",
-    "class": "Warlock",
-    "subclass": "Great Old One"
+    "class": "Paladin",
+    "subclass": "Vengeance"
   },
   {
     "npcId": "npc-0199",
@@ -2384,8 +2384,8 @@
     "role": "Spymaster",
     "race": "Gnome",
     "raceSubtype": "Rock Gnome",
-    "class": "Ranger",
-    "subclass": "Beast Master"
+    "class": "Druid",
+    "subclass": "Moon"
   },
   {
     "npcId": "npc-0200",
@@ -2396,8 +2396,8 @@
     "role": "Guildmaster",
     "race": "Tiefling",
     "raceSubtype": "Infernal",
-    "class": "Warlock",
-    "subclass": "Fiend"
+    "class": "Paladin",
+    "subclass": "Devotion"
   },
   {
     "npcId": "npc-0201",
@@ -2408,8 +2408,8 @@
     "role": "Spymaster",
     "race": "Half-Orc",
     "raceSubtype": "Green Orc Bloodline",
-    "class": "Bard",
-    "subclass": "Whispers"
+    "class": "Sorcerer",
+    "subclass": "Shadow Magic"
   },
   {
     "npcId": "npc-0202",
@@ -2420,8 +2420,8 @@
     "role": "Temple Warden",
     "race": "Half-Elf",
     "raceSubtype": "Moon-Touched",
-    "class": "Warlock",
-    "subclass": "Archfey"
+    "class": "Paladin",
+    "subclass": "Ancients"
   },
   {
     "npcId": "npc-0203",
@@ -2432,8 +2432,8 @@
     "role": "Governor",
     "race": "Orc",
     "raceSubtype": "Mountain Orc",
-    "class": "Bard",
-    "subclass": "Lore"
+    "class": "Sorcerer",
+    "subclass": "Draconic"
   },
   {
     "npcId": "npc-0204",
@@ -2444,8 +2444,8 @@
     "role": "Temple Warden",
     "race": "Goliath",
     "raceSubtype": "Cloud Clan",
-    "class": "Fighter",
-    "subclass": "Eldritch Knight"
+    "class": "Artificer",
+    "subclass": "Artillerist"
   },
   {
     "npcId": "npc-0205",
@@ -2456,8 +2456,8 @@
     "role": "Guildmaster",
     "race": "Aasimar",
     "raceSubtype": "Scourge",
-    "class": "Bard",
-    "subclass": "Valor"
+    "class": "Sorcerer",
+    "subclass": "Wild Magic"
   },
   {
     "npcId": "npc-0206",
@@ -2468,8 +2468,8 @@
     "role": "Spymaster",
     "race": "Tabaxi",
     "raceSubtype": "Sand Runner",
-    "class": "Fighter",
-    "subclass": "Champion"
+    "class": "Artificer",
+    "subclass": "Battle Smith"
   },
   {
     "npcId": "npc-0207",
@@ -2480,8 +2480,8 @@
     "role": "Guildmaster",
     "race": "Genasi",
     "raceSubtype": "Earth",
-    "class": "Ranger",
-    "subclass": "Gloom Stalker"
+    "class": "Cleric",
+    "subclass": "Light"
   },
   {
     "npcId": "npc-0208",
@@ -2492,8 +2492,8 @@
     "role": "Governor",
     "race": "Triton",
     "raceSubtype": "Abyss Guard",
-    "class": "Fighter",
-    "subclass": "Battle Master"
+    "class": "Artificer",
+    "subclass": "Alchemist"
   },
   {
     "npcId": "npc-0209",
@@ -2504,8 +2504,8 @@
     "role": "Temple Warden",
     "race": "Human",
     "raceSubtype": "Calishite",
-    "class": "Ranger",
-    "subclass": "Hunter"
+    "class": "Cleric",
+    "subclass": "War"
   },
   {
     "npcId": "npc-0210",
@@ -2516,8 +2516,8 @@
     "role": "Governor",
     "race": "Dwarf",
     "raceSubtype": "Duergar",
-    "class": "Warlock",
-    "subclass": "Great Old One"
+    "class": "Monk",
+    "subclass": "Kensei"
   },
   {
     "npcId": "npc-0211",
@@ -2528,8 +2528,8 @@
     "role": "Spymaster",
     "race": "Elf",
     "raceSubtype": "Wood Elf",
-    "class": "Ranger",
-    "subclass": "Beast Master"
+    "class": "Cleric",
+    "subclass": "Trickery"
   },
   {
     "npcId": "npc-0212",
@@ -2540,8 +2540,8 @@
     "role": "Guildmaster",
     "race": "Halfling",
     "raceSubtype": "Stout",
-    "class": "Warlock",
-    "subclass": "Fiend"
+    "class": "Monk",
+    "subclass": "Open Hand"
   },
   {
     "npcId": "npc-0213",
@@ -2552,8 +2552,8 @@
     "role": "Spymaster",
     "race": "Dragonborn",
     "raceSubtype": "Gem",
-    "class": "Bard",
-    "subclass": "Whispers"
+    "class": "Rogue",
+    "subclass": "Arcane Trickster"
   },
   {
     "npcId": "npc-0214",
@@ -2564,8 +2564,8 @@
     "role": "Temple Warden",
     "race": "Gnome",
     "raceSubtype": "Rock Gnome",
-    "class": "Warlock",
-    "subclass": "Archfey"
+    "class": "Monk",
+    "subclass": "Shadow"
   },
   {
     "npcId": "npc-0215",
@@ -2576,8 +2576,8 @@
     "role": "Governor",
     "race": "Tiefling",
     "raceSubtype": "Infernal",
-    "class": "Bard",
-    "subclass": "Lore"
+    "class": "Rogue",
+    "subclass": "Thief"
   },
   {
     "npcId": "npc-0216",
@@ -2588,8 +2588,8 @@
     "role": "Temple Warden",
     "race": "Half-Orc",
     "raceSubtype": "Gray Orc Bloodline",
-    "class": "Fighter",
-    "subclass": "Eldritch Knight"
+    "class": "Wizard",
+    "subclass": "Necromancy"
   },
   {
     "npcId": "npc-0217",
@@ -2600,8 +2600,8 @@
     "role": "Guildmaster",
     "race": "Half-Elf",
     "raceSubtype": "Sun-Touched",
-    "class": "Bard",
-    "subclass": "Valor"
+    "class": "Rogue",
+    "subclass": "Assassin"
   },
   {
     "npcId": "npc-0218",
@@ -2612,8 +2612,8 @@
     "role": "Spymaster",
     "race": "Orc",
     "raceSubtype": "Plains Orc",
-    "class": "Fighter",
-    "subclass": "Champion"
+    "class": "Wizard",
+    "subclass": "Evocation"
   },
   {
     "npcId": "npc-0219",
@@ -2624,8 +2624,8 @@
     "role": "Guildmaster",
     "race": "Goliath",
     "raceSubtype": "Stone Clan",
-    "class": "Ranger",
-    "subclass": "Gloom Stalker"
+    "class": "Bard",
+    "subclass": "Whispers"
   },
   {
     "npcId": "npc-0220",
@@ -2636,8 +2636,8 @@
     "role": "Governor",
     "race": "Aasimar",
     "raceSubtype": "Scourge",
-    "class": "Fighter",
-    "subclass": "Battle Master"
+    "class": "Wizard",
+    "subclass": "Abjuration"
   },
   {
     "npcId": "npc-0221",
@@ -2648,8 +2648,8 @@
     "role": "Temple Warden",
     "race": "Tabaxi",
     "raceSubtype": "Jungle Stalker",
-    "class": "Ranger",
-    "subclass": "Hunter"
+    "class": "Bard",
+    "subclass": "Lore"
   },
   {
     "npcId": "npc-0222",
@@ -2660,8 +2660,8 @@
     "role": "Governor",
     "race": "Genasi",
     "raceSubtype": "Air",
-    "class": "Warlock",
-    "subclass": "Great Old One"
+    "class": "Fighter",
+    "subclass": "Eldritch Knight"
   },
   {
     "npcId": "npc-0223",
@@ -2672,8 +2672,8 @@
     "role": "Spymaster",
     "race": "Triton",
     "raceSubtype": "Wave Herald",
-    "class": "Ranger",
-    "subclass": "Beast Master"
+    "class": "Bard",
+    "subclass": "Valor"
   },
   {
     "npcId": "npc-0224",
@@ -2684,8 +2684,8 @@
     "role": "Guildmaster",
     "race": "Human",
     "raceSubtype": "Calishite",
-    "class": "Warlock",
-    "subclass": "Fiend"
+    "class": "Fighter",
+    "subclass": "Champion"
   },
   {
     "npcId": "npc-0225",
@@ -2696,8 +2696,8 @@
     "role": "Spymaster",
     "race": "Dwarf",
     "raceSubtype": "Duergar",
-    "class": "Bard",
-    "subclass": "Whispers"
+    "class": "Ranger",
+    "subclass": "Gloom Stalker"
   },
   {
     "npcId": "npc-0226",
@@ -2708,8 +2708,8 @@
     "role": "Temple Warden",
     "race": "Elf",
     "raceSubtype": "Wood Elf",
-    "class": "Warlock",
-    "subclass": "Archfey"
+    "class": "Fighter",
+    "subclass": "Battle Master"
   },
   {
     "npcId": "npc-0227",
@@ -2720,8 +2720,8 @@
     "role": "Governor",
     "race": "Halfling",
     "raceSubtype": "Lightfoot",
-    "class": "Bard",
-    "subclass": "Lore"
+    "class": "Ranger",
+    "subclass": "Hunter"
   },
   {
     "npcId": "npc-0228",
@@ -2732,8 +2732,8 @@
     "role": "Temple Warden",
     "race": "Dragonborn",
     "raceSubtype": "Gem",
-    "class": "Fighter",
-    "subclass": "Eldritch Knight"
+    "class": "Warlock",
+    "subclass": "Great Old One"
   },
   {
     "npcId": "npc-0229",
@@ -2744,8 +2744,8 @@
     "role": "Guildmaster",
     "race": "Gnome",
     "raceSubtype": "Rock Gnome",
-    "class": "Bard",
-    "subclass": "Valor"
+    "class": "Ranger",
+    "subclass": "Beast Master"
   },
   {
     "npcId": "npc-0230",
@@ -2756,8 +2756,8 @@
     "role": "Spymaster",
     "race": "Tiefling",
     "raceSubtype": "Infernal",
-    "class": "Fighter",
-    "subclass": "Champion"
+    "class": "Warlock",
+    "subclass": "Fiend"
   },
   {
     "npcId": "npc-0231",
@@ -2768,8 +2768,8 @@
     "role": "Guildmaster",
     "race": "Half-Orc",
     "raceSubtype": "Green Orc Bloodline",
-    "class": "Ranger",
-    "subclass": "Gloom Stalker"
+    "class": "Barbarian",
+    "subclass": "Zealot"
   },
   {
     "npcId": "npc-0232",
@@ -2780,8 +2780,8 @@
     "role": "Governor",
     "race": "Half-Elf",
     "raceSubtype": "Moon-Touched",
-    "class": "Fighter",
-    "subclass": "Battle Master"
+    "class": "Warlock",
+    "subclass": "Archfey"
   },
   {
     "npcId": "npc-0233",
@@ -2792,8 +2792,8 @@
     "role": "Temple Warden",
     "race": "Orc",
     "raceSubtype": "Mountain Orc",
-    "class": "Ranger",
-    "subclass": "Hunter"
+    "class": "Barbarian",
+    "subclass": "Berserker"
   },
   {
     "npcId": "npc-0234",
@@ -2804,8 +2804,8 @@
     "role": "Governor",
     "race": "Goliath",
     "raceSubtype": "Cloud Clan",
-    "class": "Warlock",
-    "subclass": "Great Old One"
+    "class": "Druid",
+    "subclass": "Stars"
   },
   {
     "npcId": "npc-0235",
@@ -2816,8 +2816,8 @@
     "role": "Spymaster",
     "race": "Aasimar",
     "raceSubtype": "Scourge",
-    "class": "Ranger",
-    "subclass": "Beast Master"
+    "class": "Barbarian",
+    "subclass": "Totem Warrior"
   },
   {
     "npcId": "npc-0236",
@@ -2828,8 +2828,8 @@
     "role": "Guildmaster",
     "race": "Tabaxi",
     "raceSubtype": "Sand Runner",
-    "class": "Warlock",
-    "subclass": "Fiend"
+    "class": "Druid",
+    "subclass": "Land"
   },
   {
     "npcId": "npc-0237",
@@ -2840,8 +2840,8 @@
     "role": "Spymaster",
     "race": "Genasi",
     "raceSubtype": "Water",
-    "class": "Bard",
-    "subclass": "Whispers"
+    "class": "Paladin",
+    "subclass": "Vengeance"
   },
   {
     "npcId": "npc-0238",
@@ -2852,8 +2852,8 @@
     "role": "Temple Warden",
     "race": "Triton",
     "raceSubtype": "Abyss Guard",
-    "class": "Warlock",
-    "subclass": "Archfey"
+    "class": "Druid",
+    "subclass": "Moon"
   },
   {
     "npcId": "npc-0239",
@@ -2864,8 +2864,8 @@
     "role": "Governor",
     "race": "Human",
     "raceSubtype": "Calishite",
-    "class": "Bard",
-    "subclass": "Lore"
+    "class": "Paladin",
+    "subclass": "Devotion"
   },
   {
     "npcId": "npc-0240",
@@ -2876,8 +2876,8 @@
     "role": "Temple Warden",
     "race": "Dwarf",
     "raceSubtype": "Duergar",
-    "class": "Fighter",
-    "subclass": "Eldritch Knight"
+    "class": "Sorcerer",
+    "subclass": "Shadow Magic"
   },
   {
     "npcId": "npc-0241",
@@ -2888,8 +2888,8 @@
     "role": "Guildmaster",
     "race": "Elf",
     "raceSubtype": "Wood Elf",
-    "class": "Bard",
-    "subclass": "Valor"
+    "class": "Paladin",
+    "subclass": "Ancients"
   },
   {
     "npcId": "npc-0242",
@@ -2900,8 +2900,8 @@
     "role": "Spymaster",
     "race": "Halfling",
     "raceSubtype": "Stout",
-    "class": "Fighter",
-    "subclass": "Champion"
+    "class": "Sorcerer",
+    "subclass": "Draconic"
   },
   {
     "npcId": "npc-0243",
@@ -2912,8 +2912,8 @@
     "role": "Guildmaster",
     "race": "Dragonborn",
     "raceSubtype": "Gem",
-    "class": "Ranger",
-    "subclass": "Gloom Stalker"
+    "class": "Artificer",
+    "subclass": "Armorer"
   },
   {
     "npcId": "npc-0244",
@@ -2924,8 +2924,8 @@
     "role": "Governor",
     "race": "Gnome",
     "raceSubtype": "Rock Gnome",
-    "class": "Fighter",
-    "subclass": "Battle Master"
+    "class": "Sorcerer",
+    "subclass": "Wild Magic"
   },
   {
     "npcId": "npc-0245",
@@ -2936,8 +2936,8 @@
     "role": "Temple Warden",
     "race": "Tiefling",
     "raceSubtype": "Infernal",
-    "class": "Ranger",
-    "subclass": "Hunter"
+    "class": "Artificer",
+    "subclass": "Artillerist"
   },
   {
     "npcId": "npc-0246",
@@ -2948,8 +2948,8 @@
     "role": "Governor",
     "race": "Half-Orc",
     "raceSubtype": "Gray Orc Bloodline",
-    "class": "Warlock",
-    "subclass": "Great Old One"
+    "class": "Cleric",
+    "subclass": "Life"
   },
   {
     "npcId": "npc-0247",
@@ -2960,8 +2960,8 @@
     "role": "Spymaster",
     "race": "Half-Elf",
     "raceSubtype": "Sun-Touched",
-    "class": "Ranger",
-    "subclass": "Beast Master"
+    "class": "Artificer",
+    "subclass": "Battle Smith"
   },
   {
     "npcId": "npc-0248",
@@ -2972,8 +2972,8 @@
     "role": "Guildmaster",
     "race": "Orc",
     "raceSubtype": "Plains Orc",
-    "class": "Warlock",
-    "subclass": "Fiend"
+    "class": "Cleric",
+    "subclass": "Light"
   },
   {
     "npcId": "npc-0249",
@@ -2984,8 +2984,8 @@
     "role": "Spymaster",
     "race": "Goliath",
     "raceSubtype": "Stone Clan",
-    "class": "Bard",
-    "subclass": "Whispers"
+    "class": "Monk",
+    "subclass": "Kensei"
   },
   {
     "npcId": "npc-0250",
@@ -2996,8 +2996,8 @@
     "role": "Temple Warden",
     "race": "Aasimar",
     "raceSubtype": "Scourge",
-    "class": "Warlock",
-    "subclass": "Archfey"
+    "class": "Cleric",
+    "subclass": "War"
   },
   {
     "npcId": "npc-0251",
@@ -3008,8 +3008,8 @@
     "role": "Governor",
     "race": "Tabaxi",
     "raceSubtype": "Jungle Stalker",
-    "class": "Bard",
-    "subclass": "Lore"
+    "class": "Monk",
+    "subclass": "Open Hand"
   },
   {
     "npcId": "npc-0252",
@@ -3020,8 +3020,8 @@
     "role": "Temple Warden",
     "race": "Genasi",
     "raceSubtype": "Fire",
-    "class": "Fighter",
-    "subclass": "Eldritch Knight"
+    "class": "Rogue",
+    "subclass": "Arcane Trickster"
   },
   {
     "npcId": "npc-0253",
@@ -3032,8 +3032,8 @@
     "role": "Guildmaster",
     "race": "Triton",
     "raceSubtype": "Wave Herald",
-    "class": "Bard",
-    "subclass": "Valor"
+    "class": "Monk",
+    "subclass": "Shadow"
   },
   {
     "npcId": "npc-0254",
@@ -3044,8 +3044,8 @@
     "role": "Spymaster",
     "race": "Human",
     "raceSubtype": "Calishite",
-    "class": "Fighter",
-    "subclass": "Champion"
+    "class": "Rogue",
+    "subclass": "Thief"
   },
   {
     "npcId": "npc-0255",
@@ -3056,8 +3056,8 @@
     "role": "Guildmaster",
     "race": "Dwarf",
     "raceSubtype": "Duergar",
-    "class": "Ranger",
-    "subclass": "Gloom Stalker"
+    "class": "Wizard",
+    "subclass": "Necromancy"
   },
   {
     "npcId": "npc-0256",
@@ -3068,8 +3068,8 @@
     "role": "Governor",
     "race": "Elf",
     "raceSubtype": "Wood Elf",
-    "class": "Fighter",
-    "subclass": "Battle Master"
+    "class": "Rogue",
+    "subclass": "Assassin"
   },
   {
     "npcId": "npc-0257",
@@ -3080,8 +3080,8 @@
     "role": "Temple Warden",
     "race": "Halfling",
     "raceSubtype": "Lightfoot",
-    "class": "Ranger",
-    "subclass": "Hunter"
+    "class": "Wizard",
+    "subclass": "Evocation"
   },
   {
     "npcId": "npc-0258",
@@ -3092,8 +3092,8 @@
     "role": "Governor",
     "race": "Dragonborn",
     "raceSubtype": "Gem",
-    "class": "Warlock",
-    "subclass": "Great Old One"
+    "class": "Bard",
+    "subclass": "Whispers"
   },
   {
     "npcId": "npc-0259",
@@ -3104,8 +3104,8 @@
     "role": "Spymaster",
     "race": "Gnome",
     "raceSubtype": "Rock Gnome",
-    "class": "Ranger",
-    "subclass": "Beast Master"
+    "class": "Wizard",
+    "subclass": "Abjuration"
   },
   {
     "npcId": "npc-0260",
@@ -3116,8 +3116,8 @@
     "role": "Guildmaster",
     "race": "Tiefling",
     "raceSubtype": "Infernal",
-    "class": "Warlock",
-    "subclass": "Fiend"
+    "class": "Bard",
+    "subclass": "Lore"
   },
   {
     "npcId": "npc-0261",
@@ -3128,8 +3128,8 @@
     "role": "Spymaster",
     "race": "Half-Orc",
     "raceSubtype": "Green Orc Bloodline",
-    "class": "Bard",
-    "subclass": "Whispers"
+    "class": "Fighter",
+    "subclass": "Eldritch Knight"
   },
   {
     "npcId": "npc-0262",
@@ -3140,8 +3140,8 @@
     "role": "Temple Warden",
     "race": "Half-Elf",
     "raceSubtype": "Moon-Touched",
-    "class": "Warlock",
-    "subclass": "Archfey"
+    "class": "Bard",
+    "subclass": "Valor"
   },
   {
     "npcId": "npc-0263",
@@ -3152,8 +3152,8 @@
     "role": "Governor",
     "race": "Orc",
     "raceSubtype": "Mountain Orc",
-    "class": "Bard",
-    "subclass": "Lore"
+    "class": "Fighter",
+    "subclass": "Champion"
   },
   {
     "npcId": "npc-0264",
@@ -3164,8 +3164,8 @@
     "role": "Temple Warden",
     "race": "Goliath",
     "raceSubtype": "Cloud Clan",
-    "class": "Fighter",
-    "subclass": "Eldritch Knight"
+    "class": "Ranger",
+    "subclass": "Gloom Stalker"
   },
   {
     "npcId": "npc-0265",
@@ -3176,8 +3176,8 @@
     "role": "Guildmaster",
     "race": "Aasimar",
     "raceSubtype": "Scourge",
-    "class": "Bard",
-    "subclass": "Valor"
+    "class": "Fighter",
+    "subclass": "Battle Master"
   },
   {
     "npcId": "npc-0266",
@@ -3188,8 +3188,8 @@
     "role": "Spymaster",
     "race": "Tabaxi",
     "raceSubtype": "Sand Runner",
-    "class": "Fighter",
-    "subclass": "Champion"
+    "class": "Ranger",
+    "subclass": "Hunter"
   },
   {
     "npcId": "npc-0267",
@@ -3200,8 +3200,8 @@
     "role": "Guildmaster",
     "race": "Genasi",
     "raceSubtype": "Earth",
-    "class": "Ranger",
-    "subclass": "Gloom Stalker"
+    "class": "Warlock",
+    "subclass": "Great Old One"
   },
   {
     "npcId": "npc-0268",
@@ -3212,8 +3212,8 @@
     "role": "Governor",
     "race": "Triton",
     "raceSubtype": "Abyss Guard",
-    "class": "Fighter",
-    "subclass": "Battle Master"
+    "class": "Ranger",
+    "subclass": "Beast Master"
   },
   {
     "npcId": "npc-0269",
@@ -3224,8 +3224,8 @@
     "role": "Temple Warden",
     "race": "Human",
     "raceSubtype": "Calishite",
-    "class": "Ranger",
-    "subclass": "Hunter"
+    "class": "Warlock",
+    "subclass": "Fiend"
   },
   {
     "npcId": "npc-0270",
@@ -3236,8 +3236,8 @@
     "role": "Governor",
     "race": "Dwarf",
     "raceSubtype": "Duergar",
-    "class": "Warlock",
-    "subclass": "Great Old One"
+    "class": "Barbarian",
+    "subclass": "Zealot"
   },
   {
     "npcId": "npc-0271",
@@ -3248,8 +3248,8 @@
     "role": "Spymaster",
     "race": "Elf",
     "raceSubtype": "Wood Elf",
-    "class": "Ranger",
-    "subclass": "Beast Master"
+    "class": "Warlock",
+    "subclass": "Archfey"
   },
   {
     "npcId": "npc-0272",
@@ -3260,8 +3260,8 @@
     "role": "Guildmaster",
     "race": "Halfling",
     "raceSubtype": "Stout",
-    "class": "Warlock",
-    "subclass": "Fiend"
+    "class": "Barbarian",
+    "subclass": "Berserker"
   },
   {
     "npcId": "npc-0273",
@@ -3272,8 +3272,8 @@
     "role": "Spymaster",
     "race": "Dragonborn",
     "raceSubtype": "Gem",
-    "class": "Bard",
-    "subclass": "Whispers"
+    "class": "Druid",
+    "subclass": "Stars"
   },
   {
     "npcId": "npc-0274",
@@ -3284,8 +3284,8 @@
     "role": "Temple Warden",
     "race": "Gnome",
     "raceSubtype": "Rock Gnome",
-    "class": "Warlock",
-    "subclass": "Archfey"
+    "class": "Barbarian",
+    "subclass": "Totem Warrior"
   },
   {
     "npcId": "npc-0275",
@@ -3296,8 +3296,8 @@
     "role": "Governor",
     "race": "Tiefling",
     "raceSubtype": "Infernal",
-    "class": "Bard",
-    "subclass": "Lore"
+    "class": "Druid",
+    "subclass": "Land"
   },
   {
     "npcId": "npc-0276",
@@ -3308,8 +3308,8 @@
     "role": "Temple Warden",
     "race": "Half-Orc",
     "raceSubtype": "Gray Orc Bloodline",
-    "class": "Fighter",
-    "subclass": "Eldritch Knight"
+    "class": "Paladin",
+    "subclass": "Vengeance"
   },
   {
     "npcId": "npc-0277",
@@ -3320,8 +3320,8 @@
     "role": "Guildmaster",
     "race": "Half-Elf",
     "raceSubtype": "Sun-Touched",
-    "class": "Bard",
-    "subclass": "Valor"
+    "class": "Druid",
+    "subclass": "Moon"
   },
   {
     "npcId": "npc-0278",
@@ -3332,8 +3332,8 @@
     "role": "Spymaster",
     "race": "Orc",
     "raceSubtype": "Plains Orc",
-    "class": "Fighter",
-    "subclass": "Champion"
+    "class": "Paladin",
+    "subclass": "Devotion"
   },
   {
     "npcId": "npc-0279",
@@ -3344,8 +3344,8 @@
     "role": "Guildmaster",
     "race": "Goliath",
     "raceSubtype": "Stone Clan",
-    "class": "Ranger",
-    "subclass": "Gloom Stalker"
+    "class": "Sorcerer",
+    "subclass": "Shadow Magic"
   },
   {
     "npcId": "npc-0280",
@@ -3356,8 +3356,8 @@
     "role": "Governor",
     "race": "Aasimar",
     "raceSubtype": "Scourge",
-    "class": "Fighter",
-    "subclass": "Battle Master"
+    "class": "Paladin",
+    "subclass": "Ancients"
   },
   {
     "npcId": "npc-0281",
@@ -3368,8 +3368,8 @@
     "role": "Temple Warden",
     "race": "Tabaxi",
     "raceSubtype": "Jungle Stalker",
-    "class": "Ranger",
-    "subclass": "Hunter"
+    "class": "Sorcerer",
+    "subclass": "Draconic"
   },
   {
     "npcId": "npc-0282",
@@ -3380,8 +3380,8 @@
     "role": "Governor",
     "race": "Genasi",
     "raceSubtype": "Air",
-    "class": "Warlock",
-    "subclass": "Great Old One"
+    "class": "Artificer",
+    "subclass": "Alchemist"
   },
   {
     "npcId": "npc-0283",
@@ -3392,8 +3392,8 @@
     "role": "Spymaster",
     "race": "Triton",
     "raceSubtype": "Wave Herald",
-    "class": "Ranger",
-    "subclass": "Beast Master"
+    "class": "Sorcerer",
+    "subclass": "Wild Magic"
   },
   {
     "npcId": "npc-0284",
@@ -3404,8 +3404,8 @@
     "role": "Guildmaster",
     "race": "Human",
     "raceSubtype": "Calishite",
-    "class": "Warlock",
-    "subclass": "Fiend"
+    "class": "Artificer",
+    "subclass": "Armorer"
   },
   {
     "npcId": "npc-0285",
@@ -3416,8 +3416,8 @@
     "role": "Spymaster",
     "race": "Dwarf",
     "raceSubtype": "Duergar",
-    "class": "Bard",
-    "subclass": "Whispers"
+    "class": "Cleric",
+    "subclass": "Trickery"
   },
   {
     "npcId": "npc-0286",
@@ -3428,8 +3428,8 @@
     "role": "Temple Warden",
     "race": "Elf",
     "raceSubtype": "Wood Elf",
-    "class": "Warlock",
-    "subclass": "Archfey"
+    "class": "Artificer",
+    "subclass": "Artillerist"
   },
   {
     "npcId": "npc-0287",
@@ -3440,8 +3440,8 @@
     "role": "Governor",
     "race": "Halfling",
     "raceSubtype": "Lightfoot",
-    "class": "Bard",
-    "subclass": "Lore"
+    "class": "Cleric",
+    "subclass": "Life"
   },
   {
     "npcId": "npc-0288",
@@ -3452,8 +3452,8 @@
     "role": "Temple Warden",
     "race": "Dragonborn",
     "raceSubtype": "Gem",
-    "class": "Fighter",
-    "subclass": "Eldritch Knight"
+    "class": "Monk",
+    "subclass": "Kensei"
   },
   {
     "npcId": "npc-0289",
@@ -3464,8 +3464,8 @@
     "role": "Guildmaster",
     "race": "Gnome",
     "raceSubtype": "Rock Gnome",
-    "class": "Bard",
-    "subclass": "Valor"
+    "class": "Cleric",
+    "subclass": "Light"
   },
   {
     "npcId": "npc-0290",
@@ -3476,8 +3476,8 @@
     "role": "Spymaster",
     "race": "Tiefling",
     "raceSubtype": "Infernal",
-    "class": "Fighter",
-    "subclass": "Champion"
+    "class": "Monk",
+    "subclass": "Open Hand"
   },
   {
     "npcId": "npc-0291",
@@ -3488,8 +3488,8 @@
     "role": "Guildmaster",
     "race": "Half-Orc",
     "raceSubtype": "Green Orc Bloodline",
-    "class": "Ranger",
-    "subclass": "Gloom Stalker"
+    "class": "Rogue",
+    "subclass": "Arcane Trickster"
   },
   {
     "npcId": "npc-0292",
@@ -3500,8 +3500,8 @@
     "role": "Governor",
     "race": "Half-Elf",
     "raceSubtype": "Moon-Touched",
-    "class": "Fighter",
-    "subclass": "Battle Master"
+    "class": "Monk",
+    "subclass": "Shadow"
   },
   {
     "npcId": "npc-0293",
@@ -3512,8 +3512,8 @@
     "role": "Temple Warden",
     "race": "Orc",
     "raceSubtype": "Mountain Orc",
-    "class": "Ranger",
-    "subclass": "Hunter"
+    "class": "Rogue",
+    "subclass": "Thief"
   },
   {
     "npcId": "npc-0294",
@@ -3524,8 +3524,8 @@
     "role": "Governor",
     "race": "Goliath",
     "raceSubtype": "Cloud Clan",
-    "class": "Warlock",
-    "subclass": "Great Old One"
+    "class": "Wizard",
+    "subclass": "Necromancy"
   },
   {
     "npcId": "npc-0295",
@@ -3536,8 +3536,8 @@
     "role": "Spymaster",
     "race": "Aasimar",
     "raceSubtype": "Scourge",
-    "class": "Ranger",
-    "subclass": "Beast Master"
+    "class": "Rogue",
+    "subclass": "Assassin"
   },
   {
     "npcId": "npc-0296",
@@ -3548,8 +3548,8 @@
     "role": "Guildmaster",
     "race": "Tabaxi",
     "raceSubtype": "Sand Runner",
-    "class": "Warlock",
-    "subclass": "Fiend"
+    "class": "Wizard",
+    "subclass": "Evocation"
   },
   {
     "npcId": "npc-0297",
@@ -3572,8 +3572,8 @@
     "role": "Temple Warden",
     "race": "Triton",
     "raceSubtype": "Abyss Guard",
-    "class": "Warlock",
-    "subclass": "Archfey"
+    "class": "Wizard",
+    "subclass": "Abjuration"
   },
   {
     "npcId": "npc-0299",
@@ -3704,8 +3704,8 @@
     "role": "Spymaster",
     "race": "Goliath",
     "raceSubtype": "Stone Clan",
-    "class": "Bard",
-    "subclass": "Whispers"
+    "class": "Barbarian",
+    "subclass": "Zealot"
   },
   {
     "npcId": "npc-0310",
@@ -3728,8 +3728,8 @@
     "role": "Governor",
     "race": "Tabaxi",
     "raceSubtype": "Jungle Stalker",
-    "class": "Bard",
-    "subclass": "Lore"
+    "class": "Barbarian",
+    "subclass": "Berserker"
   },
   {
     "npcId": "npc-0312",
@@ -3740,8 +3740,8 @@
     "role": "Temple Warden",
     "race": "Genasi",
     "raceSubtype": "Fire",
-    "class": "Fighter",
-    "subclass": "Eldritch Knight"
+    "class": "Druid",
+    "subclass": "Stars"
   },
   {
     "npcId": "npc-0313",
@@ -3752,8 +3752,8 @@
     "role": "Guildmaster",
     "race": "Triton",
     "raceSubtype": "Wave Herald",
-    "class": "Bard",
-    "subclass": "Valor"
+    "class": "Barbarian",
+    "subclass": "Totem Warrior"
   },
   {
     "npcId": "npc-0314",
@@ -3764,8 +3764,8 @@
     "role": "Spymaster",
     "race": "Human",
     "raceSubtype": "Calishite",
-    "class": "Fighter",
-    "subclass": "Champion"
+    "class": "Druid",
+    "subclass": "Land"
   },
   {
     "npcId": "npc-0315",
@@ -3776,8 +3776,8 @@
     "role": "Guildmaster",
     "race": "Dwarf",
     "raceSubtype": "Duergar",
-    "class": "Ranger",
-    "subclass": "Gloom Stalker"
+    "class": "Paladin",
+    "subclass": "Vengeance"
   },
   {
     "npcId": "npc-0316",
@@ -3788,8 +3788,8 @@
     "role": "Governor",
     "race": "Elf",
     "raceSubtype": "Wood Elf",
-    "class": "Fighter",
-    "subclass": "Battle Master"
+    "class": "Druid",
+    "subclass": "Moon"
   },
   {
     "npcId": "npc-0317",
@@ -3800,8 +3800,8 @@
     "role": "Temple Warden",
     "race": "Halfling",
     "raceSubtype": "Lightfoot",
-    "class": "Ranger",
-    "subclass": "Hunter"
+    "class": "Paladin",
+    "subclass": "Devotion"
   },
   {
     "npcId": "npc-0318",
@@ -3812,8 +3812,8 @@
     "role": "Governor",
     "race": "Dragonborn",
     "raceSubtype": "Gem",
-    "class": "Warlock",
-    "subclass": "Great Old One"
+    "class": "Sorcerer",
+    "subclass": "Shadow Magic"
   },
   {
     "npcId": "npc-0319",
@@ -3824,8 +3824,8 @@
     "role": "Spymaster",
     "race": "Gnome",
     "raceSubtype": "Rock Gnome",
-    "class": "Ranger",
-    "subclass": "Beast Master"
+    "class": "Paladin",
+    "subclass": "Ancients"
   },
   {
     "npcId": "npc-0320",
@@ -3836,8 +3836,8 @@
     "role": "Guildmaster",
     "race": "Tiefling",
     "raceSubtype": "Infernal",
-    "class": "Warlock",
-    "subclass": "Fiend"
+    "class": "Sorcerer",
+    "subclass": "Draconic"
   },
   {
     "npcId": "npc-0321",
@@ -3848,8 +3848,8 @@
     "role": "Spymaster",
     "race": "Half-Orc",
     "raceSubtype": "Green Orc Bloodline",
-    "class": "Bard",
-    "subclass": "Whispers"
+    "class": "Artificer",
+    "subclass": "Battle Smith"
   },
   {
     "npcId": "npc-0322",
@@ -3860,8 +3860,8 @@
     "role": "Temple Warden",
     "race": "Half-Elf",
     "raceSubtype": "Moon-Touched",
-    "class": "Warlock",
-    "subclass": "Archfey"
+    "class": "Sorcerer",
+    "subclass": "Wild Magic"
   },
   {
     "npcId": "npc-0323",
@@ -3872,8 +3872,8 @@
     "role": "Governor",
     "race": "Orc",
     "raceSubtype": "Mountain Orc",
-    "class": "Bard",
-    "subclass": "Lore"
+    "class": "Artificer",
+    "subclass": "Alchemist"
   },
   {
     "npcId": "npc-0324",
@@ -3884,7 +3884,7 @@
     "role": "Temple Warden",
     "race": "Goliath",
     "raceSubtype": "Cloud Clan",
-    "class": "Fighter",
-    "subclass": "Eldritch Knight"
+    "class": "Cleric",
+    "subclass": "War"
   }
 ]

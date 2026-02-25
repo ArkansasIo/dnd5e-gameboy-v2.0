@@ -1,4 +1,5 @@
 #include "saveload.h"
+#include "multidim_grid.h"
 #include <string.h>
 
 // SRAM address for each save slot (adjust size as needed)

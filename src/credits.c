@@ -5,6 +5,7 @@
 
 #include "core.h"
 #include "credits.h"
+#include "multidim_grid.h"
 #include "palette.h"
 #include "sound.h"
 #include "strings.h"

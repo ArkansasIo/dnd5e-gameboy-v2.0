@@ -1,4 +1,5 @@
 #include "settings.h"
+#include "multidim_grid.h"
 #include "core.h"
 #include "palette.h"
 #include "sound.h"

@@ -1,6 +1,7 @@
 #pragma bank 8
 
 #include "floor.h"
+#include "multidim_grid.h"
 #include "sound.h"
 
 //------------------------------------------------------------------------------

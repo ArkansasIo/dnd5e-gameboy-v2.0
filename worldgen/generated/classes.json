@@ -1,5 +1,14 @@
 [
   {
+    "class": "Artificer",
+    "subclasses": [
+      "Alchemist",
+      "Armorer",
+      "Artillerist",
+      "Battle Smith"
+    ]
+  },
+  {
     "class": "Barbarian",
     "subclasses": [
       "Berserker",

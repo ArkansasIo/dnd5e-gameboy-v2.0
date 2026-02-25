@@ -79,6 +79,7 @@ static void register_commands(IDEEditorApp *app) {
     command_registry_add(&app->command_registry, "gb.script.add.damage", "Create damage script");
     command_registry_add(&app->command_registry, "gb.play.tick", "Advance GB gameplay logic by one tick");
     command_registry_add(&app->command_registry, "gb.play.toggle", "Toggle GB play mode");
+    command_registry_add(&app->command_registry, "gb.play.stop", "Stop GB play mode");
     command_registry_add(&app->command_registry, "gb.project.save", "Save GB Studio project data");
     command_registry_add(&app->command_registry, "gb.project.load", "Load GB Studio project data");
 
@@ -184,6 +185,7 @@ static void build_menus(IDEEditorApp *app) {
     add_menu(app, "GB Studio/Scripts/Run Last Script Event", "gb.script.run_last");
     add_menu(app, "GB Studio/Play/Single Tick", "gb.play.tick");
     add_menu(app, "GB Studio/Play/Toggle Play Mode", "gb.play.toggle");
+    add_menu(app, "GB Studio/Play/Stop", "gb.play.stop");
     add_menu(app, "GB Studio/Build/Validate Active Scene", "gb.validate.scene");
     add_menu(app, "GB Studio/Build/Validate All Scenes", "gb.validate.all");
     add_menu(app, "GB Studio/Project/Save", "gb.project.save");
@@ -361,6 +363,29 @@ static void editor_demo_apply_tools(IDEEditorApp *app) {
     b.recommended_party_level_max = 3;
     b.enemy_cr_total = 6;
     game_tools_validate_encounter(&b, reason, sizeof(reason));
+}
+
+static void reset_project_workspace(IDEEditorApp *app) {
+    if (!app) return;
+    if (app->active_map) tilemap_destroy(app->active_map);
+    if (app->project_db) project_db_destroy(app->project_db);
+
+    app->project_db = project_db_create();
+    app->active_map = tilemap_create(64, 48, 0);
+    command_stack_init(&app->commands);
+    app->current_tool = TOOL_PAINT;
+    app->selected_tile_id = 7;
+
+    gbstudio_project_init(&app->gb_project);
+    gbstudio_seed_default_content(app);
+    editor_seed_default_content(app);
+    editor_demo_apply_tools(app);
+
+    source_workspace_scan(&app->sources);
+    source_workspace_open_active(&app->sources);
+
+    engine_runtime_init(&app->runtime);
+    engine_runtime_seed_defaults(&app->runtime);
 }
 
 static void apply_theme(IDEEditorApp *app, EditorThemeId id) {
@@ -686,10 +711,12 @@ static void build_ui_actions(IDEEditorApp *app, EditorUIAction *actions, int *ou
     ui_action_add(actions, &count, max_count, 282, toolbar_y + 4, 64, tool_h - 8, "Redo", "edit.redo");
     ui_action_add(actions, &count, max_count, 350, toolbar_y + 4, 64, tool_h - 8, "Build", "engine.rebuild.worldgen");
     ui_action_add(actions, &count, max_count, 418, toolbar_y + 4, 64, tool_h - 8, "Play", "gb.play.toggle");
-    ui_action_add(actions, &count, max_count, 486, toolbar_y + 4, 88, tool_h - 8, "Validate", "gb.validate.all");
-    ui_action_add(actions, &count, max_count, 578, toolbar_y + 4, 84, tool_h - 8, "Scan Src", "source.scan");
-    ui_action_add(actions, &count, max_count, 666, toolbar_y + 4, 104, tool_h - 8, "Compile Src", "source.compile.active");
-    ui_action_add(actions, &count, max_count, 774, toolbar_y + 4, 120, tool_h - 8, "Cmd Palette", "editor.command_palette.toggle");
+    ui_action_add(actions, &count, max_count, 486, toolbar_y + 4, 64, tool_h - 8, "Stop", "gb.play.stop");
+    ui_action_add(actions, &count, max_count, 554, toolbar_y + 4, 88, tool_h - 8, "Validate", "gb.validate.all");
+    ui_action_add(actions, &count, max_count, 646, toolbar_y + 4, 84, tool_h - 8, "Scan Src", "source.scan");
+    ui_action_add(actions, &count, max_count, 734, toolbar_y + 4, 104, tool_h - 8, "Compile Src", "source.compile.active");
+    ui_action_add(actions, &count, max_count, 842, toolbar_y + 4, 110, tool_h - 8, "Save All", "file.save_all");
+    ui_action_add(actions, &count, max_count, 956, toolbar_y + 4, 120, tool_h - 8, "Cmd Palette", "editor.command_palette.toggle");
 
     ui_action_add(actions, &count, max_count, right_x, 140, 120, 24, "Paint", "tools.paint");
     ui_action_add(actions, &count, max_count, right_x, 168, 120, 24, "Fill", "tools.fill");
@@ -747,6 +774,16 @@ static void run_selected_palette_command(IDEEditorApp *app) {
     }
 }
 
+static void ui_info(IDEEditorApp *app, const char *msg) {
+    if (!app || !msg) return;
+    ui_api_push_notification(&app->ui, UI_NOTIFY_INFO, msg, 180);
+}
+
+static void ui_warn(IDEEditorApp *app, const char *msg) {
+    if (!app || !msg) return;
+    ui_api_push_notification(&app->ui, UI_NOTIFY_WARN, msg, 220);
+}
+
 static void handle_ui_action(IDEEditorApp *app, const char *command_id) {
     if (!app || !command_id) return;
     if (strncmp(command_id, "ui.menu.top.", 12) == 0) {
@@ -770,7 +807,36 @@ static void handle_ui_action(IDEEditorApp *app, const char *command_id) {
 static void execute_command(IDEEditorApp *app, const char *command_id) {
     if (!app || !command_id) return;
 
-    if (strcmp(command_id, "edit.undo") == 0) {
+    if (strcmp(command_id, "file.new_project") == 0) {
+        reset_project_workspace(app);
+        ui_info(app, "New project workspace created");
+        printf("[IDE] New project workspace created.\n");
+    } else if (strcmp(command_id, "file.save_all") == 0) {
+        if (app->sources.active_buffer) {
+            source_workspace_save_active(&app->sources);
+        }
+        tilemap_save_csv(app->active_map, "autosave_tilemap.csv");
+        project_io_save("autosave_project.db", app->project_db, app->active_map);
+        editor_settings_save(&app->settings, "editor_settings.ini");
+        ui_api_save_layout(&app->ui, "editor_ui_layout.ini");
+        gbstudio_save_project(&app->gb_project, "gbstudio_project.db");
+        asset_tools_generate_manifest("res", "autosave_manifest.json");
+        ui_info(app, "Saved all project data");
+        printf("[IDE] Save all complete.\n");
+    } else if (strcmp(command_id, "file.import_asset") == 0) {
+        char name[64];
+        char path[120];
+        int id;
+        snprintf(name, sizeof(name), "imported_asset_%d", app->project_db ? (app->project_db->next_id) : 1);
+        snprintf(path, sizeof(path), "res/imported/%s.dat", name);
+        id = project_db_add_asset(app->project_db, DB_ASSET_OTHER, name, path, "imported");
+        if (id > 0) {
+            ui_info(app, "Asset entry created (placeholder import)");
+            printf("[IDE] Imported asset placeholder id=%d path=%s\n", id, path);
+        } else {
+            ui_warn(app, "Asset import failed");
+        }
+    } else if (strcmp(command_id, "edit.undo") == 0) {
         tool_undo_last(app->active_map, &app->commands);
     } else if (strcmp(command_id, "edit.redo") == 0) {
         tool_redo_last(app->active_map, &app->commands);
@@ -815,6 +881,11 @@ static void execute_command(IDEEditorApp *app, const char *command_id) {
         b.enemy_cr_total = 18;
         game_tools_validate_encounter(&b, reason, sizeof(reason));
         printf("[IDE] Encounter validation: %s\n", reason);
+    } else if (strcmp(command_id, "engine.rebuild.worldgen") == 0) {
+        BuildOutputBuffer out;
+        build_run_project("build.bat", &out);
+        ui_info(app, "Build/worldgen run complete (see console log)");
+        printf("[IDE] Build/worldgen executed. lines=%d exit=%d\n", out.line_count, out.last_exit_code);
     } else if (strcmp(command_id, "engine.runtime.tick") == 0) {
         engine_runtime_tick(&app->runtime);
         ui_api_push_notification(&app->ui, UI_NOTIFY_INFO, app->runtime.last_event, 120);
@@ -945,6 +1016,15 @@ static void execute_command(IDEEditorApp *app, const char *command_id) {
         ui_api_set_widget_enabled(&app->ui, "widget.toolbar.play", !app->gb_play_mode);
         ui_api_set_widget_enabled(&app->ui, "widget.toolbar.stop", app->gb_play_mode);
         printf("[GB Studio] Play mode: %s\n", app->gb_play_mode ? "ON" : "OFF");
+    } else if (strcmp(command_id, "gb.play.stop") == 0) {
+        if (app->gb_play_mode) {
+            app->gb_play_mode = false;
+            ui_api_set_widget_enabled(&app->ui, "widget.toolbar.play", true);
+            ui_api_set_widget_enabled(&app->ui, "widget.toolbar.stop", false);
+            ui_info(app, "Play mode stopped");
+        } else {
+            ui_warn(app, "Play mode already stopped");
+        }
     } else if (strcmp(command_id, "gb.project.save") == 0) {
         if (gbstudio_save_project(&app->gb_project, "gbstudio_project.db")) {
             ui_api_push_notification(&app->ui, UI_NOTIFY_INFO, "GB project saved", 180);
@@ -1079,6 +1159,16 @@ static void execute_command(IDEEditorApp *app, const char *command_id) {
             ui_api_push_notification(&app->ui, UI_NOTIFY_ERROR, app->sources.last_status, 240);
         }
         printf("[Source] %s\n", app->sources.last_status);
+    } else {
+        const EditorCommandDef *def = command_registry_find(&app->command_registry, command_id);
+        char msg[180];
+        if (def) {
+            snprintf(msg, sizeof(msg), "Command not implemented yet: %s", command_id);
+        } else {
+            snprintf(msg, sizeof(msg), "Unknown command: %s", command_id);
+        }
+        ui_warn(app, msg);
+        printf("[IDE] %s\n", msg);
     }
 }
 

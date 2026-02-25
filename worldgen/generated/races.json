@@ -1,0 +1,116 @@
+[
+  {
+    "race": "Human",
+    "subtypes": [
+      "Calishite",
+      "Chondathan",
+      "Damaran"
+    ]
+  },
+  {
+    "race": "Elf",
+    "subtypes": [
+      "High Elf",
+      "Wood Elf",
+      "Drow"
+    ]
+  },
+  {
+    "race": "Dwarf",
+    "subtypes": [
+      "Hill Dwarf",
+      "Mountain Dwarf",
+      "Duergar"
+    ]
+  },
+  {
+    "race": "Halfling",
+    "subtypes": [
+      "Lightfoot",
+      "Stout"
+    ]
+  },
+  {
+    "race": "Gnome",
+    "subtypes": [
+      "Forest Gnome",
+      "Rock Gnome",
+      "Deep Gnome"
+    ]
+  },
+  {
+    "race": "Dragonborn",
+    "subtypes": [
+      "Chromatic",
+      "Metallic",
+      "Gem"
+    ]
+  },
+  {
+    "race": "Tiefling",
+    "subtypes": [
+      "Infernal",
+      "Abyssal",
+      "Chthonic"
+    ]
+  },
+  {
+    "race": "Half-Elf",
+    "subtypes": [
+      "Moon-Touched",
+      "Sun-Touched"
+    ]
+  },
+  {
+    "race": "Half-Orc",
+    "subtypes": [
+      "Gray Orc Bloodline",
+      "Green Orc Bloodline"
+    ]
+  },
+  {
+    "race": "Orc",
+    "subtypes": [
+      "Mountain Orc",
+      "Plains Orc"
+    ]
+  },
+  {
+    "race": "Aasimar",
+    "subtypes": [
+      "Protector",
+      "Scourge",
+      "Fallen"
+    ]
+  },
+  {
+    "race": "Goliath",
+    "subtypes": [
+      "Cloud Clan",
+      "Stone Clan"
+    ]
+  },
+  {
+    "race": "Tabaxi",
+    "subtypes": [
+      "Jungle Stalker",
+      "Sand Runner"
+    ]
+  },
+  {
+    "race": "Triton",
+    "subtypes": [
+      "Abyss Guard",
+      "Wave Herald"
+    ]
+  },
+  {
+    "race": "Genasi",
+    "subtypes": [
+      "Air",
+      "Earth",
+      "Fire",
+      "Water"
+    ]
+  }
+]

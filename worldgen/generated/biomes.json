@@ -1,0 +1,166 @@
+[
+  {
+    "class": "Temperate",
+    "subclasses": [
+      {
+        "subclass": "Woodlands",
+        "types": [
+          {
+            "type": "Forest",
+            "subtypes": [
+              "Deciduous",
+              "Mixed",
+              "Old-Growth"
+            ]
+          },
+          {
+            "type": "Grassland",
+            "subtypes": [
+              "Prairie",
+              "Steppe",
+              "Wildflower Meadow"
+            ]
+          }
+        ]
+      },
+      {
+        "subclass": "Highlands",
+        "types": [
+          {
+            "type": "Hills",
+            "subtypes": [
+              "Rolling",
+              "Rocky",
+              "Mistbound"
+            ]
+          },
+          {
+            "type": "Mountain",
+            "subtypes": [
+              "Alpine",
+              "Pinecrest",
+              "Frostcap"
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "class": "Arid",
+    "subclasses": [
+      {
+        "subclass": "Drylands",
+        "types": [
+          {
+            "type": "Desert",
+            "subtypes": [
+              "Dune Sea",
+              "Salt Flat",
+              "Red Sand"
+            ]
+          },
+          {
+            "type": "Badlands",
+            "subtypes": [
+              "Canyon",
+              "Mesa",
+              "Dust Basin"
+            ]
+          }
+        ]
+      },
+      {
+        "subclass": "Savanna",
+        "types": [
+          {
+            "type": "Savanna",
+            "subtypes": [
+              "Golden Grass",
+              "Acacia",
+              "Thunderplain"
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "class": "Tropical",
+    "subclasses": [
+      {
+        "subclass": "Rain Regions",
+        "types": [
+          {
+            "type": "Rainforest",
+            "subtypes": [
+              "Canopy Dense",
+              "River Jungle",
+              "Fog Jungle"
+            ]
+          },
+          {
+            "type": "Wetland",
+            "subtypes": [
+              "Mangrove",
+              "Fen",
+              "Swamp"
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "class": "Cold",
+    "subclasses": [
+      {
+        "subclass": "Frozen",
+        "types": [
+          {
+            "type": "Tundra",
+            "subtypes": [
+              "Permafrost",
+              "Lichen Plain",
+              "Ice Scrub"
+            ]
+          },
+          {
+            "type": "Glacier",
+            "subtypes": [
+              "Blue Ice",
+              "Crevasse Field",
+              "Shattered Shelf"
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "class": "Subterranean",
+    "subclasses": [
+      {
+        "subclass": "Deep Earth",
+        "types": [
+          {
+            "type": "Cavern",
+            "subtypes": [
+              "Limestone",
+              "Crystal",
+              "Magma Hollow"
+            ]
+          },
+          {
+            "type": "Underdark",
+            "subtypes": [
+              "Fungal Sea",
+              "Obsidian Deeps",
+              "Shadow Rift"
+            ]
+          }
+        ]
+      }
+    ]
+  }
+]

@@ -1,0 +1,9 @@
+﻿{
+    "dependencies":  {
+                         "pngjs":  "^7.0.0"
+                     },
+    "scripts":  {
+                    "worldgen":  "node worldgen/src/generate_world.js",
+                    "worldgen:monsters":  "node worldgen/src/generate_monster_compendium.js"
+                }
+}

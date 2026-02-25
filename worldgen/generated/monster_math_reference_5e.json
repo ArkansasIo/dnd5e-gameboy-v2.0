@@ -1,0 +1,158 @@
+{
+  "metadata": {
+    "generatedAt": "2026-02-25T14:10:26.045Z",
+    "source": "worldgen/src/generate_monster_compendium.js"
+  },
+  "challengeRatingMath": {
+    "1": {
+      "crValue": 1,
+      "xp": 200,
+      "proficiencyBonus": 2,
+      "expectedAC": 13,
+      "expectedHP": 50,
+      "expectedDPR": 12,
+      "expectedAttackBonus": 3,
+      "expectedSaveDC": 13
+    },
+    "3": {
+      "crValue": 3,
+      "xp": 700,
+      "proficiencyBonus": 2,
+      "expectedAC": 13,
+      "expectedHP": 85,
+      "expectedDPR": 24,
+      "expectedAttackBonus": 4,
+      "expectedSaveDC": 13
+    },
+    "5": {
+      "crValue": 5,
+      "xp": 1800,
+      "proficiencyBonus": 3,
+      "expectedAC": 15,
+      "expectedHP": 130,
+      "expectedDPR": 33,
+      "expectedAttackBonus": 6,
+      "expectedSaveDC": 15
+    },
+    "8": {
+      "crValue": 8,
+      "xp": 3900,
+      "proficiencyBonus": 3,
+      "expectedAC": 16,
+      "expectedHP": 170,
+      "expectedDPR": 48,
+      "expectedAttackBonus": 7,
+      "expectedSaveDC": 16
+    },
+    "12": {
+      "crValue": 12,
+      "xp": 8400,
+      "proficiencyBonus": 4,
+      "expectedAC": 17,
+      "expectedHP": 230,
+      "expectedDPR": 72,
+      "expectedAttackBonus": 8,
+      "expectedSaveDC": 17
+    },
+    "16": {
+      "crValue": 16,
+      "xp": 15000,
+      "proficiencyBonus": 5,
+      "expectedAC": 18,
+      "expectedHP": 300,
+      "expectedDPR": 95,
+      "expectedAttackBonus": 9,
+      "expectedSaveDC": 18
+    },
+    "20": {
+      "crValue": 20,
+      "xp": 25000,
+      "proficiencyBonus": 6,
+      "expectedAC": 19,
+      "expectedHP": 370,
+      "expectedDPR": 125,
+      "expectedAttackBonus": 10,
+      "expectedSaveDC": 19
+    },
+    "1/8": {
+      "crValue": 0.125,
+      "xp": 25,
+      "proficiencyBonus": 2,
+      "expectedAC": 13,
+      "expectedHP": 18,
+      "expectedDPR": 4,
+      "expectedAttackBonus": 3,
+      "expectedSaveDC": 13
+    },
+    "1/4": {
+      "crValue": 0.25,
+      "xp": 50,
+      "proficiencyBonus": 2,
+      "expectedAC": 13,
+      "expectedHP": 24,
+      "expectedDPR": 6,
+      "expectedAttackBonus": 3,
+      "expectedSaveDC": 13
+    },
+    "1/2": {
+      "crValue": 0.5,
+      "xp": 100,
+      "proficiencyBonus": 2,
+      "expectedAC": 13,
+      "expectedHP": 36,
+      "expectedDPR": 8,
+      "expectedAttackBonus": 3,
+      "expectedSaveDC": 13
+    }
+  },
+  "roleAbilityPriority": {
+    "Brute": [
+      "STR",
+      "CON",
+      "DEX"
+    ],
+    "Skirmisher": [
+      "DEX",
+      "CON",
+      "WIS"
+    ],
+    "Controller": [
+      "INT",
+      "WIS",
+      "CON"
+    ],
+    "Caster": [
+      "CHA",
+      "INT",
+      "CON"
+    ],
+    "Support": [
+      "WIS",
+      "CHA",
+      "CON"
+    ]
+  },
+  "typeHitDie": {
+    "Aberration": 8,
+    "Beast": 8,
+    "Celestial": 10,
+    "Construct": 10,
+    "Dragon": 12,
+    "Elemental": 10,
+    "Fey": 8,
+    "Fiend": 10,
+    "Giant": 12,
+    "Humanoid": 8,
+    "Monstrosity": 10,
+    "Ooze": 10,
+    "Plant": 10,
+    "Undead": 8
+  },
+  "formulas": {
+    "abilityModifier": "floor((abilityScore - 10) / 2)",
+    "saveDC": "8 + proficiencyBonus + primaryAbilityModifier",
+    "attackBonus": "proficiencyBonus + primaryAbilityModifier",
+    "hitPointFormula": "hitDiceCount d hitDie + (hitDiceCount * CON modifier)",
+    "damagePerRoundTarget": "from CR table, split across multiattack count"
+  }
+}

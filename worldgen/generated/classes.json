@@ -1,0 +1,99 @@
+[
+  {
+    "class": "Barbarian",
+    "subclasses": [
+      "Berserker",
+      "Totem Warrior",
+      "Zealot"
+    ]
+  },
+  {
+    "class": "Bard",
+    "subclasses": [
+      "Lore",
+      "Valor",
+      "Whispers"
+    ]
+  },
+  {
+    "class": "Cleric",
+    "subclasses": [
+      "Life",
+      "Light",
+      "War",
+      "Trickery"
+    ]
+  },
+  {
+    "class": "Druid",
+    "subclasses": [
+      "Land",
+      "Moon",
+      "Stars"
+    ]
+  },
+  {
+    "class": "Fighter",
+    "subclasses": [
+      "Champion",
+      "Battle Master",
+      "Eldritch Knight"
+    ]
+  },
+  {
+    "class": "Monk",
+    "subclasses": [
+      "Open Hand",
+      "Shadow",
+      "Kensei"
+    ]
+  },
+  {
+    "class": "Paladin",
+    "subclasses": [
+      "Devotion",
+      "Ancients",
+      "Vengeance"
+    ]
+  },
+  {
+    "class": "Ranger",
+    "subclasses": [
+      "Hunter",
+      "Beast Master",
+      "Gloom Stalker"
+    ]
+  },
+  {
+    "class": "Rogue",
+    "subclasses": [
+      "Thief",
+      "Assassin",
+      "Arcane Trickster"
+    ]
+  },
+  {
+    "class": "Sorcerer",
+    "subclasses": [
+      "Draconic",
+      "Wild Magic",
+      "Shadow Magic"
+    ]
+  },
+  {
+    "class": "Warlock",
+    "subclasses": [
+      "Fiend",
+      "Archfey",
+      "Great Old One"
+    ]
+  },
+  {
+    "class": "Wizard",
+    "subclasses": [
+      "Evocation",
+      "Abjuration",
+      "Necromancy"
+    ]
+  }
+]

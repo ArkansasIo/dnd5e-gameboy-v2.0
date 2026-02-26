@@ -1,0 +1,2594 @@
+[
+  {
+    "questId": "q-0001",
+    "kingdomId": "kg01",
+    "title": "Escort: Forest 1",
+    "type": "Escort",
+    "tier": 1,
+    "issuerNpcId": "npc-0002",
+    "issuerName": "Dara Emberfall",
+    "location": "Forest 1",
+    "biomeType": "Forest",
+    "objective": "Protect a caravan between settlements",
+    "reward": "Trade access and gold",
+    "hooks": [
+      "Rumors started in Arhaven.",
+      "Threat confirmed around kg01-zone-01.",
+      "Secondary lead points toward Cavern 1."
+    ]
+  },
+  {
+    "questId": "q-0002",
+    "kingdomId": "kg01",
+    "title": "Defense: Grassland 2",
+    "type": "Defense",
+    "tier": 2,
+    "issuerNpcId": "npc-0004",
+    "issuerName": "Eldrin Glimmerveil",
+    "location": "Grassland 2",
+    "biomeType": "Grassland",
+    "objective": "Hold a frontier outpost against waves",
+    "reward": "Land grant and title",
+    "hooks": [
+      "Rumors started in Arhaven.",
+      "Threat confirmed around kg01-zone-02.",
+      "Secondary lead points toward Underdark 2."
+    ]
+  },
+  {
+    "questId": "q-0003",
+    "kingdomId": "kg01",
+    "title": "Expedition: Hills 3",
+    "type": "Expedition",
+    "tier": 3,
+    "issuerNpcId": "npc-0006",
+    "issuerName": "Iris Keenblade",
+    "location": "Hills 3",
+    "biomeType": "Hills",
+    "objective": "Chart unmapped territory",
+    "reward": "Maps and exploration rights",
+    "hooks": [
+      "Rumors started in Arhaven.",
+      "Threat confirmed around kg01-zone-03.",
+      "Secondary lead points toward Catacombs 3."
+    ]
+  },
+  {
+    "questId": "q-0004",
+    "kingdomId": "kg01",
+    "title": "Escort: Mountain 4",
+    "type": "Escort",
+    "tier": 4,
+    "issuerNpcId": "npc-0008",
+    "issuerName": "Joran Moonwhisper",
+    "location": "Mountain 4",
+    "biomeType": "Mountain",
+    "objective": "Protect a caravan between settlements",
+    "reward": "Trade access and gold",
+    "hooks": [
+      "Rumors started in Arhaven.",
+      "Threat confirmed around kg01-zone-04.",
+      "Secondary lead points toward Magma Hollow 4."
+    ]
+  },
+  {
+    "questId": "q-0005",
+    "kingdomId": "kg01",
+    "title": "Defense: Desert 5",
+    "type": "Defense",
+    "tier": 5,
+    "issuerNpcId": "npc-0010",
+    "issuerName": "Kael Oakenshield",
+    "location": "Desert 5",
+    "biomeType": "Desert",
+    "objective": "Hold a frontier outpost against waves",
+    "reward": "Land grant and title",
+    "hooks": [
+      "Rumors started in Arhaven.",
+      "Threat confirmed around kg01-zone-05.",
+      "Secondary lead points toward Shadow Rift 5."
+    ]
+  },
+  {
+    "questId": "q-0006",
+    "kingdomId": "kg01",
+    "title": "Expedition: Badlands 6",
+    "type": "Expedition",
+    "tier": 1,
+    "issuerNpcId": "npc-0012",
+    "issuerName": "Orin Stormborn",
+    "location": "Badlands 6",
+    "biomeType": "Badlands",
+    "objective": "Chart unmapped territory",
+    "reward": "Maps and exploration rights",
+    "hooks": [
+      "Rumors started in Arhaven.",
+      "Threat confirmed around kg01-zone-06.",
+      "Secondary lead points toward Cavern 6."
+    ]
+  },
+  {
+    "questId": "q-0007",
+    "kingdomId": "kg01",
+    "title": "Escort: Savanna 7",
+    "type": "Escort",
+    "tier": 2,
+    "issuerNpcId": "npc-0014",
+    "issuerName": "Pyria Ashford",
+    "location": "Savanna 7",
+    "biomeType": "Savanna",
+    "objective": "Protect a caravan between settlements",
+    "reward": "Trade access and gold",
+    "hooks": [
+      "Rumors started in Arhaven.",
+      "Threat confirmed around kg01-zone-07.",
+      "Secondary lead points toward Cavern 1."
+    ]
+  },
+  {
+    "questId": "q-0008",
+    "kingdomId": "kg01",
+    "title": "Defense: Rainforest 8",
+    "type": "Defense",
+    "tier": 3,
+    "issuerNpcId": "npc-0016",
+    "issuerName": "Quin Crowley",
+    "location": "Rainforest 8",
+    "biomeType": "Rainforest",
+    "objective": "Hold a frontier outpost against waves",
+    "reward": "Land grant and title",
+    "hooks": [
+      "Rumors started in Arhaven.",
+      "Threat confirmed around kg01-zone-08.",
+      "Secondary lead points toward Underdark 2."
+    ]
+  },
+  {
+    "questId": "q-0009",
+    "kingdomId": "kg01",
+    "title": "Expedition: Wetland 9",
+    "type": "Expedition",
+    "tier": 4,
+    "issuerNpcId": "npc-0018",
+    "issuerName": "Aelar Glimmerveil",
+    "location": "Wetland 9",
+    "biomeType": "Wetland",
+    "objective": "Chart unmapped territory",
+    "reward": "Maps and exploration rights",
+    "hooks": [
+      "Rumors started in Arhaven.",
+      "Threat confirmed around kg01-zone-09.",
+      "Secondary lead points toward Catacombs 3."
+    ]
+  },
+  {
+    "questId": "q-0010",
+    "kingdomId": "kg01",
+    "title": "Escort: Tundra 10",
+    "type": "Escort",
+    "tier": 5,
+    "issuerNpcId": "npc-0020",
+    "issuerName": "Brina Ironwood",
+    "location": "Tundra 10",
+    "biomeType": "Tundra",
+    "objective": "Protect a caravan between settlements",
+    "reward": "Trade access and gold",
+    "hooks": [
+      "Rumors started in Arhaven.",
+      "Threat confirmed around kg01-zone-10.",
+      "Secondary lead points toward Magma Hollow 4."
+    ]
+  },
+  {
+    "questId": "q-0011",
+    "kingdomId": "kg01",
+    "title": "Defense: Glacier 11",
+    "type": "Defense",
+    "tier": 1,
+    "issuerNpcId": "npc-0022",
+    "issuerName": "Corin Keenblade",
+    "location": "Glacier 11",
+    "biomeType": "Glacier",
+    "objective": "Hold a frontier outpost against waves",
+    "reward": "Land grant and title",
+    "hooks": [
+      "Rumors started in Arhaven.",
+      "Threat confirmed around kg01-zone-11.",
+      "Secondary lead points toward Shadow Rift 5."
+    ]
+  },
+  {
+    "questId": "q-0012",
+    "kingdomId": "kg01",
+    "title": "Expedition: Cavern 12",
+    "type": "Expedition",
+    "tier": 2,
+    "issuerNpcId": "npc-0024",
+    "issuerName": "Garrik Oakenshield",
+    "location": "Cavern 12",
+    "biomeType": "Cavern",
+    "objective": "Chart unmapped territory",
+    "reward": "Maps and exploration rights",
+    "hooks": [
+      "Rumors started in Arhaven.",
+      "Threat confirmed around kg01-zone-12.",
+      "Secondary lead points toward Cavern 6."
+    ]
+  },
+  {
+    "questId": "q-0013",
+    "kingdomId": "kg02",
+    "title": "Escort: Grassland 1",
+    "type": "Escort",
+    "tier": 1,
+    "issuerNpcId": "npc-0041",
+    "issuerName": "Corin Holloway",
+    "location": "Grassland 1",
+    "biomeType": "Grassland",
+    "objective": "Protect a caravan between settlements",
+    "reward": "Trade access and gold",
+    "hooks": [
+      "Rumors started in Belspire.",
+      "Threat confirmed around kg02-zone-01.",
+      "Secondary lead points toward Catacombs 1."
+    ]
+  },
+  {
+    "questId": "q-0014",
+    "kingdomId": "kg02",
+    "title": "Defense: Hills 2",
+    "type": "Defense",
+    "tier": 2,
+    "issuerNpcId": "npc-0043",
+    "issuerName": "Dara Jadebrook",
+    "location": "Hills 2",
+    "biomeType": "Hills",
+    "objective": "Hold a frontier outpost against waves",
+    "reward": "Land grant and title",
+    "hooks": [
+      "Rumors started in Belspire.",
+      "Threat confirmed around kg02-zone-02.",
+      "Secondary lead points toward Magma Hollow 2."
+    ]
+  },
+  {
+    "questId": "q-0015",
+    "kingdomId": "kg02",
+    "title": "Expedition: Mountain 3",
+    "type": "Expedition",
+    "tier": 3,
+    "issuerNpcId": "npc-0045",
+    "issuerName": "Helia Nightrun",
+    "location": "Mountain 3",
+    "biomeType": "Mountain",
+    "objective": "Chart unmapped territory",
+    "reward": "Maps and exploration rights",
+    "hooks": [
+      "Rumors started in Belspire.",
+      "Threat confirmed around kg02-zone-03.",
+      "Secondary lead points toward Shadow Rift 3."
+    ]
+  },
+  {
+    "questId": "q-0016",
+    "kingdomId": "kg02",
+    "title": "Escort: Desert 4",
+    "type": "Escort",
+    "tier": 4,
+    "issuerNpcId": "npc-0047",
+    "issuerName": "Iris Proudmoore",
+    "location": "Desert 4",
+    "biomeType": "Desert",
+    "objective": "Protect a caravan between settlements",
+    "reward": "Trade access and gold",
+    "hooks": [
+      "Rumors started in Belspire.",
+      "Threat confirmed around kg02-zone-04.",
+      "Secondary lead points toward Cavern 4."
+    ]
+  },
+  {
+    "questId": "q-0017",
+    "kingdomId": "kg02",
+    "title": "Defense: Badlands 5",
+    "type": "Defense",
+    "tier": 5,
+    "issuerNpcId": "npc-0049",
+    "issuerName": "Joran Ravencrest",
+    "location": "Badlands 5",
+    "biomeType": "Badlands",
+    "objective": "Hold a frontier outpost against waves",
+    "reward": "Land grant and title",
+    "hooks": [
+      "Rumors started in Belspire.",
+      "Threat confirmed around kg02-zone-05.",
+      "Secondary lead points toward Underdark 5."
+    ]
+  },
+  {
+    "questId": "q-0018",
+    "kingdomId": "kg02",
+    "title": "Expedition: Savanna 6",
+    "type": "Expedition",
+    "tier": 1,
+    "issuerNpcId": "npc-0051",
+    "issuerName": "Neris Blackbriar",
+    "location": "Savanna 6",
+    "biomeType": "Savanna",
+    "objective": "Chart unmapped territory",
+    "reward": "Maps and exploration rights",
+    "hooks": [
+      "Rumors started in Belspire.",
+      "Threat confirmed around kg02-zone-06.",
+      "Secondary lead points toward Catacombs 6."
+    ]
+  },
+  {
+    "questId": "q-0019",
+    "kingdomId": "kg02",
+    "title": "Escort: Rainforest 7",
+    "type": "Escort",
+    "tier": 2,
+    "issuerNpcId": "npc-0053",
+    "issuerName": "Orin Dawnstrider",
+    "location": "Rainforest 7",
+    "biomeType": "Rainforest",
+    "objective": "Protect a caravan between settlements",
+    "reward": "Trade access and gold",
+    "hooks": [
+      "Rumors started in Belspire.",
+      "Threat confirmed around kg02-zone-07.",
+      "Secondary lead points toward Catacombs 1."
+    ]
+  },
+  {
+    "questId": "q-0020",
+    "kingdomId": "kg02",
+    "title": "Defense: Wetland 8",
+    "type": "Defense",
+    "tier": 3,
+    "issuerNpcId": "npc-0028",
+    "issuerName": "Iris Jadebrook",
+    "location": "Wetland 8",
+    "biomeType": "Wetland",
+    "objective": "Hold a frontier outpost against waves",
+    "reward": "Land grant and title",
+    "hooks": [
+      "Rumors started in Belspire.",
+      "Threat confirmed around kg02-zone-08.",
+      "Secondary lead points toward Magma Hollow 2."
+    ]
+  },
+  {
+    "questId": "q-0021",
+    "kingdomId": "kg02",
+    "title": "Expedition: Tundra 9",
+    "type": "Expedition",
+    "tier": 4,
+    "issuerNpcId": "npc-0030",
+    "issuerName": "Marek Nightrun",
+    "location": "Tundra 9",
+    "biomeType": "Tundra",
+    "objective": "Chart unmapped territory",
+    "reward": "Maps and exploration rights",
+    "hooks": [
+      "Rumors started in Belspire.",
+      "Threat confirmed around kg02-zone-09.",
+      "Secondary lead points toward Shadow Rift 3."
+    ]
+  },
+  {
+    "questId": "q-0022",
+    "kingdomId": "kg02",
+    "title": "Escort: Glacier 10",
+    "type": "Escort",
+    "tier": 5,
+    "issuerNpcId": "npc-0032",
+    "issuerName": "Neris Proudmoore",
+    "location": "Glacier 10",
+    "biomeType": "Glacier",
+    "objective": "Protect a caravan between settlements",
+    "reward": "Trade access and gold",
+    "hooks": [
+      "Rumors started in Belspire.",
+      "Threat confirmed around kg02-zone-10.",
+      "Secondary lead points toward Cavern 4."
+    ]
+  },
+  {
+    "questId": "q-0023",
+    "kingdomId": "kg02",
+    "title": "Defense: Cavern 11",
+    "type": "Defense",
+    "tier": 1,
+    "issuerNpcId": "npc-0034",
+    "issuerName": "Orin Ravencrest",
+    "location": "Cavern 11",
+    "biomeType": "Cavern",
+    "objective": "Hold a frontier outpost against waves",
+    "reward": "Land grant and title",
+    "hooks": [
+      "Rumors started in Belspire.",
+      "Threat confirmed around kg02-zone-11.",
+      "Secondary lead points toward Underdark 5."
+    ]
+  },
+  {
+    "questId": "q-0024",
+    "kingdomId": "kg02",
+    "title": "Expedition: Underdark 12",
+    "type": "Expedition",
+    "tier": 2,
+    "issuerNpcId": "npc-0036",
+    "issuerName": "Selene Blackbriar",
+    "location": "Underdark 12",
+    "biomeType": "Underdark",
+    "objective": "Chart unmapped territory",
+    "reward": "Maps and exploration rights",
+    "hooks": [
+      "Rumors started in Belspire.",
+      "Threat confirmed around kg02-zone-12.",
+      "Secondary lead points toward Catacombs 6."
+    ]
+  },
+  {
+    "questId": "q-0025",
+    "kingdomId": "kg03",
+    "title": "Escort: Mountain 1",
+    "type": "Escort",
+    "tier": 1,
+    "issuerNpcId": "npc-0080",
+    "issuerName": "Brina Keenblade",
+    "location": "Mountain 1",
+    "biomeType": "Mountain",
+    "objective": "Protect a caravan between settlements",
+    "reward": "Trade access and gold",
+    "hooks": [
+      "Rumors started in Corford.",
+      "Threat confirmed around kg03-zone-01.",
+      "Secondary lead points toward Shadow Rift 1."
+    ]
+  },
+  {
+    "questId": "q-0026",
+    "kingdomId": "kg03",
+    "title": "Defense: Desert 2",
+    "type": "Defense",
+    "tier": 2,
+    "issuerNpcId": "npc-0055",
+    "issuerName": "Pyria Quickwater",
+    "location": "Desert 2",
+    "biomeType": "Desert",
+    "objective": "Hold a frontier outpost against waves",
+    "reward": "Land grant and title",
+    "hooks": [
+      "Rumors started in Corford.",
+      "Threat confirmed around kg03-zone-02.",
+      "Secondary lead points toward Cavern 2."
+    ]
+  },
+  {
+    "questId": "q-0027",
+    "kingdomId": "kg03",
+    "title": "Expedition: Badlands 3",
+    "type": "Expedition",
+    "tier": 3,
+    "issuerNpcId": "npc-0057",
+    "issuerName": "Torin Ashford",
+    "location": "Badlands 3",
+    "biomeType": "Badlands",
+    "objective": "Chart unmapped territory",
+    "reward": "Maps and exploration rights",
+    "hooks": [
+      "Rumors started in Corford.",
+      "Threat confirmed around kg03-zone-03.",
+      "Secondary lead points toward Underdark 3."
+    ]
+  },
+  {
+    "questId": "q-0028",
+    "kingdomId": "kg03",
+    "title": "Escort: Savanna 4",
+    "type": "Escort",
+    "tier": 4,
+    "issuerNpcId": "npc-0059",
+    "issuerName": "Aelar Crowley",
+    "location": "Savanna 4",
+    "biomeType": "Savanna",
+    "objective": "Protect a caravan between settlements",
+    "reward": "Trade access and gold",
+    "hooks": [
+      "Rumors started in Corford.",
+      "Threat confirmed around kg03-zone-04.",
+      "Secondary lead points toward Catacombs 4."
+    ]
+  },
+  {
+    "questId": "q-0029",
+    "kingdomId": "kg03",
+    "title": "Defense: Rainforest 5",
+    "type": "Defense",
+    "tier": 5,
+    "issuerNpcId": "npc-0061",
+    "issuerName": "Brina Emberfall",
+    "location": "Rainforest 5",
+    "biomeType": "Rainforest",
+    "objective": "Hold a frontier outpost against waves",
+    "reward": "Land grant and title",
+    "hooks": [
+      "Rumors started in Corford.",
+      "Threat confirmed around kg03-zone-05.",
+      "Secondary lead points toward Magma Hollow 5."
+    ]
+  },
+  {
+    "questId": "q-0030",
+    "kingdomId": "kg03",
+    "title": "Expedition: Wetland 6",
+    "type": "Expedition",
+    "tier": 1,
+    "issuerNpcId": "npc-0063",
+    "issuerName": "Fiora Ironwood",
+    "location": "Wetland 6",
+    "biomeType": "Wetland",
+    "objective": "Chart unmapped territory",
+    "reward": "Maps and exploration rights",
+    "hooks": [
+      "Rumors started in Corford.",
+      "Threat confirmed around kg03-zone-06.",
+      "Secondary lead points toward Shadow Rift 6."
+    ]
+  },
+  {
+    "questId": "q-0031",
+    "kingdomId": "kg03",
+    "title": "Escort: Tundra 7",
+    "type": "Escort",
+    "tier": 2,
+    "issuerNpcId": "npc-0065",
+    "issuerName": "Garrik Keenblade",
+    "location": "Tundra 7",
+    "biomeType": "Tundra",
+    "objective": "Protect a caravan between settlements",
+    "reward": "Trade access and gold",
+    "hooks": [
+      "Rumors started in Corford.",
+      "Threat confirmed around kg03-zone-07.",
+      "Secondary lead points toward Shadow Rift 1."
+    ]
+  },
+  {
+    "questId": "q-0032",
+    "kingdomId": "kg03",
+    "title": "Defense: Glacier 8",
+    "type": "Defense",
+    "tier": 3,
+    "issuerNpcId": "npc-0067",
+    "issuerName": "Helia Moonwhisper",
+    "location": "Glacier 8",
+    "biomeType": "Glacier",
+    "objective": "Hold a frontier outpost against waves",
+    "reward": "Land grant and title",
+    "hooks": [
+      "Rumors started in Corford.",
+      "Threat confirmed around kg03-zone-08.",
+      "Secondary lead points toward Cavern 2."
+    ]
+  },
+  {
+    "questId": "q-0033",
+    "kingdomId": "kg03",
+    "title": "Expedition: Cavern 9",
+    "type": "Expedition",
+    "tier": 4,
+    "issuerNpcId": "npc-0069",
+    "issuerName": "Lyra Quickwater",
+    "location": "Cavern 9",
+    "biomeType": "Cavern",
+    "objective": "Chart unmapped territory",
+    "reward": "Maps and exploration rights",
+    "hooks": [
+      "Rumors started in Corford.",
+      "Threat confirmed around kg03-zone-09.",
+      "Secondary lead points toward Underdark 3."
+    ]
+  },
+  {
+    "questId": "q-0034",
+    "kingdomId": "kg03",
+    "title": "Escort: Underdark 10",
+    "type": "Escort",
+    "tier": 5,
+    "issuerNpcId": "npc-0071",
+    "issuerName": "Marek Stormborn",
+    "location": "Underdark 10",
+    "biomeType": "Underdark",
+    "objective": "Protect a caravan between settlements",
+    "reward": "Trade access and gold",
+    "hooks": [
+      "Rumors started in Corford.",
+      "Threat confirmed around kg03-zone-10.",
+      "Secondary lead points toward Catacombs 4."
+    ]
+  },
+  {
+    "questId": "q-0035",
+    "kingdomId": "kg03",
+    "title": "Defense: Forest 11",
+    "type": "Defense",
+    "tier": 1,
+    "issuerNpcId": "npc-0073",
+    "issuerName": "Neris Ashford",
+    "location": "Forest 11",
+    "biomeType": "Forest",
+    "objective": "Hold a frontier outpost against waves",
+    "reward": "Land grant and title",
+    "hooks": [
+      "Rumors started in Corford.",
+      "Threat confirmed around kg03-zone-11.",
+      "Secondary lead points toward Magma Hollow 5."
+    ]
+  },
+  {
+    "questId": "q-0036",
+    "kingdomId": "kg03",
+    "title": "Expedition: Grassland 12",
+    "type": "Expedition",
+    "tier": 2,
+    "issuerNpcId": "npc-0075",
+    "issuerName": "Riven Emberfall",
+    "location": "Grassland 12",
+    "biomeType": "Grassland",
+    "objective": "Chart unmapped territory",
+    "reward": "Maps and exploration rights",
+    "hooks": [
+      "Rumors started in Corford.",
+      "Threat confirmed around kg03-zone-12.",
+      "Secondary lead points toward Shadow Rift 6."
+    ]
+  },
+  {
+    "questId": "q-0037",
+    "kingdomId": "kg04",
+    "title": "Escort: Badlands 1",
+    "type": "Escort",
+    "tier": 1,
+    "issuerNpcId": "npc-0092",
+    "issuerName": "Neris Ravencrest",
+    "location": "Badlands 1",
+    "biomeType": "Badlands",
+    "objective": "Protect a caravan between settlements",
+    "reward": "Trade access and gold",
+    "hooks": [
+      "Rumors started in Drakmere.",
+      "Threat confirmed around kg04-zone-01.",
+      "Secondary lead points toward Underdark 1."
+    ]
+  },
+  {
+    "questId": "q-0038",
+    "kingdomId": "kg04",
+    "title": "Defense: Savanna 2",
+    "type": "Defense",
+    "tier": 2,
+    "issuerNpcId": "npc-0094",
+    "issuerName": "Orin Thornfield",
+    "location": "Savanna 2",
+    "biomeType": "Savanna",
+    "objective": "Hold a frontier outpost against waves",
+    "reward": "Land grant and title",
+    "hooks": [
+      "Rumors started in Drakmere.",
+      "Threat confirmed around kg04-zone-02.",
+      "Secondary lead points toward Catacombs 2."
+    ]
+  },
+  {
+    "questId": "q-0039",
+    "kingdomId": "kg04",
+    "title": "Expedition: Rainforest 3",
+    "type": "Expedition",
+    "tier": 3,
+    "issuerNpcId": "npc-0096",
+    "issuerName": "Selene Dawnstrider",
+    "location": "Rainforest 3",
+    "biomeType": "Rainforest",
+    "objective": "Chart unmapped territory",
+    "reward": "Maps and exploration rights",
+    "hooks": [
+      "Rumors started in Drakmere.",
+      "Threat confirmed around kg04-zone-03.",
+      "Secondary lead points toward Magma Hollow 3."
+    ]
+  },
+  {
+    "questId": "q-0040",
+    "kingdomId": "kg04",
+    "title": "Escort: Wetland 4",
+    "type": "Escort",
+    "tier": 4,
+    "issuerNpcId": "npc-0098",
+    "issuerName": "Torin Frostmere",
+    "location": "Wetland 4",
+    "biomeType": "Wetland",
+    "objective": "Protect a caravan between settlements",
+    "reward": "Trade access and gold",
+    "hooks": [
+      "Rumors started in Drakmere.",
+      "Threat confirmed around kg04-zone-04.",
+      "Secondary lead points toward Shadow Rift 4."
+    ]
+  },
+  {
+    "questId": "q-0041",
+    "kingdomId": "kg04",
+    "title": "Defense: Tundra 5",
+    "type": "Defense",
+    "tier": 5,
+    "issuerNpcId": "npc-0100",
+    "issuerName": "Aelar Holloway",
+    "location": "Tundra 5",
+    "biomeType": "Tundra",
+    "objective": "Hold a frontier outpost against waves",
+    "reward": "Land grant and title",
+    "hooks": [
+      "Rumors started in Drakmere.",
+      "Threat confirmed around kg04-zone-05.",
+      "Secondary lead points toward Cavern 5."
+    ]
+  },
+  {
+    "questId": "q-0042",
+    "kingdomId": "kg04",
+    "title": "Expedition: Glacier 6",
+    "type": "Expedition",
+    "tier": 1,
+    "issuerNpcId": "npc-0102",
+    "issuerName": "Eldrin Lightfoot",
+    "location": "Glacier 6",
+    "biomeType": "Glacier",
+    "objective": "Chart unmapped territory",
+    "reward": "Maps and exploration rights",
+    "hooks": [
+      "Rumors started in Drakmere.",
+      "Threat confirmed around kg04-zone-06.",
+      "Secondary lead points toward Underdark 6."
+    ]
+  },
+  {
+    "questId": "q-0043",
+    "kingdomId": "kg04",
+    "title": "Escort: Cavern 7",
+    "type": "Escort",
+    "tier": 2,
+    "issuerNpcId": "npc-0104",
+    "issuerName": "Fiora Nightrun",
+    "location": "Cavern 7",
+    "biomeType": "Cavern",
+    "objective": "Protect a caravan between settlements",
+    "reward": "Trade access and gold",
+    "hooks": [
+      "Rumors started in Drakmere.",
+      "Threat confirmed around kg04-zone-07.",
+      "Secondary lead points toward Underdark 1."
+    ]
+  },
+  {
+    "questId": "q-0044",
+    "kingdomId": "kg04",
+    "title": "Defense: Underdark 8",
+    "type": "Defense",
+    "tier": 3,
+    "issuerNpcId": "npc-0106",
+    "issuerName": "Garrik Proudmoore",
+    "location": "Underdark 8",
+    "biomeType": "Underdark",
+    "objective": "Hold a frontier outpost against waves",
+    "reward": "Land grant and title",
+    "hooks": [
+      "Rumors started in Drakmere.",
+      "Threat confirmed around kg04-zone-08.",
+      "Secondary lead points toward Catacombs 2."
+    ]
+  },
+  {
+    "questId": "q-0045",
+    "kingdomId": "kg04",
+    "title": "Expedition: Forest 9",
+    "type": "Expedition",
+    "tier": 4,
+    "issuerNpcId": "npc-0108",
+    "issuerName": "Kael Thornfield",
+    "location": "Forest 9",
+    "biomeType": "Forest",
+    "objective": "Chart unmapped territory",
+    "reward": "Maps and exploration rights",
+    "hooks": [
+      "Rumors started in Drakmere.",
+      "Threat confirmed around kg04-zone-09.",
+      "Secondary lead points toward Magma Hollow 3."
+    ]
+  },
+  {
+    "questId": "q-0046",
+    "kingdomId": "kg04",
+    "title": "Escort: Grassland 10",
+    "type": "Escort",
+    "tier": 5,
+    "issuerNpcId": "npc-0083",
+    "issuerName": "Eldrin Frostmere",
+    "location": "Grassland 10",
+    "biomeType": "Grassland",
+    "objective": "Protect a caravan between settlements",
+    "reward": "Trade access and gold",
+    "hooks": [
+      "Rumors started in Drakmere.",
+      "Threat confirmed around kg04-zone-10.",
+      "Secondary lead points toward Shadow Rift 4."
+    ]
+  },
+  {
+    "questId": "q-0047",
+    "kingdomId": "kg04",
+    "title": "Defense: Hills 11",
+    "type": "Defense",
+    "tier": 1,
+    "issuerNpcId": "npc-0085",
+    "issuerName": "Fiora Holloway",
+    "location": "Hills 11",
+    "biomeType": "Hills",
+    "objective": "Hold a frontier outpost against waves",
+    "reward": "Land grant and title",
+    "hooks": [
+      "Rumors started in Drakmere.",
+      "Threat confirmed around kg04-zone-11.",
+      "Secondary lead points toward Cavern 5."
+    ]
+  },
+  {
+    "questId": "q-0048",
+    "kingdomId": "kg04",
+    "title": "Expedition: Mountain 12",
+    "type": "Expedition",
+    "tier": 2,
+    "issuerNpcId": "npc-0087",
+    "issuerName": "Joran Lightfoot",
+    "location": "Mountain 12",
+    "biomeType": "Mountain",
+    "objective": "Chart unmapped territory",
+    "reward": "Maps and exploration rights",
+    "hooks": [
+      "Rumors started in Drakmere.",
+      "Threat confirmed around kg04-zone-12.",
+      "Secondary lead points toward Underdark 6."
+    ]
+  },
+  {
+    "questId": "q-0049",
+    "kingdomId": "kg05",
+    "title": "Escort: Savanna 1",
+    "type": "Escort",
+    "tier": 1,
+    "issuerNpcId": "npc-0131",
+    "issuerName": "Marek Ashford",
+    "location": "Savanna 1",
+    "biomeType": "Savanna",
+    "objective": "Protect a caravan between settlements",
+    "reward": "Trade access and gold",
+    "hooks": [
+      "Rumors started in Eldcrest.",
+      "Threat confirmed around kg05-zone-01.",
+      "Secondary lead points toward Magma Hollow 1."
+    ]
+  },
+  {
+    "questId": "q-0050",
+    "kingdomId": "kg05",
+    "title": "Defense: Rainforest 2",
+    "type": "Defense",
+    "tier": 2,
+    "issuerNpcId": "npc-0133",
+    "issuerName": "Neris Crowley",
+    "location": "Rainforest 2",
+    "biomeType": "Rainforest",
+    "objective": "Hold a frontier outpost against waves",
+    "reward": "Land grant and title",
+    "hooks": [
+      "Rumors started in Eldcrest.",
+      "Threat confirmed around kg05-zone-02.",
+      "Secondary lead points toward Shadow Rift 2."
+    ]
+  },
+  {
+    "questId": "q-0051",
+    "kingdomId": "kg05",
+    "title": "Expedition: Wetland 3",
+    "type": "Expedition",
+    "tier": 3,
+    "issuerNpcId": "npc-0135",
+    "issuerName": "Riven Glimmerveil",
+    "location": "Wetland 3",
+    "biomeType": "Wetland",
+    "objective": "Chart unmapped territory",
+    "reward": "Maps and exploration rights",
+    "hooks": [
+      "Rumors started in Eldcrest.",
+      "Threat confirmed around kg05-zone-03.",
+      "Secondary lead points toward Cavern 3."
+    ]
+  },
+  {
+    "questId": "q-0052",
+    "kingdomId": "kg05",
+    "title": "Escort: Tundra 4",
+    "type": "Escort",
+    "tier": 4,
+    "issuerNpcId": "npc-0110",
+    "issuerName": "Lyra Moonwhisper",
+    "location": "Tundra 4",
+    "biomeType": "Tundra",
+    "objective": "Protect a caravan between settlements",
+    "reward": "Trade access and gold",
+    "hooks": [
+      "Rumors started in Eldcrest.",
+      "Threat confirmed around kg05-zone-04.",
+      "Secondary lead points toward Underdark 4."
+    ]
+  },
+  {
+    "questId": "q-0053",
+    "kingdomId": "kg05",
+    "title": "Defense: Glacier 5",
+    "type": "Defense",
+    "tier": 5,
+    "issuerNpcId": "npc-0112",
+    "issuerName": "Marek Oakenshield",
+    "location": "Glacier 5",
+    "biomeType": "Glacier",
+    "objective": "Hold a frontier outpost against waves",
+    "reward": "Land grant and title",
+    "hooks": [
+      "Rumors started in Eldcrest.",
+      "Threat confirmed around kg05-zone-05.",
+      "Secondary lead points toward Catacombs 5."
+    ]
+  },
+  {
+    "questId": "q-0054",
+    "kingdomId": "kg05",
+    "title": "Expedition: Cavern 6",
+    "type": "Expedition",
+    "tier": 1,
+    "issuerNpcId": "npc-0114",
+    "issuerName": "Quin Stormborn",
+    "location": "Cavern 6",
+    "biomeType": "Cavern",
+    "objective": "Chart unmapped territory",
+    "reward": "Maps and exploration rights",
+    "hooks": [
+      "Rumors started in Eldcrest.",
+      "Threat confirmed around kg05-zone-06.",
+      "Secondary lead points toward Magma Hollow 6."
+    ]
+  },
+  {
+    "questId": "q-0055",
+    "kingdomId": "kg05",
+    "title": "Escort: Underdark 7",
+    "type": "Escort",
+    "tier": 2,
+    "issuerNpcId": "npc-0116",
+    "issuerName": "Riven Ashford",
+    "location": "Underdark 7",
+    "biomeType": "Underdark",
+    "objective": "Protect a caravan between settlements",
+    "reward": "Trade access and gold",
+    "hooks": [
+      "Rumors started in Eldcrest.",
+      "Threat confirmed around kg05-zone-07.",
+      "Secondary lead points toward Magma Hollow 1."
+    ]
+  },
+  {
+    "questId": "q-0056",
+    "kingdomId": "kg05",
+    "title": "Defense: Forest 8",
+    "type": "Defense",
+    "tier": 3,
+    "issuerNpcId": "npc-0118",
+    "issuerName": "Selene Crowley",
+    "location": "Forest 8",
+    "biomeType": "Forest",
+    "objective": "Hold a frontier outpost against waves",
+    "reward": "Land grant and title",
+    "hooks": [
+      "Rumors started in Eldcrest.",
+      "Threat confirmed around kg05-zone-08.",
+      "Secondary lead points toward Shadow Rift 2."
+    ]
+  },
+  {
+    "questId": "q-0057",
+    "kingdomId": "kg05",
+    "title": "Expedition: Grassland 9",
+    "type": "Expedition",
+    "tier": 4,
+    "issuerNpcId": "npc-0120",
+    "issuerName": "Corin Glimmerveil",
+    "location": "Grassland 9",
+    "biomeType": "Grassland",
+    "objective": "Chart unmapped territory",
+    "reward": "Maps and exploration rights",
+    "hooks": [
+      "Rumors started in Eldcrest.",
+      "Threat confirmed around kg05-zone-09.",
+      "Secondary lead points toward Cavern 3."
+    ]
+  },
+  {
+    "questId": "q-0058",
+    "kingdomId": "kg05",
+    "title": "Escort: Hills 10",
+    "type": "Escort",
+    "tier": 5,
+    "issuerNpcId": "npc-0122",
+    "issuerName": "Dara Ironwood",
+    "location": "Hills 10",
+    "biomeType": "Hills",
+    "objective": "Protect a caravan between settlements",
+    "reward": "Trade access and gold",
+    "hooks": [
+      "Rumors started in Eldcrest.",
+      "Threat confirmed around kg05-zone-10.",
+      "Secondary lead points toward Underdark 4."
+    ]
+  },
+  {
+    "questId": "q-0059",
+    "kingdomId": "kg05",
+    "title": "Defense: Mountain 11",
+    "type": "Defense",
+    "tier": 1,
+    "issuerNpcId": "npc-0124",
+    "issuerName": "Eldrin Keenblade",
+    "location": "Mountain 11",
+    "biomeType": "Mountain",
+    "objective": "Hold a frontier outpost against waves",
+    "reward": "Land grant and title",
+    "hooks": [
+      "Rumors started in Eldcrest.",
+      "Threat confirmed around kg05-zone-11.",
+      "Secondary lead points toward Catacombs 5."
+    ]
+  },
+  {
+    "questId": "q-0060",
+    "kingdomId": "kg05",
+    "title": "Expedition: Desert 12",
+    "type": "Expedition",
+    "tier": 2,
+    "issuerNpcId": "npc-0126",
+    "issuerName": "Iris Oakenshield",
+    "location": "Desert 12",
+    "biomeType": "Desert",
+    "objective": "Chart unmapped territory",
+    "reward": "Maps and exploration rights",
+    "hooks": [
+      "Rumors started in Eldcrest.",
+      "Threat confirmed around kg05-zone-12.",
+      "Secondary lead points toward Magma Hollow 6."
+    ]
+  },
+  {
+    "questId": "q-0061",
+    "kingdomId": "kg06",
+    "title": "Escort: Wetland 1",
+    "type": "Escort",
+    "tier": 1,
+    "issuerNpcId": "npc-0143",
+    "issuerName": "Eldrin Holloway",
+    "location": "Wetland 1",
+    "biomeType": "Wetland",
+    "objective": "Protect a caravan between settlements",
+    "reward": "Trade access and gold",
+    "hooks": [
+      "Rumors started in Falvale.",
+      "Threat confirmed around kg06-zone-01.",
+      "Secondary lead points toward Cavern 1."
+    ]
+  },
+  {
+    "questId": "q-0062",
+    "kingdomId": "kg06",
+    "title": "Defense: Tundra 2",
+    "type": "Defense",
+    "tier": 2,
+    "issuerNpcId": "npc-0145",
+    "issuerName": "Fiora Jadebrook",
+    "location": "Tundra 2",
+    "biomeType": "Tundra",
+    "objective": "Hold a frontier outpost against waves",
+    "reward": "Land grant and title",
+    "hooks": [
+      "Rumors started in Falvale.",
+      "Threat confirmed around kg06-zone-02.",
+      "Secondary lead points toward Underdark 2."
+    ]
+  },
+  {
+    "questId": "q-0063",
+    "kingdomId": "kg06",
+    "title": "Expedition: Glacier 3",
+    "type": "Expedition",
+    "tier": 3,
+    "issuerNpcId": "npc-0147",
+    "issuerName": "Joran Nightrun",
+    "location": "Glacier 3",
+    "biomeType": "Glacier",
+    "objective": "Chart unmapped territory",
+    "reward": "Maps and exploration rights",
+    "hooks": [
+      "Rumors started in Falvale.",
+      "Threat confirmed around kg06-zone-03.",
+      "Secondary lead points toward Catacombs 3."
+    ]
+  },
+  {
+    "questId": "q-0064",
+    "kingdomId": "kg06",
+    "title": "Escort: Cavern 4",
+    "type": "Escort",
+    "tier": 4,
+    "issuerNpcId": "npc-0149",
+    "issuerName": "Kael Proudmoore",
+    "location": "Cavern 4",
+    "biomeType": "Cavern",
+    "objective": "Protect a caravan between settlements",
+    "reward": "Trade access and gold",
+    "hooks": [
+      "Rumors started in Falvale.",
+      "Threat confirmed around kg06-zone-04.",
+      "Secondary lead points toward Magma Hollow 4."
+    ]
+  },
+  {
+    "questId": "q-0065",
+    "kingdomId": "kg06",
+    "title": "Defense: Underdark 5",
+    "type": "Defense",
+    "tier": 5,
+    "issuerNpcId": "npc-0151",
+    "issuerName": "Lyra Ravencrest",
+    "location": "Underdark 5",
+    "biomeType": "Underdark",
+    "objective": "Hold a frontier outpost against waves",
+    "reward": "Land grant and title",
+    "hooks": [
+      "Rumors started in Falvale.",
+      "Threat confirmed around kg06-zone-05.",
+      "Secondary lead points toward Shadow Rift 5."
+    ]
+  },
+  {
+    "questId": "q-0066",
+    "kingdomId": "kg06",
+    "title": "Expedition: Forest 6",
+    "type": "Expedition",
+    "tier": 1,
+    "issuerNpcId": "npc-0153",
+    "issuerName": "Pyria Blackbriar",
+    "location": "Forest 6",
+    "biomeType": "Forest",
+    "objective": "Chart unmapped territory",
+    "reward": "Maps and exploration rights",
+    "hooks": [
+      "Rumors started in Falvale.",
+      "Threat confirmed around kg06-zone-06.",
+      "Secondary lead points toward Cavern 6."
+    ]
+  },
+  {
+    "questId": "q-0067",
+    "kingdomId": "kg06",
+    "title": "Escort: Grassland 7",
+    "type": "Escort",
+    "tier": 2,
+    "issuerNpcId": "npc-0155",
+    "issuerName": "Quin Dawnstrider",
+    "location": "Grassland 7",
+    "biomeType": "Grassland",
+    "objective": "Protect a caravan between settlements",
+    "reward": "Trade access and gold",
+    "hooks": [
+      "Rumors started in Falvale.",
+      "Threat confirmed around kg06-zone-07.",
+      "Secondary lead points toward Cavern 1."
+    ]
+  },
+  {
+    "questId": "q-0068",
+    "kingdomId": "kg06",
+    "title": "Defense: Hills 8",
+    "type": "Defense",
+    "tier": 3,
+    "issuerNpcId": "npc-0157",
+    "issuerName": "Riven Frostmere",
+    "location": "Hills 8",
+    "biomeType": "Hills",
+    "objective": "Hold a frontier outpost against waves",
+    "reward": "Land grant and title",
+    "hooks": [
+      "Rumors started in Falvale.",
+      "Threat confirmed around kg06-zone-08.",
+      "Secondary lead points toward Underdark 2."
+    ]
+  },
+  {
+    "questId": "q-0069",
+    "kingdomId": "kg06",
+    "title": "Expedition: Mountain 9",
+    "type": "Expedition",
+    "tier": 4,
+    "issuerNpcId": "npc-0159",
+    "issuerName": "Brina Jadebrook",
+    "location": "Mountain 9",
+    "biomeType": "Mountain",
+    "objective": "Chart unmapped territory",
+    "reward": "Maps and exploration rights",
+    "hooks": [
+      "Rumors started in Falvale.",
+      "Threat confirmed around kg06-zone-09.",
+      "Secondary lead points toward Catacombs 3."
+    ]
+  },
+  {
+    "questId": "q-0070",
+    "kingdomId": "kg06",
+    "title": "Escort: Desert 10",
+    "type": "Escort",
+    "tier": 5,
+    "issuerNpcId": "npc-0161",
+    "issuerName": "Corin Lightfoot",
+    "location": "Desert 10",
+    "biomeType": "Desert",
+    "objective": "Protect a caravan between settlements",
+    "reward": "Trade access and gold",
+    "hooks": [
+      "Rumors started in Falvale.",
+      "Threat confirmed around kg06-zone-10.",
+      "Secondary lead points toward Magma Hollow 4."
+    ]
+  },
+  {
+    "questId": "q-0071",
+    "kingdomId": "kg06",
+    "title": "Defense: Badlands 11",
+    "type": "Defense",
+    "tier": 1,
+    "issuerNpcId": "npc-0136",
+    "issuerName": "Quin Ravencrest",
+    "location": "Badlands 11",
+    "biomeType": "Badlands",
+    "objective": "Hold a frontier outpost against waves",
+    "reward": "Land grant and title",
+    "hooks": [
+      "Rumors started in Falvale.",
+      "Threat confirmed around kg06-zone-11.",
+      "Secondary lead points toward Shadow Rift 5."
+    ]
+  },
+  {
+    "questId": "q-0072",
+    "kingdomId": "kg06",
+    "title": "Expedition: Savanna 12",
+    "type": "Expedition",
+    "tier": 2,
+    "issuerNpcId": "npc-0138",
+    "issuerName": "Aelar Blackbriar",
+    "location": "Savanna 12",
+    "biomeType": "Savanna",
+    "objective": "Chart unmapped territory",
+    "reward": "Maps and exploration rights",
+    "hooks": [
+      "Rumors started in Falvale.",
+      "Threat confirmed around kg06-zone-12.",
+      "Secondary lead points toward Cavern 6."
+    ]
+  },
+  {
+    "questId": "q-0073",
+    "kingdomId": "kg07",
+    "title": "Escort: Glacier 1",
+    "type": "Escort",
+    "tier": 1,
+    "issuerNpcId": "npc-0182",
+    "issuerName": "Dara Keenblade",
+    "location": "Glacier 1",
+    "biomeType": "Glacier",
+    "objective": "Protect a caravan between settlements",
+    "reward": "Trade access and gold",
+    "hooks": [
+      "Rumors started in Galhaven.",
+      "Threat confirmed around kg07-zone-01.",
+      "Secondary lead points toward Catacombs 1."
+    ]
+  },
+  {
+    "questId": "q-0074",
+    "kingdomId": "kg07",
+    "title": "Defense: Cavern 2",
+    "type": "Defense",
+    "tier": 2,
+    "issuerNpcId": "npc-0184",
+    "issuerName": "Eldrin Moonwhisper",
+    "location": "Cavern 2",
+    "biomeType": "Cavern",
+    "objective": "Hold a frontier outpost against waves",
+    "reward": "Land grant and title",
+    "hooks": [
+      "Rumors started in Galhaven.",
+      "Threat confirmed around kg07-zone-02.",
+      "Secondary lead points toward Magma Hollow 2."
+    ]
+  },
+  {
+    "questId": "q-0075",
+    "kingdomId": "kg07",
+    "title": "Expedition: Underdark 3",
+    "type": "Expedition",
+    "tier": 3,
+    "issuerNpcId": "npc-0186",
+    "issuerName": "Iris Quickwater",
+    "location": "Underdark 3",
+    "biomeType": "Underdark",
+    "objective": "Chart unmapped territory",
+    "reward": "Maps and exploration rights",
+    "hooks": [
+      "Rumors started in Galhaven.",
+      "Threat confirmed around kg07-zone-03.",
+      "Secondary lead points toward Shadow Rift 3."
+    ]
+  },
+  {
+    "questId": "q-0076",
+    "kingdomId": "kg07",
+    "title": "Escort: Forest 4",
+    "type": "Escort",
+    "tier": 4,
+    "issuerNpcId": "npc-0188",
+    "issuerName": "Joran Stormborn",
+    "location": "Forest 4",
+    "biomeType": "Forest",
+    "objective": "Protect a caravan between settlements",
+    "reward": "Trade access and gold",
+    "hooks": [
+      "Rumors started in Galhaven.",
+      "Threat confirmed around kg07-zone-04.",
+      "Secondary lead points toward Cavern 4."
+    ]
+  },
+  {
+    "questId": "q-0077",
+    "kingdomId": "kg07",
+    "title": "Defense: Grassland 5",
+    "type": "Defense",
+    "tier": 5,
+    "issuerNpcId": "npc-0163",
+    "issuerName": "Dara Emberfall",
+    "location": "Grassland 5",
+    "biomeType": "Grassland",
+    "objective": "Hold a frontier outpost against waves",
+    "reward": "Land grant and title",
+    "hooks": [
+      "Rumors started in Galhaven.",
+      "Threat confirmed around kg07-zone-05.",
+      "Secondary lead points toward Underdark 5."
+    ]
+  },
+  {
+    "questId": "q-0078",
+    "kingdomId": "kg07",
+    "title": "Expedition: Hills 6",
+    "type": "Expedition",
+    "tier": 1,
+    "issuerNpcId": "npc-0165",
+    "issuerName": "Helia Ironwood",
+    "location": "Hills 6",
+    "biomeType": "Hills",
+    "objective": "Chart unmapped territory",
+    "reward": "Maps and exploration rights",
+    "hooks": [
+      "Rumors started in Galhaven.",
+      "Threat confirmed around kg07-zone-06.",
+      "Secondary lead points toward Catacombs 6."
+    ]
+  },
+  {
+    "questId": "q-0079",
+    "kingdomId": "kg07",
+    "title": "Escort: Mountain 7",
+    "type": "Escort",
+    "tier": 2,
+    "issuerNpcId": "npc-0167",
+    "issuerName": "Iris Keenblade",
+    "location": "Mountain 7",
+    "biomeType": "Mountain",
+    "objective": "Protect a caravan between settlements",
+    "reward": "Trade access and gold",
+    "hooks": [
+      "Rumors started in Galhaven.",
+      "Threat confirmed around kg07-zone-07.",
+      "Secondary lead points toward Catacombs 1."
+    ]
+  },
+  {
+    "questId": "q-0080",
+    "kingdomId": "kg07",
+    "title": "Defense: Desert 8",
+    "type": "Defense",
+    "tier": 3,
+    "issuerNpcId": "npc-0169",
+    "issuerName": "Joran Moonwhisper",
+    "location": "Desert 8",
+    "biomeType": "Desert",
+    "objective": "Hold a frontier outpost against waves",
+    "reward": "Land grant and title",
+    "hooks": [
+      "Rumors started in Galhaven.",
+      "Threat confirmed around kg07-zone-08.",
+      "Secondary lead points toward Magma Hollow 2."
+    ]
+  },
+  {
+    "questId": "q-0081",
+    "kingdomId": "kg07",
+    "title": "Expedition: Badlands 9",
+    "type": "Expedition",
+    "tier": 4,
+    "issuerNpcId": "npc-0171",
+    "issuerName": "Neris Quickwater",
+    "location": "Badlands 9",
+    "biomeType": "Badlands",
+    "objective": "Chart unmapped territory",
+    "reward": "Maps and exploration rights",
+    "hooks": [
+      "Rumors started in Galhaven.",
+      "Threat confirmed around kg07-zone-09.",
+      "Secondary lead points toward Shadow Rift 3."
+    ]
+  },
+  {
+    "questId": "q-0082",
+    "kingdomId": "kg07",
+    "title": "Escort: Savanna 10",
+    "type": "Escort",
+    "tier": 5,
+    "issuerNpcId": "npc-0173",
+    "issuerName": "Orin Stormborn",
+    "location": "Savanna 10",
+    "biomeType": "Savanna",
+    "objective": "Protect a caravan between settlements",
+    "reward": "Trade access and gold",
+    "hooks": [
+      "Rumors started in Galhaven.",
+      "Threat confirmed around kg07-zone-10.",
+      "Secondary lead points toward Cavern 4."
+    ]
+  },
+  {
+    "questId": "q-0083",
+    "kingdomId": "kg07",
+    "title": "Defense: Rainforest 11",
+    "type": "Defense",
+    "tier": 1,
+    "issuerNpcId": "npc-0175",
+    "issuerName": "Pyria Ashford",
+    "location": "Rainforest 11",
+    "biomeType": "Rainforest",
+    "objective": "Hold a frontier outpost against waves",
+    "reward": "Land grant and title",
+    "hooks": [
+      "Rumors started in Galhaven.",
+      "Threat confirmed around kg07-zone-11.",
+      "Secondary lead points toward Underdark 5."
+    ]
+  },
+  {
+    "questId": "q-0084",
+    "kingdomId": "kg07",
+    "title": "Expedition: Wetland 12",
+    "type": "Expedition",
+    "tier": 2,
+    "issuerNpcId": "npc-0177",
+    "issuerName": "Torin Emberfall",
+    "location": "Wetland 12",
+    "biomeType": "Wetland",
+    "objective": "Chart unmapped territory",
+    "reward": "Maps and exploration rights",
+    "hooks": [
+      "Rumors started in Galhaven.",
+      "Threat confirmed around kg07-zone-12.",
+      "Secondary lead points toward Catacombs 6."
+    ]
+  },
+  {
+    "questId": "q-0085",
+    "kingdomId": "kg08",
+    "title": "Escort: Cavern 1",
+    "type": "Escort",
+    "tier": 1,
+    "issuerNpcId": "npc-0194",
+    "issuerName": "Pyria Ravencrest",
+    "location": "Cavern 1",
+    "biomeType": "Cavern",
+    "objective": "Protect a caravan between settlements",
+    "reward": "Trade access and gold",
+    "hooks": [
+      "Rumors started in Halspire.",
+      "Threat confirmed around kg08-zone-01.",
+      "Secondary lead points toward Shadow Rift 1."
+    ]
+  },
+  {
+    "questId": "q-0086",
+    "kingdomId": "kg08",
+    "title": "Defense: Underdark 2",
+    "type": "Defense",
+    "tier": 2,
+    "issuerNpcId": "npc-0196",
+    "issuerName": "Quin Thornfield",
+    "location": "Underdark 2",
+    "biomeType": "Underdark",
+    "objective": "Hold a frontier outpost against waves",
+    "reward": "Land grant and title",
+    "hooks": [
+      "Rumors started in Halspire.",
+      "Threat confirmed around kg08-zone-02.",
+      "Secondary lead points toward Cavern 2."
+    ]
+  },
+  {
+    "questId": "q-0087",
+    "kingdomId": "kg08",
+    "title": "Expedition: Forest 3",
+    "type": "Expedition",
+    "tier": 3,
+    "issuerNpcId": "npc-0198",
+    "issuerName": "Aelar Dawnstrider",
+    "location": "Forest 3",
+    "biomeType": "Forest",
+    "objective": "Chart unmapped territory",
+    "reward": "Maps and exploration rights",
+    "hooks": [
+      "Rumors started in Halspire.",
+      "Threat confirmed around kg08-zone-03.",
+      "Secondary lead points toward Underdark 3."
+    ]
+  },
+  {
+    "questId": "q-0088",
+    "kingdomId": "kg08",
+    "title": "Escort: Grassland 4",
+    "type": "Escort",
+    "tier": 4,
+    "issuerNpcId": "npc-0200",
+    "issuerName": "Brina Frostmere",
+    "location": "Grassland 4",
+    "biomeType": "Grassland",
+    "objective": "Protect a caravan between settlements",
+    "reward": "Trade access and gold",
+    "hooks": [
+      "Rumors started in Halspire.",
+      "Threat confirmed around kg08-zone-04.",
+      "Secondary lead points toward Catacombs 4."
+    ]
+  },
+  {
+    "questId": "q-0089",
+    "kingdomId": "kg08",
+    "title": "Defense: Hills 5",
+    "type": "Defense",
+    "tier": 5,
+    "issuerNpcId": "npc-0202",
+    "issuerName": "Corin Holloway",
+    "location": "Hills 5",
+    "biomeType": "Hills",
+    "objective": "Hold a frontier outpost against waves",
+    "reward": "Land grant and title",
+    "hooks": [
+      "Rumors started in Halspire.",
+      "Threat confirmed around kg08-zone-05.",
+      "Secondary lead points toward Magma Hollow 5."
+    ]
+  },
+  {
+    "questId": "q-0090",
+    "kingdomId": "kg08",
+    "title": "Expedition: Mountain 6",
+    "type": "Expedition",
+    "tier": 1,
+    "issuerNpcId": "npc-0204",
+    "issuerName": "Garrik Lightfoot",
+    "location": "Mountain 6",
+    "biomeType": "Mountain",
+    "objective": "Chart unmapped territory",
+    "reward": "Maps and exploration rights",
+    "hooks": [
+      "Rumors started in Halspire.",
+      "Threat confirmed around kg08-zone-06.",
+      "Secondary lead points toward Shadow Rift 6."
+    ]
+  },
+  {
+    "questId": "q-0091",
+    "kingdomId": "kg08",
+    "title": "Escort: Desert 7",
+    "type": "Escort",
+    "tier": 2,
+    "issuerNpcId": "npc-0206",
+    "issuerName": "Helia Nightrun",
+    "location": "Desert 7",
+    "biomeType": "Desert",
+    "objective": "Protect a caravan between settlements",
+    "reward": "Trade access and gold",
+    "hooks": [
+      "Rumors started in Halspire.",
+      "Threat confirmed around kg08-zone-07.",
+      "Secondary lead points toward Shadow Rift 1."
+    ]
+  },
+  {
+    "questId": "q-0092",
+    "kingdomId": "kg08",
+    "title": "Defense: Badlands 8",
+    "type": "Defense",
+    "tier": 3,
+    "issuerNpcId": "npc-0208",
+    "issuerName": "Iris Proudmoore",
+    "location": "Badlands 8",
+    "biomeType": "Badlands",
+    "objective": "Hold a frontier outpost against waves",
+    "reward": "Land grant and title",
+    "hooks": [
+      "Rumors started in Halspire.",
+      "Threat confirmed around kg08-zone-08.",
+      "Secondary lead points toward Cavern 2."
+    ]
+  },
+  {
+    "questId": "q-0093",
+    "kingdomId": "kg08",
+    "title": "Expedition: Savanna 9",
+    "type": "Expedition",
+    "tier": 4,
+    "issuerNpcId": "npc-0210",
+    "issuerName": "Marek Thornfield",
+    "location": "Savanna 9",
+    "biomeType": "Savanna",
+    "objective": "Chart unmapped territory",
+    "reward": "Maps and exploration rights",
+    "hooks": [
+      "Rumors started in Halspire.",
+      "Threat confirmed around kg08-zone-09.",
+      "Secondary lead points toward Underdark 3."
+    ]
+  },
+  {
+    "questId": "q-0094",
+    "kingdomId": "kg08",
+    "title": "Escort: Rainforest 10",
+    "type": "Escort",
+    "tier": 5,
+    "issuerNpcId": "npc-0212",
+    "issuerName": "Neris Blackbriar",
+    "location": "Rainforest 10",
+    "biomeType": "Rainforest",
+    "objective": "Protect a caravan between settlements",
+    "reward": "Trade access and gold",
+    "hooks": [
+      "Rumors started in Halspire.",
+      "Threat confirmed around kg08-zone-10.",
+      "Secondary lead points toward Catacombs 4."
+    ]
+  },
+  {
+    "questId": "q-0095",
+    "kingdomId": "kg08",
+    "title": "Defense: Wetland 11",
+    "type": "Defense",
+    "tier": 1,
+    "issuerNpcId": "npc-0214",
+    "issuerName": "Orin Dawnstrider",
+    "location": "Wetland 11",
+    "biomeType": "Wetland",
+    "objective": "Hold a frontier outpost against waves",
+    "reward": "Land grant and title",
+    "hooks": [
+      "Rumors started in Halspire.",
+      "Threat confirmed around kg08-zone-11.",
+      "Secondary lead points toward Magma Hollow 5."
+    ]
+  },
+  {
+    "questId": "q-0096",
+    "kingdomId": "kg08",
+    "title": "Expedition: Tundra 12",
+    "type": "Expedition",
+    "tier": 2,
+    "issuerNpcId": "npc-0216",
+    "issuerName": "Selene Holloway",
+    "location": "Tundra 12",
+    "biomeType": "Tundra",
+    "objective": "Chart unmapped territory",
+    "reward": "Maps and exploration rights",
+    "hooks": [
+      "Rumors started in Halspire.",
+      "Threat confirmed around kg08-zone-12.",
+      "Secondary lead points toward Shadow Rift 6."
+    ]
+  },
+  {
+    "questId": "q-0097",
+    "kingdomId": "kg09",
+    "title": "Escort: Forest 1",
+    "type": "Escort",
+    "tier": 1,
+    "issuerNpcId": "npc-0233",
+    "issuerName": "Orin Ashford",
+    "location": "Forest 1",
+    "biomeType": "Forest",
+    "objective": "Protect a caravan between settlements",
+    "reward": "Trade access and gold",
+    "hooks": [
+      "Rumors started in Ithford.",
+      "Threat confirmed around kg09-zone-01.",
+      "Secondary lead points toward Underdark 1."
+    ]
+  },
+  {
+    "questId": "q-0098",
+    "kingdomId": "kg09",
+    "title": "Defense: Grassland 2",
+    "type": "Defense",
+    "tier": 2,
+    "issuerNpcId": "npc-0235",
+    "issuerName": "Pyria Crowley",
+    "location": "Grassland 2",
+    "biomeType": "Grassland",
+    "objective": "Hold a frontier outpost against waves",
+    "reward": "Land grant and title",
+    "hooks": [
+      "Rumors started in Ithford.",
+      "Threat confirmed around kg09-zone-02.",
+      "Secondary lead points toward Catacombs 2."
+    ]
+  },
+  {
+    "questId": "q-0099",
+    "kingdomId": "kg09",
+    "title": "Expedition: Hills 3",
+    "type": "Expedition",
+    "tier": 3,
+    "issuerNpcId": "npc-0237",
+    "issuerName": "Torin Glimmerveil",
+    "location": "Hills 3",
+    "biomeType": "Hills",
+    "objective": "Chart unmapped territory",
+    "reward": "Maps and exploration rights",
+    "hooks": [
+      "Rumors started in Ithford.",
+      "Threat confirmed around kg09-zone-03.",
+      "Secondary lead points toward Magma Hollow 3."
+    ]
+  },
+  {
+    "questId": "q-0100",
+    "kingdomId": "kg09",
+    "title": "Escort: Mountain 4",
+    "type": "Escort",
+    "tier": 4,
+    "issuerNpcId": "npc-0239",
+    "issuerName": "Aelar Ironwood",
+    "location": "Mountain 4",
+    "biomeType": "Mountain",
+    "objective": "Protect a caravan between settlements",
+    "reward": "Trade access and gold",
+    "hooks": [
+      "Rumors started in Ithford.",
+      "Threat confirmed around kg09-zone-04.",
+      "Secondary lead points toward Shadow Rift 4."
+    ]
+  },
+  {
+    "questId": "q-0101",
+    "kingdomId": "kg09",
+    "title": "Defense: Desert 5",
+    "type": "Defense",
+    "tier": 5,
+    "issuerNpcId": "npc-0241",
+    "issuerName": "Brina Keenblade",
+    "location": "Desert 5",
+    "biomeType": "Desert",
+    "objective": "Hold a frontier outpost against waves",
+    "reward": "Land grant and title",
+    "hooks": [
+      "Rumors started in Ithford.",
+      "Threat confirmed around kg09-zone-05.",
+      "Secondary lead points toward Cavern 5."
+    ]
+  },
+  {
+    "questId": "q-0102",
+    "kingdomId": "kg09",
+    "title": "Expedition: Badlands 6",
+    "type": "Expedition",
+    "tier": 1,
+    "issuerNpcId": "npc-0243",
+    "issuerName": "Fiora Oakenshield",
+    "location": "Badlands 6",
+    "biomeType": "Badlands",
+    "objective": "Chart unmapped territory",
+    "reward": "Maps and exploration rights",
+    "hooks": [
+      "Rumors started in Ithford.",
+      "Threat confirmed around kg09-zone-06.",
+      "Secondary lead points toward Underdark 6."
+    ]
+  },
+  {
+    "questId": "q-0103",
+    "kingdomId": "kg09",
+    "title": "Escort: Savanna 7",
+    "type": "Escort",
+    "tier": 2,
+    "issuerNpcId": "npc-0218",
+    "issuerName": "Torin Ashford",
+    "location": "Savanna 7",
+    "biomeType": "Savanna",
+    "objective": "Protect a caravan between settlements",
+    "reward": "Trade access and gold",
+    "hooks": [
+      "Rumors started in Ithford.",
+      "Threat confirmed around kg09-zone-07.",
+      "Secondary lead points toward Underdark 1."
+    ]
+  },
+  {
+    "questId": "q-0104",
+    "kingdomId": "kg09",
+    "title": "Defense: Rainforest 8",
+    "type": "Defense",
+    "tier": 3,
+    "issuerNpcId": "npc-0220",
+    "issuerName": "Aelar Crowley",
+    "location": "Rainforest 8",
+    "biomeType": "Rainforest",
+    "objective": "Hold a frontier outpost against waves",
+    "reward": "Land grant and title",
+    "hooks": [
+      "Rumors started in Ithford.",
+      "Threat confirmed around kg09-zone-08.",
+      "Secondary lead points toward Catacombs 2."
+    ]
+  },
+  {
+    "questId": "q-0105",
+    "kingdomId": "kg09",
+    "title": "Expedition: Wetland 9",
+    "type": "Expedition",
+    "tier": 4,
+    "issuerNpcId": "npc-0222",
+    "issuerName": "Eldrin Glimmerveil",
+    "location": "Wetland 9",
+    "biomeType": "Wetland",
+    "objective": "Chart unmapped territory",
+    "reward": "Maps and exploration rights",
+    "hooks": [
+      "Rumors started in Ithford.",
+      "Threat confirmed around kg09-zone-09.",
+      "Secondary lead points toward Magma Hollow 3."
+    ]
+  },
+  {
+    "questId": "q-0106",
+    "kingdomId": "kg09",
+    "title": "Escort: Tundra 10",
+    "type": "Escort",
+    "tier": 5,
+    "issuerNpcId": "npc-0224",
+    "issuerName": "Fiora Ironwood",
+    "location": "Tundra 10",
+    "biomeType": "Tundra",
+    "objective": "Protect a caravan between settlements",
+    "reward": "Trade access and gold",
+    "hooks": [
+      "Rumors started in Ithford.",
+      "Threat confirmed around kg09-zone-10.",
+      "Secondary lead points toward Shadow Rift 4."
+    ]
+  },
+  {
+    "questId": "q-0107",
+    "kingdomId": "kg09",
+    "title": "Defense: Glacier 11",
+    "type": "Defense",
+    "tier": 1,
+    "issuerNpcId": "npc-0226",
+    "issuerName": "Garrik Keenblade",
+    "location": "Glacier 11",
+    "biomeType": "Glacier",
+    "objective": "Hold a frontier outpost against waves",
+    "reward": "Land grant and title",
+    "hooks": [
+      "Rumors started in Ithford.",
+      "Threat confirmed around kg09-zone-11.",
+      "Secondary lead points toward Cavern 5."
+    ]
+  },
+  {
+    "questId": "q-0108",
+    "kingdomId": "kg09",
+    "title": "Expedition: Cavern 12",
+    "type": "Expedition",
+    "tier": 2,
+    "issuerNpcId": "npc-0228",
+    "issuerName": "Kael Oakenshield",
+    "location": "Cavern 12",
+    "biomeType": "Cavern",
+    "objective": "Chart unmapped territory",
+    "reward": "Maps and exploration rights",
+    "hooks": [
+      "Rumors started in Ithford.",
+      "Threat confirmed around kg09-zone-12.",
+      "Secondary lead points toward Underdark 6."
+    ]
+  },
+  {
+    "questId": "q-0109",
+    "kingdomId": "kg10",
+    "title": "Escort: Hills 1",
+    "type": "Escort",
+    "tier": 1,
+    "issuerNpcId": "npc-0245",
+    "issuerName": "Garrik Holloway",
+    "location": "Hills 1",
+    "biomeType": "Hills",
+    "objective": "Protect a caravan between settlements",
+    "reward": "Trade access and gold",
+    "hooks": [
+      "Rumors started in Jormere.",
+      "Threat confirmed around kg10-zone-01.",
+      "Secondary lead points toward Magma Hollow 1."
+    ]
+  },
+  {
+    "questId": "q-0110",
+    "kingdomId": "kg10",
+    "title": "Defense: Mountain 2",
+    "type": "Defense",
+    "tier": 2,
+    "issuerNpcId": "npc-0247",
+    "issuerName": "Helia Jadebrook",
+    "location": "Mountain 2",
+    "biomeType": "Mountain",
+    "objective": "Hold a frontier outpost against waves",
+    "reward": "Land grant and title",
+    "hooks": [
+      "Rumors started in Jormere.",
+      "Threat confirmed around kg10-zone-02.",
+      "Secondary lead points toward Shadow Rift 2."
+    ]
+  },
+  {
+    "questId": "q-0111",
+    "kingdomId": "kg10",
+    "title": "Expedition: Desert 3",
+    "type": "Expedition",
+    "tier": 3,
+    "issuerNpcId": "npc-0249",
+    "issuerName": "Lyra Nightrun",
+    "location": "Desert 3",
+    "biomeType": "Desert",
+    "objective": "Chart unmapped territory",
+    "reward": "Maps and exploration rights",
+    "hooks": [
+      "Rumors started in Jormere.",
+      "Threat confirmed around kg10-zone-03.",
+      "Secondary lead points toward Cavern 3."
+    ]
+  },
+  {
+    "questId": "q-0112",
+    "kingdomId": "kg10",
+    "title": "Escort: Badlands 4",
+    "type": "Escort",
+    "tier": 4,
+    "issuerNpcId": "npc-0251",
+    "issuerName": "Marek Proudmoore",
+    "location": "Badlands 4",
+    "biomeType": "Badlands",
+    "objective": "Protect a caravan between settlements",
+    "reward": "Trade access and gold",
+    "hooks": [
+      "Rumors started in Jormere.",
+      "Threat confirmed around kg10-zone-04.",
+      "Secondary lead points toward Underdark 4."
+    ]
+  },
+  {
+    "questId": "q-0113",
+    "kingdomId": "kg10",
+    "title": "Defense: Savanna 5",
+    "type": "Defense",
+    "tier": 5,
+    "issuerNpcId": "npc-0253",
+    "issuerName": "Neris Ravencrest",
+    "location": "Savanna 5",
+    "biomeType": "Savanna",
+    "objective": "Hold a frontier outpost against waves",
+    "reward": "Land grant and title",
+    "hooks": [
+      "Rumors started in Jormere.",
+      "Threat confirmed around kg10-zone-05.",
+      "Secondary lead points toward Catacombs 5."
+    ]
+  },
+  {
+    "questId": "q-0114",
+    "kingdomId": "kg10",
+    "title": "Expedition: Rainforest 6",
+    "type": "Expedition",
+    "tier": 1,
+    "issuerNpcId": "npc-0255",
+    "issuerName": "Riven Blackbriar",
+    "location": "Rainforest 6",
+    "biomeType": "Rainforest",
+    "objective": "Chart unmapped territory",
+    "reward": "Maps and exploration rights",
+    "hooks": [
+      "Rumors started in Jormere.",
+      "Threat confirmed around kg10-zone-06.",
+      "Secondary lead points toward Magma Hollow 6."
+    ]
+  },
+  {
+    "questId": "q-0115",
+    "kingdomId": "kg10",
+    "title": "Escort: Wetland 7",
+    "type": "Escort",
+    "tier": 2,
+    "issuerNpcId": "npc-0257",
+    "issuerName": "Selene Dawnstrider",
+    "location": "Wetland 7",
+    "biomeType": "Wetland",
+    "objective": "Protect a caravan between settlements",
+    "reward": "Trade access and gold",
+    "hooks": [
+      "Rumors started in Jormere.",
+      "Threat confirmed around kg10-zone-07.",
+      "Secondary lead points toward Magma Hollow 1."
+    ]
+  },
+  {
+    "questId": "q-0116",
+    "kingdomId": "kg10",
+    "title": "Defense: Tundra 8",
+    "type": "Defense",
+    "tier": 3,
+    "issuerNpcId": "npc-0259",
+    "issuerName": "Torin Frostmere",
+    "location": "Tundra 8",
+    "biomeType": "Tundra",
+    "objective": "Hold a frontier outpost against waves",
+    "reward": "Land grant and title",
+    "hooks": [
+      "Rumors started in Jormere.",
+      "Threat confirmed around kg10-zone-08.",
+      "Secondary lead points toward Shadow Rift 2."
+    ]
+  },
+  {
+    "questId": "q-0117",
+    "kingdomId": "kg10",
+    "title": "Expedition: Glacier 9",
+    "type": "Expedition",
+    "tier": 4,
+    "issuerNpcId": "npc-0261",
+    "issuerName": "Dara Jadebrook",
+    "location": "Glacier 9",
+    "biomeType": "Glacier",
+    "objective": "Chart unmapped territory",
+    "reward": "Maps and exploration rights",
+    "hooks": [
+      "Rumors started in Jormere.",
+      "Threat confirmed around kg10-zone-09.",
+      "Secondary lead points toward Cavern 3."
+    ]
+  },
+  {
+    "questId": "q-0118",
+    "kingdomId": "kg10",
+    "title": "Escort: Cavern 10",
+    "type": "Escort",
+    "tier": 5,
+    "issuerNpcId": "npc-0263",
+    "issuerName": "Eldrin Lightfoot",
+    "location": "Cavern 10",
+    "biomeType": "Cavern",
+    "objective": "Protect a caravan between settlements",
+    "reward": "Trade access and gold",
+    "hooks": [
+      "Rumors started in Jormere.",
+      "Threat confirmed around kg10-zone-10.",
+      "Secondary lead points toward Underdark 4."
+    ]
+  },
+  {
+    "questId": "q-0119",
+    "kingdomId": "kg10",
+    "title": "Defense: Underdark 11",
+    "type": "Defense",
+    "tier": 1,
+    "issuerNpcId": "npc-0265",
+    "issuerName": "Fiora Nightrun",
+    "location": "Underdark 11",
+    "biomeType": "Underdark",
+    "objective": "Hold a frontier outpost against waves",
+    "reward": "Land grant and title",
+    "hooks": [
+      "Rumors started in Jormere.",
+      "Threat confirmed around kg10-zone-11.",
+      "Secondary lead points toward Catacombs 5."
+    ]
+  },
+  {
+    "questId": "q-0120",
+    "kingdomId": "kg10",
+    "title": "Expedition: Forest 12",
+    "type": "Expedition",
+    "tier": 2,
+    "issuerNpcId": "npc-0267",
+    "issuerName": "Joran Ravencrest",
+    "location": "Forest 12",
+    "biomeType": "Forest",
+    "objective": "Chart unmapped territory",
+    "reward": "Maps and exploration rights",
+    "hooks": [
+      "Rumors started in Jormere.",
+      "Threat confirmed around kg10-zone-12.",
+      "Secondary lead points toward Magma Hollow 6."
+    ]
+  },
+  {
+    "questId": "q-0121",
+    "kingdomId": "kg11",
+    "title": "Escort: Mountain 1",
+    "type": "Escort",
+    "tier": 1,
+    "issuerNpcId": "npc-0284",
+    "issuerName": "Fiora Keenblade",
+    "location": "Mountain 1",
+    "biomeType": "Mountain",
+    "objective": "Protect a caravan between settlements",
+    "reward": "Trade access and gold",
+    "hooks": [
+      "Rumors started in Kelcrest.",
+      "Threat confirmed around kg11-zone-01.",
+      "Secondary lead points toward Cavern 1."
+    ]
+  },
+  {
+    "questId": "q-0122",
+    "kingdomId": "kg11",
+    "title": "Defense: Desert 2",
+    "type": "Defense",
+    "tier": 2,
+    "issuerNpcId": "npc-0286",
+    "issuerName": "Garrik Moonwhisper",
+    "location": "Desert 2",
+    "biomeType": "Desert",
+    "objective": "Hold a frontier outpost against waves",
+    "reward": "Land grant and title",
+    "hooks": [
+      "Rumors started in Kelcrest.",
+      "Threat confirmed around kg11-zone-02.",
+      "Secondary lead points toward Underdark 2."
+    ]
+  },
+  {
+    "questId": "q-0123",
+    "kingdomId": "kg11",
+    "title": "Expedition: Badlands 3",
+    "type": "Expedition",
+    "tier": 3,
+    "issuerNpcId": "npc-0288",
+    "issuerName": "Kael Quickwater",
+    "location": "Badlands 3",
+    "biomeType": "Badlands",
+    "objective": "Chart unmapped territory",
+    "reward": "Maps and exploration rights",
+    "hooks": [
+      "Rumors started in Kelcrest.",
+      "Threat confirmed around kg11-zone-03.",
+      "Secondary lead points toward Catacombs 3."
+    ]
+  },
+  {
+    "questId": "q-0124",
+    "kingdomId": "kg11",
+    "title": "Escort: Savanna 4",
+    "type": "Escort",
+    "tier": 4,
+    "issuerNpcId": "npc-0290",
+    "issuerName": "Lyra Stormborn",
+    "location": "Savanna 4",
+    "biomeType": "Savanna",
+    "objective": "Protect a caravan between settlements",
+    "reward": "Trade access and gold",
+    "hooks": [
+      "Rumors started in Kelcrest.",
+      "Threat confirmed around kg11-zone-04.",
+      "Secondary lead points toward Magma Hollow 4."
+    ]
+  },
+  {
+    "questId": "q-0125",
+    "kingdomId": "kg11",
+    "title": "Defense: Rainforest 5",
+    "type": "Defense",
+    "tier": 5,
+    "issuerNpcId": "npc-0292",
+    "issuerName": "Marek Ashford",
+    "location": "Rainforest 5",
+    "biomeType": "Rainforest",
+    "objective": "Hold a frontier outpost against waves",
+    "reward": "Land grant and title",
+    "hooks": [
+      "Rumors started in Kelcrest.",
+      "Threat confirmed around kg11-zone-05.",
+      "Secondary lead points toward Shadow Rift 5."
+    ]
+  },
+  {
+    "questId": "q-0126",
+    "kingdomId": "kg11",
+    "title": "Expedition: Wetland 6",
+    "type": "Expedition",
+    "tier": 1,
+    "issuerNpcId": "npc-0294",
+    "issuerName": "Quin Emberfall",
+    "location": "Wetland 6",
+    "biomeType": "Wetland",
+    "objective": "Chart unmapped territory",
+    "reward": "Maps and exploration rights",
+    "hooks": [
+      "Rumors started in Kelcrest.",
+      "Threat confirmed around kg11-zone-06.",
+      "Secondary lead points toward Cavern 6."
+    ]
+  },
+  {
+    "questId": "q-0127",
+    "kingdomId": "kg11",
+    "title": "Escort: Tundra 7",
+    "type": "Escort",
+    "tier": 2,
+    "issuerNpcId": "npc-0296",
+    "issuerName": "Riven Glimmerveil",
+    "location": "Tundra 7",
+    "biomeType": "Tundra",
+    "objective": "Protect a caravan between settlements",
+    "reward": "Trade access and gold",
+    "hooks": [
+      "Rumors started in Kelcrest.",
+      "Threat confirmed around kg11-zone-07.",
+      "Secondary lead points toward Cavern 1."
+    ]
+  },
+  {
+    "questId": "q-0128",
+    "kingdomId": "kg11",
+    "title": "Defense: Glacier 8",
+    "type": "Defense",
+    "tier": 3,
+    "issuerNpcId": "npc-0271",
+    "issuerName": "Lyra Moonwhisper",
+    "location": "Glacier 8",
+    "biomeType": "Glacier",
+    "objective": "Hold a frontier outpost against waves",
+    "reward": "Land grant and title",
+    "hooks": [
+      "Rumors started in Kelcrest.",
+      "Threat confirmed around kg11-zone-08.",
+      "Secondary lead points toward Underdark 2."
+    ]
+  },
+  {
+    "questId": "q-0129",
+    "kingdomId": "kg11",
+    "title": "Expedition: Cavern 9",
+    "type": "Expedition",
+    "tier": 4,
+    "issuerNpcId": "npc-0273",
+    "issuerName": "Pyria Quickwater",
+    "location": "Cavern 9",
+    "biomeType": "Cavern",
+    "objective": "Chart unmapped territory",
+    "reward": "Maps and exploration rights",
+    "hooks": [
+      "Rumors started in Kelcrest.",
+      "Threat confirmed around kg11-zone-09.",
+      "Secondary lead points toward Catacombs 3."
+    ]
+  },
+  {
+    "questId": "q-0130",
+    "kingdomId": "kg11",
+    "title": "Escort: Underdark 10",
+    "type": "Escort",
+    "tier": 5,
+    "issuerNpcId": "npc-0275",
+    "issuerName": "Quin Stormborn",
+    "location": "Underdark 10",
+    "biomeType": "Underdark",
+    "objective": "Protect a caravan between settlements",
+    "reward": "Trade access and gold",
+    "hooks": [
+      "Rumors started in Kelcrest.",
+      "Threat confirmed around kg11-zone-10.",
+      "Secondary lead points toward Magma Hollow 4."
+    ]
+  },
+  {
+    "questId": "q-0131",
+    "kingdomId": "kg11",
+    "title": "Defense: Forest 11",
+    "type": "Defense",
+    "tier": 1,
+    "issuerNpcId": "npc-0277",
+    "issuerName": "Riven Ashford",
+    "location": "Forest 11",
+    "biomeType": "Forest",
+    "objective": "Hold a frontier outpost against waves",
+    "reward": "Land grant and title",
+    "hooks": [
+      "Rumors started in Kelcrest.",
+      "Threat confirmed around kg11-zone-11.",
+      "Secondary lead points toward Shadow Rift 5."
+    ]
+  },
+  {
+    "questId": "q-0132",
+    "kingdomId": "kg11",
+    "title": "Expedition: Grassland 12",
+    "type": "Expedition",
+    "tier": 2,
+    "issuerNpcId": "npc-0279",
+    "issuerName": "Brina Emberfall",
+    "location": "Grassland 12",
+    "biomeType": "Grassland",
+    "objective": "Chart unmapped territory",
+    "reward": "Maps and exploration rights",
+    "hooks": [
+      "Rumors started in Kelcrest.",
+      "Threat confirmed around kg11-zone-12.",
+      "Secondary lead points toward Cavern 6."
+    ]
+  },
+  {
+    "questId": "q-0133",
+    "kingdomId": "kg12",
+    "title": "Escort: Badlands 1",
+    "type": "Escort",
+    "tier": 1,
+    "issuerNpcId": "npc-0323",
+    "issuerName": "Eldrin Nightrun",
+    "location": "Badlands 1",
+    "biomeType": "Badlands",
+    "objective": "Protect a caravan between settlements",
+    "reward": "Trade access and gold",
+    "hooks": [
+      "Rumors started in Lorvale.",
+      "Threat confirmed around kg12-zone-01.",
+      "Secondary lead points toward Catacombs 1."
+    ]
+  },
+  {
+    "questId": "q-0134",
+    "kingdomId": "kg12",
+    "title": "Defense: Savanna 2",
+    "type": "Defense",
+    "tier": 2,
+    "issuerNpcId": "npc-0298",
+    "issuerName": "Selene Thornfield",
+    "location": "Savanna 2",
+    "biomeType": "Savanna",
+    "objective": "Hold a frontier outpost against waves",
+    "reward": "Land grant and title",
+    "hooks": [
+      "Rumors started in Lorvale.",
+      "Threat confirmed around kg12-zone-02.",
+      "Secondary lead points toward Magma Hollow 2."
+    ]
+  },
+  {
+    "questId": "q-0135",
+    "kingdomId": "kg12",
+    "title": "Expedition: Rainforest 3",
+    "type": "Expedition",
+    "tier": 3,
+    "issuerNpcId": "npc-0300",
+    "issuerName": "Corin Dawnstrider",
+    "location": "Rainforest 3",
+    "biomeType": "Rainforest",
+    "objective": "Chart unmapped territory",
+    "reward": "Maps and exploration rights",
+    "hooks": [
+      "Rumors started in Lorvale.",
+      "Threat confirmed around kg12-zone-03.",
+      "Secondary lead points toward Shadow Rift 3."
+    ]
+  },
+  {
+    "questId": "q-0136",
+    "kingdomId": "kg12",
+    "title": "Escort: Wetland 4",
+    "type": "Escort",
+    "tier": 4,
+    "issuerNpcId": "npc-0302",
+    "issuerName": "Dara Frostmere",
+    "location": "Wetland 4",
+    "biomeType": "Wetland",
+    "objective": "Protect a caravan between settlements",
+    "reward": "Trade access and gold",
+    "hooks": [
+      "Rumors started in Lorvale.",
+      "Threat confirmed around kg12-zone-04.",
+      "Secondary lead points toward Cavern 4."
+    ]
+  },
+  {
+    "questId": "q-0137",
+    "kingdomId": "kg12",
+    "title": "Defense: Tundra 5",
+    "type": "Defense",
+    "tier": 5,
+    "issuerNpcId": "npc-0304",
+    "issuerName": "Eldrin Holloway",
+    "location": "Tundra 5",
+    "biomeType": "Tundra",
+    "objective": "Hold a frontier outpost against waves",
+    "reward": "Land grant and title",
+    "hooks": [
+      "Rumors started in Lorvale.",
+      "Threat confirmed around kg12-zone-05.",
+      "Secondary lead points toward Underdark 5."
+    ]
+  },
+  {
+    "questId": "q-0138",
+    "kingdomId": "kg12",
+    "title": "Expedition: Glacier 6",
+    "type": "Expedition",
+    "tier": 1,
+    "issuerNpcId": "npc-0306",
+    "issuerName": "Iris Lightfoot",
+    "location": "Glacier 6",
+    "biomeType": "Glacier",
+    "objective": "Chart unmapped territory",
+    "reward": "Maps and exploration rights",
+    "hooks": [
+      "Rumors started in Lorvale.",
+      "Threat confirmed around kg12-zone-06.",
+      "Secondary lead points toward Catacombs 6."
+    ]
+  },
+  {
+    "questId": "q-0139",
+    "kingdomId": "kg12",
+    "title": "Escort: Cavern 7",
+    "type": "Escort",
+    "tier": 2,
+    "issuerNpcId": "npc-0308",
+    "issuerName": "Joran Nightrun",
+    "location": "Cavern 7",
+    "biomeType": "Cavern",
+    "objective": "Protect a caravan between settlements",
+    "reward": "Trade access and gold",
+    "hooks": [
+      "Rumors started in Lorvale.",
+      "Threat confirmed around kg12-zone-07.",
+      "Secondary lead points toward Catacombs 1."
+    ]
+  },
+  {
+    "questId": "q-0140",
+    "kingdomId": "kg12",
+    "title": "Defense: Underdark 8",
+    "type": "Defense",
+    "tier": 3,
+    "issuerNpcId": "npc-0310",
+    "issuerName": "Kael Proudmoore",
+    "location": "Underdark 8",
+    "biomeType": "Underdark",
+    "objective": "Hold a frontier outpost against waves",
+    "reward": "Land grant and title",
+    "hooks": [
+      "Rumors started in Lorvale.",
+      "Threat confirmed around kg12-zone-08.",
+      "Secondary lead points toward Magma Hollow 2."
+    ]
+  },
+  {
+    "questId": "q-0141",
+    "kingdomId": "kg12",
+    "title": "Expedition: Forest 9",
+    "type": "Expedition",
+    "tier": 4,
+    "issuerNpcId": "npc-0312",
+    "issuerName": "Orin Thornfield",
+    "location": "Forest 9",
+    "biomeType": "Forest",
+    "objective": "Chart unmapped territory",
+    "reward": "Maps and exploration rights",
+    "hooks": [
+      "Rumors started in Lorvale.",
+      "Threat confirmed around kg12-zone-09.",
+      "Secondary lead points toward Shadow Rift 3."
+    ]
+  },
+  {
+    "questId": "q-0142",
+    "kingdomId": "kg12",
+    "title": "Escort: Grassland 10",
+    "type": "Escort",
+    "tier": 5,
+    "issuerNpcId": "npc-0314",
+    "issuerName": "Pyria Blackbriar",
+    "location": "Grassland 10",
+    "biomeType": "Grassland",
+    "objective": "Protect a caravan between settlements",
+    "reward": "Trade access and gold",
+    "hooks": [
+      "Rumors started in Lorvale.",
+      "Threat confirmed around kg12-zone-10.",
+      "Secondary lead points toward Cavern 4."
+    ]
+  },
+  {
+    "questId": "q-0143",
+    "kingdomId": "kg12",
+    "title": "Defense: Hills 11",
+    "type": "Defense",
+    "tier": 1,
+    "issuerNpcId": "npc-0316",
+    "issuerName": "Quin Dawnstrider",
+    "location": "Hills 11",
+    "biomeType": "Hills",
+    "objective": "Hold a frontier outpost against waves",
+    "reward": "Land grant and title",
+    "hooks": [
+      "Rumors started in Lorvale.",
+      "Threat confirmed around kg12-zone-11.",
+      "Secondary lead points toward Underdark 5."
+    ]
+  },
+  {
+    "questId": "q-0144",
+    "kingdomId": "kg12",
+    "title": "Expedition: Mountain 12",
+    "type": "Expedition",
+    "tier": 2,
+    "issuerNpcId": "npc-0318",
+    "issuerName": "Aelar Holloway",
+    "location": "Mountain 12",
+    "biomeType": "Mountain",
+    "objective": "Chart unmapped territory",
+    "reward": "Maps and exploration rights",
+    "hooks": [
+      "Rumors started in Lorvale.",
+      "Threat confirmed around kg12-zone-12.",
+      "Secondary lead points toward Catacombs 6."
+    ]
+  }
+]

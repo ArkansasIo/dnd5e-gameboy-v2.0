@@ -1,0 +1,3642 @@
+[
+  {
+    "biomeClass": "Temperate",
+    "biomeSubclass": "Woodlands",
+    "biomeType": "Forest",
+    "dangerTier": 1,
+    "entries": [
+      {
+        "rollRange": "1-16",
+        "name": "Dryad Envoy",
+        "creatureType": "Fey",
+        "creatureSubtype": "Nymph",
+        "count": "2d2",
+        "challengeBand": 1
+      },
+      {
+        "rollRange": "17-32",
+        "name": "Wolf",
+        "creatureType": "Mammal",
+        "creatureSubtype": "Pack Hunter",
+        "count": "2d3",
+        "challengeBand": 1
+      },
+      {
+        "rollRange": "33-48",
+        "name": "Dire Boar",
+        "creatureType": "Mammal",
+        "creatureSubtype": "Large Herbivore",
+        "count": "2d4",
+        "challengeBand": 1
+      },
+      {
+        "rollRange": "49-64",
+        "name": "Brown Bear",
+        "creatureType": "Mammal",
+        "creatureSubtype": "Omnivore",
+        "count": "2d2",
+        "challengeBand": 1
+      },
+      {
+        "rollRange": "65-80",
+        "name": "Goblin Raider",
+        "creatureType": "Humanoid",
+        "creatureSubtype": "Goblinoid",
+        "count": "2d3",
+        "challengeBand": 1
+      },
+      {
+        "rollRange": "81-96",
+        "name": "Owlbear",
+        "creatureType": "Monstrosity",
+        "creatureSubtype": "Hybrid Beast",
+        "count": "2d4",
+        "challengeBand": 1
+      }
+    ]
+  },
+  {
+    "biomeClass": "Temperate",
+    "biomeSubclass": "Woodlands",
+    "biomeType": "Forest",
+    "dangerTier": 2,
+    "entries": [
+      {
+        "rollRange": "1-16",
+        "name": "Brown Bear",
+        "creatureType": "Mammal",
+        "creatureSubtype": "Omnivore",
+        "count": "1d2",
+        "challengeBand": 2
+      },
+      {
+        "rollRange": "17-32",
+        "name": "Goblin Raider",
+        "creatureType": "Humanoid",
+        "creatureSubtype": "Goblinoid",
+        "count": "1d3",
+        "challengeBand": 2
+      },
+      {
+        "rollRange": "33-48",
+        "name": "Owlbear",
+        "creatureType": "Monstrosity",
+        "creatureSubtype": "Hybrid Beast",
+        "count": "1d4",
+        "challengeBand": 2
+      },
+      {
+        "rollRange": "49-64",
+        "name": "Treant Guardian",
+        "creatureType": "Plant",
+        "creatureSubtype": "Sentient Tree",
+        "count": "1d2",
+        "challengeBand": 2
+      },
+      {
+        "rollRange": "65-80",
+        "name": "Dryad Envoy",
+        "creatureType": "Fey",
+        "creatureSubtype": "Nymph",
+        "count": "1d3",
+        "challengeBand": 2
+      },
+      {
+        "rollRange": "81-96",
+        "name": "Wolf",
+        "creatureType": "Mammal",
+        "creatureSubtype": "Pack Hunter",
+        "count": "1d4",
+        "challengeBand": 2
+      }
+    ]
+  },
+  {
+    "biomeClass": "Temperate",
+    "biomeSubclass": "Woodlands",
+    "biomeType": "Forest",
+    "dangerTier": 3,
+    "entries": [
+      {
+        "rollRange": "1-16",
+        "name": "Treant Guardian",
+        "creatureType": "Plant",
+        "creatureSubtype": "Sentient Tree",
+        "count": "2d2",
+        "challengeBand": 3
+      },
+      {
+        "rollRange": "17-32",
+        "name": "Dryad Envoy",
+        "creatureType": "Fey",
+        "creatureSubtype": "Nymph",
+        "count": "2d3",
+        "challengeBand": 3
+      },
+      {
+        "rollRange": "33-48",
+        "name": "Wolf",
+        "creatureType": "Mammal",
+        "creatureSubtype": "Pack Hunter",
+        "count": "2d4",
+        "challengeBand": 3
+      },
+      {
+        "rollRange": "49-64",
+        "name": "Dire Boar",
+        "creatureType": "Mammal",
+        "creatureSubtype": "Large Herbivore",
+        "count": "2d2",
+        "challengeBand": 3
+      },
+      {
+        "rollRange": "65-80",
+        "name": "Brown Bear",
+        "creatureType": "Mammal",
+        "creatureSubtype": "Omnivore",
+        "count": "2d3",
+        "challengeBand": 3
+      },
+      {
+        "rollRange": "81-96",
+        "name": "Goblin Raider",
+        "creatureType": "Humanoid",
+        "creatureSubtype": "Goblinoid",
+        "count": "2d4",
+        "challengeBand": 3
+      }
+    ]
+  },
+  {
+    "biomeClass": "Temperate",
+    "biomeSubclass": "Woodlands",
+    "biomeType": "Forest",
+    "dangerTier": 4,
+    "entries": [
+      {
+        "rollRange": "1-16",
+        "name": "Dire Boar",
+        "creatureType": "Mammal",
+        "creatureSubtype": "Large Herbivore",
+        "count": "1d2",
+        "challengeBand": 4
+      },
+      {
+        "rollRange": "17-32",
+        "name": "Brown Bear",
+        "creatureType": "Mammal",
+        "creatureSubtype": "Omnivore",
+        "count": "1d3",
+        "challengeBand": 4
+      },
+      {
+        "rollRange": "33-48",
+        "name": "Goblin Raider",
+        "creatureType": "Humanoid",
+        "creatureSubtype": "Goblinoid",
+        "count": "1d4",
+        "challengeBand": 4
+      },
+      {
+        "rollRange": "49-64",
+        "name": "Owlbear",
+        "creatureType": "Monstrosity",
+        "creatureSubtype": "Hybrid Beast",
+        "count": "1d2",
+        "challengeBand": 4
+      },
+      {
+        "rollRange": "65-80",
+        "name": "Treant Guardian",
+        "creatureType": "Plant",
+        "creatureSubtype": "Sentient Tree",
+        "count": "1d3",
+        "challengeBand": 4
+      },
+      {
+        "rollRange": "81-96",
+        "name": "Dryad Envoy",
+        "creatureType": "Fey",
+        "creatureSubtype": "Nymph",
+        "count": "1d4",
+        "challengeBand": 4
+      }
+    ]
+  },
+  {
+    "biomeClass": "Temperate",
+    "biomeSubclass": "Woodlands",
+    "biomeType": "Forest",
+    "dangerTier": 5,
+    "entries": [
+      {
+        "rollRange": "1-16",
+        "name": "Owlbear",
+        "creatureType": "Monstrosity",
+        "creatureSubtype": "Hybrid Beast",
+        "count": "2d2",
+        "challengeBand": 5
+      },
+      {
+        "rollRange": "17-32",
+        "name": "Treant Guardian",
+        "creatureType": "Plant",
+        "creatureSubtype": "Sentient Tree",
+        "count": "2d3",
+        "challengeBand": 5
+      },
+      {
+        "rollRange": "33-48",
+        "name": "Dryad Envoy",
+        "creatureType": "Fey",
+        "creatureSubtype": "Nymph",
+        "count": "2d4",
+        "challengeBand": 5
+      },
+      {
+        "rollRange": "49-64",
+        "name": "Wolf",
+        "creatureType": "Mammal",
+        "creatureSubtype": "Pack Hunter",
+        "count": "2d2",
+        "challengeBand": 5
+      },
+      {
+        "rollRange": "65-80",
+        "name": "Dire Boar",
+        "creatureType": "Mammal",
+        "creatureSubtype": "Large Herbivore",
+        "count": "2d3",
+        "challengeBand": 5
+      },
+      {
+        "rollRange": "81-96",
+        "name": "Brown Bear",
+        "creatureType": "Mammal",
+        "creatureSubtype": "Omnivore",
+        "count": "2d4",
+        "challengeBand": 5
+      }
+    ]
+  },
+  {
+    "biomeClass": "Temperate",
+    "biomeSubclass": "Woodlands",
+    "biomeType": "Grassland",
+    "dangerTier": 1,
+    "entries": [
+      {
+        "rollRange": "1-16",
+        "name": "Kobold Trapper",
+        "creatureType": "Humanoid",
+        "creatureSubtype": "Reptilian",
+        "count": "2d2",
+        "challengeBand": 1
+      },
+      {
+        "rollRange": "17-32",
+        "name": "Skeleton Legionnaire",
+        "creatureType": "Undead",
+        "creatureSubtype": "Skeleton",
+        "count": "2d3",
+        "challengeBand": 1
+      },
+      {
+        "rollRange": "33-48",
+        "name": "Ghoul Stalker",
+        "creatureType": "Undead",
+        "creatureSubtype": "Ghoul",
+        "count": "2d4",
+        "challengeBand": 1
+      },
+      {
+        "rollRange": "49-64",
+        "name": "Wraith of the Rift",
+        "creatureType": "Undead",
+        "creatureSubtype": "Incorporeal",
+        "count": "2d2",
+        "challengeBand": 1
+      },
+      {
+        "rollRange": "65-80",
+        "name": "Owlbear",
+        "creatureType": "Monstrosity",
+        "creatureSubtype": "Hybrid Beast",
+        "count": "2d3",
+        "challengeBand": 1
+      },
+      {
+        "rollRange": "81-96",
+        "name": "Displacer Beast",
+        "creatureType": "Monstrosity",
+        "creatureSubtype": "Fey-Touched",
+        "count": "2d4",
+        "challengeBand": 1
+      }
+    ]
+  },
+  {
+    "biomeClass": "Temperate",
+    "biomeSubclass": "Woodlands",
+    "biomeType": "Grassland",
+    "dangerTier": 2,
+    "entries": [
+      {
+        "rollRange": "1-16",
+        "name": "Wraith of the Rift",
+        "creatureType": "Undead",
+        "creatureSubtype": "Incorporeal",
+        "count": "1d2",
+        "challengeBand": 2
+      },
+      {
+        "rollRange": "17-32",
+        "name": "Owlbear",
+        "creatureType": "Monstrosity",
+        "creatureSubtype": "Hybrid Beast",
+        "count": "1d3",
+        "challengeBand": 2
+      },
+      {
+        "rollRange": "33-48",
+        "name": "Displacer Beast",
+        "creatureType": "Monstrosity",
+        "creatureSubtype": "Fey-Touched",
+        "count": "1d4",
+        "challengeBand": 2
+      },
+      {
+        "rollRange": "49-64",
+        "name": "Gelatinous Cube",
+        "creatureType": "Ooze",
+        "creatureSubtype": "Cube",
+        "count": "1d2",
+        "challengeBand": 2
+      },
+      {
+        "rollRange": "65-80",
+        "name": "Mind Flayer",
+        "creatureType": "Aberration",
+        "creatureSubtype": "Psionic",
+        "count": "1d3",
+        "challengeBand": 2
+      },
+      {
+        "rollRange": "81-96",
+        "name": "Beholder",
+        "creatureType": "Aberration",
+        "creatureSubtype": "Eye Tyrant",
+        "count": "1d4",
+        "challengeBand": 2
+      }
+    ]
+  },
+  {
+    "biomeClass": "Temperate",
+    "biomeSubclass": "Woodlands",
+    "biomeType": "Grassland",
+    "dangerTier": 3,
+    "entries": [
+      {
+        "rollRange": "1-16",
+        "name": "Gelatinous Cube",
+        "creatureType": "Ooze",
+        "creatureSubtype": "Cube",
+        "count": "2d2",
+        "challengeBand": 3
+      },
+      {
+        "rollRange": "17-32",
+        "name": "Mind Flayer",
+        "creatureType": "Aberration",
+        "creatureSubtype": "Psionic",
+        "count": "2d3",
+        "challengeBand": 3
+      },
+      {
+        "rollRange": "33-48",
+        "name": "Beholder",
+        "creatureType": "Aberration",
+        "creatureSubtype": "Eye Tyrant",
+        "count": "2d4",
+        "challengeBand": 3
+      },
+      {
+        "rollRange": "49-64",
+        "name": "Young Red Dragon",
+        "creatureType": "Dragon",
+        "creatureSubtype": "Chromatic",
+        "count": "2d2",
+        "challengeBand": 3
+      },
+      {
+        "rollRange": "65-80",
+        "name": "Will-o-Wisp",
+        "creatureType": "Undead",
+        "creatureSubtype": "Spirit",
+        "count": "2d3",
+        "challengeBand": 3
+      },
+      {
+        "rollRange": "81-96",
+        "name": "Basilisk",
+        "creatureType": "Monstrosity",
+        "creatureSubtype": "Petrifier",
+        "count": "2d4",
+        "challengeBand": 3
+      }
+    ]
+  },
+  {
+    "biomeClass": "Temperate",
+    "biomeSubclass": "Woodlands",
+    "biomeType": "Grassland",
+    "dangerTier": 4,
+    "entries": [
+      {
+        "rollRange": "1-16",
+        "name": "Young Red Dragon",
+        "creatureType": "Dragon",
+        "creatureSubtype": "Chromatic",
+        "count": "1d2",
+        "challengeBand": 4
+      },
+      {
+        "rollRange": "17-32",
+        "name": "Will-o-Wisp",
+        "creatureType": "Undead",
+        "creatureSubtype": "Spirit",
+        "count": "1d3",
+        "challengeBand": 4
+      },
+      {
+        "rollRange": "33-48",
+        "name": "Basilisk",
+        "creatureType": "Monstrosity",
+        "creatureSubtype": "Petrifier",
+        "count": "1d4",
+        "challengeBand": 4
+      },
+      {
+        "rollRange": "49-64",
+        "name": "Treant Guardian",
+        "creatureType": "Plant",
+        "creatureSubtype": "Sentient Tree",
+        "count": "1d2",
+        "challengeBand": 4
+      },
+      {
+        "rollRange": "65-80",
+        "name": "Dryad Envoy",
+        "creatureType": "Fey",
+        "creatureSubtype": "Nymph",
+        "count": "1d3",
+        "challengeBand": 4
+      },
+      {
+        "rollRange": "81-96",
+        "name": "Stone Giant",
+        "creatureType": "Giant",
+        "creatureSubtype": "Earthborn",
+        "count": "1d4",
+        "challengeBand": 4
+      }
+    ]
+  },
+  {
+    "biomeClass": "Temperate",
+    "biomeSubclass": "Woodlands",
+    "biomeType": "Grassland",
+    "dangerTier": 5,
+    "entries": [
+      {
+        "rollRange": "1-16",
+        "name": "Treant Guardian",
+        "creatureType": "Plant",
+        "creatureSubtype": "Sentient Tree",
+        "count": "2d2",
+        "challengeBand": 5
+      },
+      {
+        "rollRange": "17-32",
+        "name": "Dryad Envoy",
+        "creatureType": "Fey",
+        "creatureSubtype": "Nymph",
+        "count": "2d3",
+        "challengeBand": 5
+      },
+      {
+        "rollRange": "33-48",
+        "name": "Stone Giant",
+        "creatureType": "Giant",
+        "creatureSubtype": "Earthborn",
+        "count": "2d4",
+        "challengeBand": 5
+      },
+      {
+        "rollRange": "49-64",
+        "name": "Frost Giant",
+        "creatureType": "Giant",
+        "creatureSubtype": "Iceborn",
+        "count": "2d2",
+        "challengeBand": 5
+      },
+      {
+        "rollRange": "65-80",
+        "name": "Merrow Hunter",
+        "creatureType": "Monstrosity",
+        "creatureSubtype": "Aquatic",
+        "count": "2d3",
+        "challengeBand": 5
+      },
+      {
+        "rollRange": "81-96",
+        "name": "Goblin Raider",
+        "creatureType": "Humanoid",
+        "creatureSubtype": "Goblinoid",
+        "count": "2d4",
+        "challengeBand": 5
+      }
+    ]
+  },
+  {
+    "biomeClass": "Temperate",
+    "biomeSubclass": "Highlands",
+    "biomeType": "Hills",
+    "dangerTier": 1,
+    "entries": [
+      {
+        "rollRange": "1-16",
+        "name": "Orc Berserker",
+        "creatureType": "Humanoid",
+        "creatureSubtype": "Orc",
+        "count": "2d2",
+        "challengeBand": 1
+      },
+      {
+        "rollRange": "17-32",
+        "name": "Kobold Trapper",
+        "creatureType": "Humanoid",
+        "creatureSubtype": "Reptilian",
+        "count": "2d3",
+        "challengeBand": 1
+      },
+      {
+        "rollRange": "33-48",
+        "name": "Skeleton Legionnaire",
+        "creatureType": "Undead",
+        "creatureSubtype": "Skeleton",
+        "count": "2d4",
+        "challengeBand": 1
+      },
+      {
+        "rollRange": "49-64",
+        "name": "Ghoul Stalker",
+        "creatureType": "Undead",
+        "creatureSubtype": "Ghoul",
+        "count": "2d2",
+        "challengeBand": 1
+      },
+      {
+        "rollRange": "65-80",
+        "name": "Wraith of the Rift",
+        "creatureType": "Undead",
+        "creatureSubtype": "Incorporeal",
+        "count": "2d3",
+        "challengeBand": 1
+      },
+      {
+        "rollRange": "81-96",
+        "name": "Owlbear",
+        "creatureType": "Monstrosity",
+        "creatureSubtype": "Hybrid Beast",
+        "count": "2d4",
+        "challengeBand": 1
+      }
+    ]
+  },
+  {
+    "biomeClass": "Temperate",
+    "biomeSubclass": "Highlands",
+    "biomeType": "Hills",
+    "dangerTier": 2,
+    "entries": [
+      {
+        "rollRange": "1-16",
+        "name": "Ghoul Stalker",
+        "creatureType": "Undead",
+        "creatureSubtype": "Ghoul",
+        "count": "1d2",
+        "challengeBand": 2
+      },
+      {
+        "rollRange": "17-32",
+        "name": "Wraith of the Rift",
+        "creatureType": "Undead",
+        "creatureSubtype": "Incorporeal",
+        "count": "1d3",
+        "challengeBand": 2
+      },
+      {
+        "rollRange": "33-48",
+        "name": "Owlbear",
+        "creatureType": "Monstrosity",
+        "creatureSubtype": "Hybrid Beast",
+        "count": "1d4",
+        "challengeBand": 2
+      },
+      {
+        "rollRange": "49-64",
+        "name": "Displacer Beast",
+        "creatureType": "Monstrosity",
+        "creatureSubtype": "Fey-Touched",
+        "count": "1d2",
+        "challengeBand": 2
+      },
+      {
+        "rollRange": "65-80",
+        "name": "Gelatinous Cube",
+        "creatureType": "Ooze",
+        "creatureSubtype": "Cube",
+        "count": "1d3",
+        "challengeBand": 2
+      },
+      {
+        "rollRange": "81-96",
+        "name": "Mind Flayer",
+        "creatureType": "Aberration",
+        "creatureSubtype": "Psionic",
+        "count": "1d4",
+        "challengeBand": 2
+      }
+    ]
+  },
+  {
+    "biomeClass": "Temperate",
+    "biomeSubclass": "Highlands",
+    "biomeType": "Hills",
+    "dangerTier": 3,
+    "entries": [
+      {
+        "rollRange": "1-16",
+        "name": "Displacer Beast",
+        "creatureType": "Monstrosity",
+        "creatureSubtype": "Fey-Touched",
+        "count": "2d2",
+        "challengeBand": 3
+      },
+      {
+        "rollRange": "17-32",
+        "name": "Gelatinous Cube",
+        "creatureType": "Ooze",
+        "creatureSubtype": "Cube",
+        "count": "2d3",
+        "challengeBand": 3
+      },
+      {
+        "rollRange": "33-48",
+        "name": "Mind Flayer",
+        "creatureType": "Aberration",
+        "creatureSubtype": "Psionic",
+        "count": "2d4",
+        "challengeBand": 3
+      },
+      {
+        "rollRange": "49-64",
+        "name": "Beholder",
+        "creatureType": "Aberration",
+        "creatureSubtype": "Eye Tyrant",
+        "count": "2d2",
+        "challengeBand": 3
+      },
+      {
+        "rollRange": "65-80",
+        "name": "Young Red Dragon",
+        "creatureType": "Dragon",
+        "creatureSubtype": "Chromatic",
+        "count": "2d3",
+        "challengeBand": 3
+      },
+      {
+        "rollRange": "81-96",
+        "name": "Will-o-Wisp",
+        "creatureType": "Undead",
+        "creatureSubtype": "Spirit",
+        "count": "2d4",
+        "challengeBand": 3
+      }
+    ]
+  },
+  {
+    "biomeClass": "Temperate",
+    "biomeSubclass": "Highlands",
+    "biomeType": "Hills",
+    "dangerTier": 4,
+    "entries": [
+      {
+        "rollRange": "1-16",
+        "name": "Beholder",
+        "creatureType": "Aberration",
+        "creatureSubtype": "Eye Tyrant",
+        "count": "1d2",
+        "challengeBand": 4
+      },
+      {
+        "rollRange": "17-32",
+        "name": "Young Red Dragon",
+        "creatureType": "Dragon",
+        "creatureSubtype": "Chromatic",
+        "count": "1d3",
+        "challengeBand": 4
+      },
+      {
+        "rollRange": "33-48",
+        "name": "Will-o-Wisp",
+        "creatureType": "Undead",
+        "creatureSubtype": "Spirit",
+        "count": "1d4",
+        "challengeBand": 4
+      },
+      {
+        "rollRange": "49-64",
+        "name": "Basilisk",
+        "creatureType": "Monstrosity",
+        "creatureSubtype": "Petrifier",
+        "count": "1d2",
+        "challengeBand": 4
+      },
+      {
+        "rollRange": "65-80",
+        "name": "Treant Guardian",
+        "creatureType": "Plant",
+        "creatureSubtype": "Sentient Tree",
+        "count": "1d3",
+        "challengeBand": 4
+      },
+      {
+        "rollRange": "81-96",
+        "name": "Dryad Envoy",
+        "creatureType": "Fey",
+        "creatureSubtype": "Nymph",
+        "count": "1d4",
+        "challengeBand": 4
+      }
+    ]
+  },
+  {
+    "biomeClass": "Temperate",
+    "biomeSubclass": "Highlands",
+    "biomeType": "Hills",
+    "dangerTier": 5,
+    "entries": [
+      {
+        "rollRange": "1-16",
+        "name": "Basilisk",
+        "creatureType": "Monstrosity",
+        "creatureSubtype": "Petrifier",
+        "count": "2d2",
+        "challengeBand": 5
+      },
+      {
+        "rollRange": "17-32",
+        "name": "Treant Guardian",
+        "creatureType": "Plant",
+        "creatureSubtype": "Sentient Tree",
+        "count": "2d3",
+        "challengeBand": 5
+      },
+      {
+        "rollRange": "33-48",
+        "name": "Dryad Envoy",
+        "creatureType": "Fey",
+        "creatureSubtype": "Nymph",
+        "count": "2d4",
+        "challengeBand": 5
+      },
+      {
+        "rollRange": "49-64",
+        "name": "Stone Giant",
+        "creatureType": "Giant",
+        "creatureSubtype": "Earthborn",
+        "count": "2d2",
+        "challengeBand": 5
+      },
+      {
+        "rollRange": "65-80",
+        "name": "Frost Giant",
+        "creatureType": "Giant",
+        "creatureSubtype": "Iceborn",
+        "count": "2d3",
+        "challengeBand": 5
+      },
+      {
+        "rollRange": "81-96",
+        "name": "Hobgoblin Captain",
+        "creatureType": "Humanoid",
+        "creatureSubtype": "Goblinoid",
+        "count": "2d4",
+        "challengeBand": 5
+      }
+    ]
+  },
+  {
+    "biomeClass": "Temperate",
+    "biomeSubclass": "Highlands",
+    "biomeType": "Mountain",
+    "dangerTier": 1,
+    "entries": [
+      {
+        "rollRange": "1-16",
+        "name": "Stone Giant",
+        "creatureType": "Giant",
+        "creatureSubtype": "Earthborn",
+        "count": "2d2",
+        "challengeBand": 1
+      },
+      {
+        "rollRange": "17-32",
+        "name": "Griffon",
+        "creatureType": "Monstrosity",
+        "creatureSubtype": "Sky Predator",
+        "count": "2d3",
+        "challengeBand": 1
+      },
+      {
+        "rollRange": "33-48",
+        "name": "Mountain Goat",
+        "creatureType": "Mammal",
+        "creatureSubtype": "Climber",
+        "count": "2d4",
+        "challengeBand": 1
+      },
+      {
+        "rollRange": "49-64",
+        "name": "Giant Eagle",
+        "creatureType": "Bird",
+        "creatureSubtype": "Raptor",
+        "count": "2d2",
+        "challengeBand": 1
+      },
+      {
+        "rollRange": "65-80",
+        "name": "Hobgoblin Captain",
+        "creatureType": "Humanoid",
+        "creatureSubtype": "Goblinoid",
+        "count": "2d3",
+        "challengeBand": 1
+      },
+      {
+        "rollRange": "81-96",
+        "name": "Orc Berserker",
+        "creatureType": "Humanoid",
+        "creatureSubtype": "Orc",
+        "count": "2d4",
+        "challengeBand": 1
+      }
+    ]
+  },
+  {
+    "biomeClass": "Temperate",
+    "biomeSubclass": "Highlands",
+    "biomeType": "Mountain",
+    "dangerTier": 2,
+    "entries": [
+      {
+        "rollRange": "1-16",
+        "name": "Giant Eagle",
+        "creatureType": "Bird",
+        "creatureSubtype": "Raptor",
+        "count": "1d2",
+        "challengeBand": 2
+      },
+      {
+        "rollRange": "17-32",
+        "name": "Hobgoblin Captain",
+        "creatureType": "Humanoid",
+        "creatureSubtype": "Goblinoid",
+        "count": "1d3",
+        "challengeBand": 2
+      },
+      {
+        "rollRange": "33-48",
+        "name": "Orc Berserker",
+        "creatureType": "Humanoid",
+        "creatureSubtype": "Orc",
+        "count": "1d4",
+        "challengeBand": 2
+      },
+      {
+        "rollRange": "49-64",
+        "name": "Young Red Dragon",
+        "creatureType": "Dragon",
+        "creatureSubtype": "Chromatic",
+        "count": "1d2",
+        "challengeBand": 2
+      },
+      {
+        "rollRange": "65-80",
+        "name": "Stone Giant",
+        "creatureType": "Giant",
+        "creatureSubtype": "Earthborn",
+        "count": "1d3",
+        "challengeBand": 2
+      },
+      {
+        "rollRange": "81-96",
+        "name": "Griffon",
+        "creatureType": "Monstrosity",
+        "creatureSubtype": "Sky Predator",
+        "count": "1d4",
+        "challengeBand": 2
+      }
+    ]
+  },
+  {
+    "biomeClass": "Temperate",
+    "biomeSubclass": "Highlands",
+    "biomeType": "Mountain",
+    "dangerTier": 3,
+    "entries": [
+      {
+        "rollRange": "1-16",
+        "name": "Young Red Dragon",
+        "creatureType": "Dragon",
+        "creatureSubtype": "Chromatic",
+        "count": "2d2",
+        "challengeBand": 3
+      },
+      {
+        "rollRange": "17-32",
+        "name": "Stone Giant",
+        "creatureType": "Giant",
+        "creatureSubtype": "Earthborn",
+        "count": "2d3",
+        "challengeBand": 3
+      },
+      {
+        "rollRange": "33-48",
+        "name": "Griffon",
+        "creatureType": "Monstrosity",
+        "creatureSubtype": "Sky Predator",
+        "count": "2d4",
+        "challengeBand": 3
+      },
+      {
+        "rollRange": "49-64",
+        "name": "Mountain Goat",
+        "creatureType": "Mammal",
+        "creatureSubtype": "Climber",
+        "count": "2d2",
+        "challengeBand": 3
+      },
+      {
+        "rollRange": "65-80",
+        "name": "Giant Eagle",
+        "creatureType": "Bird",
+        "creatureSubtype": "Raptor",
+        "count": "2d3",
+        "challengeBand": 3
+      },
+      {
+        "rollRange": "81-96",
+        "name": "Hobgoblin Captain",
+        "creatureType": "Humanoid",
+        "creatureSubtype": "Goblinoid",
+        "count": "2d4",
+        "challengeBand": 3
+      }
+    ]
+  },
+  {
+    "biomeClass": "Temperate",
+    "biomeSubclass": "Highlands",
+    "biomeType": "Mountain",
+    "dangerTier": 4,
+    "entries": [
+      {
+        "rollRange": "1-16",
+        "name": "Mountain Goat",
+        "creatureType": "Mammal",
+        "creatureSubtype": "Climber",
+        "count": "1d2",
+        "challengeBand": 4
+      },
+      {
+        "rollRange": "17-32",
+        "name": "Giant Eagle",
+        "creatureType": "Bird",
+        "creatureSubtype": "Raptor",
+        "count": "1d3",
+        "challengeBand": 4
+      },
+      {
+        "rollRange": "33-48",
+        "name": "Hobgoblin Captain",
+        "creatureType": "Humanoid",
+        "creatureSubtype": "Goblinoid",
+        "count": "1d4",
+        "challengeBand": 4
+      },
+      {
+        "rollRange": "49-64",
+        "name": "Orc Berserker",
+        "creatureType": "Humanoid",
+        "creatureSubtype": "Orc",
+        "count": "1d2",
+        "challengeBand": 4
+      },
+      {
+        "rollRange": "65-80",
+        "name": "Young Red Dragon",
+        "creatureType": "Dragon",
+        "creatureSubtype": "Chromatic",
+        "count": "1d3",
+        "challengeBand": 4
+      },
+      {
+        "rollRange": "81-96",
+        "name": "Stone Giant",
+        "creatureType": "Giant",
+        "creatureSubtype": "Earthborn",
+        "count": "1d4",
+        "challengeBand": 4
+      }
+    ]
+  },
+  {
+    "biomeClass": "Temperate",
+    "biomeSubclass": "Highlands",
+    "biomeType": "Mountain",
+    "dangerTier": 5,
+    "entries": [
+      {
+        "rollRange": "1-16",
+        "name": "Orc Berserker",
+        "creatureType": "Humanoid",
+        "creatureSubtype": "Orc",
+        "count": "2d2",
+        "challengeBand": 5
+      },
+      {
+        "rollRange": "17-32",
+        "name": "Young Red Dragon",
+        "creatureType": "Dragon",
+        "creatureSubtype": "Chromatic",
+        "count": "2d3",
+        "challengeBand": 5
+      },
+      {
+        "rollRange": "33-48",
+        "name": "Stone Giant",
+        "creatureType": "Giant",
+        "creatureSubtype": "Earthborn",
+        "count": "2d4",
+        "challengeBand": 5
+      },
+      {
+        "rollRange": "49-64",
+        "name": "Griffon",
+        "creatureType": "Monstrosity",
+        "creatureSubtype": "Sky Predator",
+        "count": "2d2",
+        "challengeBand": 5
+      },
+      {
+        "rollRange": "65-80",
+        "name": "Mountain Goat",
+        "creatureType": "Mammal",
+        "creatureSubtype": "Climber",
+        "count": "2d3",
+        "challengeBand": 5
+      },
+      {
+        "rollRange": "81-96",
+        "name": "Giant Eagle",
+        "creatureType": "Bird",
+        "creatureSubtype": "Raptor",
+        "count": "2d4",
+        "challengeBand": 5
+      }
+    ]
+  },
+  {
+    "biomeClass": "Arid",
+    "biomeSubclass": "Drylands",
+    "biomeType": "Desert",
+    "dangerTier": 1,
+    "entries": [
+      {
+        "rollRange": "1-16",
+        "name": "Orc Berserker",
+        "creatureType": "Humanoid",
+        "creatureSubtype": "Orc",
+        "count": "2d2",
+        "challengeBand": 1
+      },
+      {
+        "rollRange": "17-32",
+        "name": "Kobold Trapper",
+        "creatureType": "Humanoid",
+        "creatureSubtype": "Reptilian",
+        "count": "2d3",
+        "challengeBand": 1
+      },
+      {
+        "rollRange": "33-48",
+        "name": "Skeleton Legionnaire",
+        "creatureType": "Undead",
+        "creatureSubtype": "Skeleton",
+        "count": "2d4",
+        "challengeBand": 1
+      },
+      {
+        "rollRange": "49-64",
+        "name": "Ghoul Stalker",
+        "creatureType": "Undead",
+        "creatureSubtype": "Ghoul",
+        "count": "2d2",
+        "challengeBand": 1
+      },
+      {
+        "rollRange": "65-80",
+        "name": "Wraith of the Rift",
+        "creatureType": "Undead",
+        "creatureSubtype": "Incorporeal",
+        "count": "2d3",
+        "challengeBand": 1
+      },
+      {
+        "rollRange": "81-96",
+        "name": "Owlbear",
+        "creatureType": "Monstrosity",
+        "creatureSubtype": "Hybrid Beast",
+        "count": "2d4",
+        "challengeBand": 1
+      }
+    ]
+  },
+  {
+    "biomeClass": "Arid",
+    "biomeSubclass": "Drylands",
+    "biomeType": "Desert",
+    "dangerTier": 2,
+    "entries": [
+      {
+        "rollRange": "1-16",
+        "name": "Ghoul Stalker",
+        "creatureType": "Undead",
+        "creatureSubtype": "Ghoul",
+        "count": "1d2",
+        "challengeBand": 2
+      },
+      {
+        "rollRange": "17-32",
+        "name": "Wraith of the Rift",
+        "creatureType": "Undead",
+        "creatureSubtype": "Incorporeal",
+        "count": "1d3",
+        "challengeBand": 2
+      },
+      {
+        "rollRange": "33-48",
+        "name": "Owlbear",
+        "creatureType": "Monstrosity",
+        "creatureSubtype": "Hybrid Beast",
+        "count": "1d4",
+        "challengeBand": 2
+      },
+      {
+        "rollRange": "49-64",
+        "name": "Displacer Beast",
+        "creatureType": "Monstrosity",
+        "creatureSubtype": "Fey-Touched",
+        "count": "1d2",
+        "challengeBand": 2
+      },
+      {
+        "rollRange": "65-80",
+        "name": "Gelatinous Cube",
+        "creatureType": "Ooze",
+        "creatureSubtype": "Cube",
+        "count": "1d3",
+        "challengeBand": 2
+      },
+      {
+        "rollRange": "81-96",
+        "name": "Mind Flayer",
+        "creatureType": "Aberration",
+        "creatureSubtype": "Psionic",
+        "count": "1d4",
+        "challengeBand": 2
+      }
+    ]
+  },
+  {
+    "biomeClass": "Arid",
+    "biomeSubclass": "Drylands",
+    "biomeType": "Desert",
+    "dangerTier": 3,
+    "entries": [
+      {
+        "rollRange": "1-16",
+        "name": "Displacer Beast",
+        "creatureType": "Monstrosity",
+        "creatureSubtype": "Fey-Touched",
+        "count": "2d2",
+        "challengeBand": 3
+      },
+      {
+        "rollRange": "17-32",
+        "name": "Gelatinous Cube",
+        "creatureType": "Ooze",
+        "creatureSubtype": "Cube",
+        "count": "2d3",
+        "challengeBand": 3
+      },
+      {
+        "rollRange": "33-48",
+        "name": "Mind Flayer",
+        "creatureType": "Aberration",
+        "creatureSubtype": "Psionic",
+        "count": "2d4",
+        "challengeBand": 3
+      },
+      {
+        "rollRange": "49-64",
+        "name": "Beholder",
+        "creatureType": "Aberration",
+        "creatureSubtype": "Eye Tyrant",
+        "count": "2d2",
+        "challengeBand": 3
+      },
+      {
+        "rollRange": "65-80",
+        "name": "Young Red Dragon",
+        "creatureType": "Dragon",
+        "creatureSubtype": "Chromatic",
+        "count": "2d3",
+        "challengeBand": 3
+      },
+      {
+        "rollRange": "81-96",
+        "name": "Will-o-Wisp",
+        "creatureType": "Undead",
+        "creatureSubtype": "Spirit",
+        "count": "2d4",
+        "challengeBand": 3
+      }
+    ]
+  },
+  {
+    "biomeClass": "Arid",
+    "biomeSubclass": "Drylands",
+    "biomeType": "Desert",
+    "dangerTier": 4,
+    "entries": [
+      {
+        "rollRange": "1-16",
+        "name": "Beholder",
+        "creatureType": "Aberration",
+        "creatureSubtype": "Eye Tyrant",
+        "count": "1d2",
+        "challengeBand": 4
+      },
+      {
+        "rollRange": "17-32",
+        "name": "Young Red Dragon",
+        "creatureType": "Dragon",
+        "creatureSubtype": "Chromatic",
+        "count": "1d3",
+        "challengeBand": 4
+      },
+      {
+        "rollRange": "33-48",
+        "name": "Will-o-Wisp",
+        "creatureType": "Undead",
+        "creatureSubtype": "Spirit",
+        "count": "1d4",
+        "challengeBand": 4
+      },
+      {
+        "rollRange": "49-64",
+        "name": "Basilisk",
+        "creatureType": "Monstrosity",
+        "creatureSubtype": "Petrifier",
+        "count": "1d2",
+        "challengeBand": 4
+      },
+      {
+        "rollRange": "65-80",
+        "name": "Treant Guardian",
+        "creatureType": "Plant",
+        "creatureSubtype": "Sentient Tree",
+        "count": "1d3",
+        "challengeBand": 4
+      },
+      {
+        "rollRange": "81-96",
+        "name": "Dryad Envoy",
+        "creatureType": "Fey",
+        "creatureSubtype": "Nymph",
+        "count": "1d4",
+        "challengeBand": 4
+      }
+    ]
+  },
+  {
+    "biomeClass": "Arid",
+    "biomeSubclass": "Drylands",
+    "biomeType": "Desert",
+    "dangerTier": 5,
+    "entries": [
+      {
+        "rollRange": "1-16",
+        "name": "Basilisk",
+        "creatureType": "Monstrosity",
+        "creatureSubtype": "Petrifier",
+        "count": "2d2",
+        "challengeBand": 5
+      },
+      {
+        "rollRange": "17-32",
+        "name": "Treant Guardian",
+        "creatureType": "Plant",
+        "creatureSubtype": "Sentient Tree",
+        "count": "2d3",
+        "challengeBand": 5
+      },
+      {
+        "rollRange": "33-48",
+        "name": "Dryad Envoy",
+        "creatureType": "Fey",
+        "creatureSubtype": "Nymph",
+        "count": "2d4",
+        "challengeBand": 5
+      },
+      {
+        "rollRange": "49-64",
+        "name": "Stone Giant",
+        "creatureType": "Giant",
+        "creatureSubtype": "Earthborn",
+        "count": "2d2",
+        "challengeBand": 5
+      },
+      {
+        "rollRange": "65-80",
+        "name": "Frost Giant",
+        "creatureType": "Giant",
+        "creatureSubtype": "Iceborn",
+        "count": "2d3",
+        "challengeBand": 5
+      },
+      {
+        "rollRange": "81-96",
+        "name": "Desert Viper",
+        "creatureType": "Reptile",
+        "creatureSubtype": "Venomous",
+        "count": "2d4",
+        "challengeBand": 5
+      }
+    ]
+  },
+  {
+    "biomeClass": "Arid",
+    "biomeSubclass": "Drylands",
+    "biomeType": "Badlands",
+    "dangerTier": 1,
+    "entries": [
+      {
+        "rollRange": "1-16",
+        "name": "Desert Viper",
+        "creatureType": "Reptile",
+        "creatureSubtype": "Venomous",
+        "count": "2d2",
+        "challengeBand": 1
+      },
+      {
+        "rollRange": "17-32",
+        "name": "Hobgoblin Captain",
+        "creatureType": "Humanoid",
+        "creatureSubtype": "Goblinoid",
+        "count": "2d3",
+        "challengeBand": 1
+      },
+      {
+        "rollRange": "33-48",
+        "name": "Orc Berserker",
+        "creatureType": "Humanoid",
+        "creatureSubtype": "Orc",
+        "count": "2d4",
+        "challengeBand": 1
+      },
+      {
+        "rollRange": "49-64",
+        "name": "Skeleton Legionnaire",
+        "creatureType": "Undead",
+        "creatureSubtype": "Skeleton",
+        "count": "2d2",
+        "challengeBand": 1
+      },
+      {
+        "rollRange": "65-80",
+        "name": "Ghoul Stalker",
+        "creatureType": "Undead",
+        "creatureSubtype": "Ghoul",
+        "count": "2d3",
+        "challengeBand": 1
+      },
+      {
+        "rollRange": "81-96",
+        "name": "Wraith of the Rift",
+        "creatureType": "Undead",
+        "creatureSubtype": "Incorporeal",
+        "count": "2d4",
+        "challengeBand": 1
+      }
+    ]
+  },
+  {
+    "biomeClass": "Arid",
+    "biomeSubclass": "Drylands",
+    "biomeType": "Badlands",
+    "dangerTier": 2,
+    "entries": [
+      {
+        "rollRange": "1-16",
+        "name": "Skeleton Legionnaire",
+        "creatureType": "Undead",
+        "creatureSubtype": "Skeleton",
+        "count": "1d2",
+        "challengeBand": 2
+      },
+      {
+        "rollRange": "17-32",
+        "name": "Ghoul Stalker",
+        "creatureType": "Undead",
+        "creatureSubtype": "Ghoul",
+        "count": "1d3",
+        "challengeBand": 2
+      },
+      {
+        "rollRange": "33-48",
+        "name": "Wraith of the Rift",
+        "creatureType": "Undead",
+        "creatureSubtype": "Incorporeal",
+        "count": "1d4",
+        "challengeBand": 2
+      },
+      {
+        "rollRange": "49-64",
+        "name": "Owlbear",
+        "creatureType": "Monstrosity",
+        "creatureSubtype": "Hybrid Beast",
+        "count": "1d2",
+        "challengeBand": 2
+      },
+      {
+        "rollRange": "65-80",
+        "name": "Displacer Beast",
+        "creatureType": "Monstrosity",
+        "creatureSubtype": "Fey-Touched",
+        "count": "1d3",
+        "challengeBand": 2
+      },
+      {
+        "rollRange": "81-96",
+        "name": "Gelatinous Cube",
+        "creatureType": "Ooze",
+        "creatureSubtype": "Cube",
+        "count": "1d4",
+        "challengeBand": 2
+      }
+    ]
+  },
+  {
+    "biomeClass": "Arid",
+    "biomeSubclass": "Drylands",
+    "biomeType": "Badlands",
+    "dangerTier": 3,
+    "entries": [
+      {
+        "rollRange": "1-16",
+        "name": "Owlbear",
+        "creatureType": "Monstrosity",
+        "creatureSubtype": "Hybrid Beast",
+        "count": "2d2",
+        "challengeBand": 3
+      },
+      {
+        "rollRange": "17-32",
+        "name": "Displacer Beast",
+        "creatureType": "Monstrosity",
+        "creatureSubtype": "Fey-Touched",
+        "count": "2d3",
+        "challengeBand": 3
+      },
+      {
+        "rollRange": "33-48",
+        "name": "Gelatinous Cube",
+        "creatureType": "Ooze",
+        "creatureSubtype": "Cube",
+        "count": "2d4",
+        "challengeBand": 3
+      },
+      {
+        "rollRange": "49-64",
+        "name": "Mind Flayer",
+        "creatureType": "Aberration",
+        "creatureSubtype": "Psionic",
+        "count": "2d2",
+        "challengeBand": 3
+      },
+      {
+        "rollRange": "65-80",
+        "name": "Beholder",
+        "creatureType": "Aberration",
+        "creatureSubtype": "Eye Tyrant",
+        "count": "2d3",
+        "challengeBand": 3
+      },
+      {
+        "rollRange": "81-96",
+        "name": "Young Red Dragon",
+        "creatureType": "Dragon",
+        "creatureSubtype": "Chromatic",
+        "count": "2d4",
+        "challengeBand": 3
+      }
+    ]
+  },
+  {
+    "biomeClass": "Arid",
+    "biomeSubclass": "Drylands",
+    "biomeType": "Badlands",
+    "dangerTier": 4,
+    "entries": [
+      {
+        "rollRange": "1-16",
+        "name": "Mind Flayer",
+        "creatureType": "Aberration",
+        "creatureSubtype": "Psionic",
+        "count": "1d2",
+        "challengeBand": 4
+      },
+      {
+        "rollRange": "17-32",
+        "name": "Beholder",
+        "creatureType": "Aberration",
+        "creatureSubtype": "Eye Tyrant",
+        "count": "1d3",
+        "challengeBand": 4
+      },
+      {
+        "rollRange": "33-48",
+        "name": "Young Red Dragon",
+        "creatureType": "Dragon",
+        "creatureSubtype": "Chromatic",
+        "count": "1d4",
+        "challengeBand": 4
+      },
+      {
+        "rollRange": "49-64",
+        "name": "Will-o-Wisp",
+        "creatureType": "Undead",
+        "creatureSubtype": "Spirit",
+        "count": "1d2",
+        "challengeBand": 4
+      },
+      {
+        "rollRange": "65-80",
+        "name": "Treant Guardian",
+        "creatureType": "Plant",
+        "creatureSubtype": "Sentient Tree",
+        "count": "1d3",
+        "challengeBand": 4
+      },
+      {
+        "rollRange": "81-96",
+        "name": "Dryad Envoy",
+        "creatureType": "Fey",
+        "creatureSubtype": "Nymph",
+        "count": "1d4",
+        "challengeBand": 4
+      }
+    ]
+  },
+  {
+    "biomeClass": "Arid",
+    "biomeSubclass": "Drylands",
+    "biomeType": "Badlands",
+    "dangerTier": 5,
+    "entries": [
+      {
+        "rollRange": "1-16",
+        "name": "Will-o-Wisp",
+        "creatureType": "Undead",
+        "creatureSubtype": "Spirit",
+        "count": "2d2",
+        "challengeBand": 5
+      },
+      {
+        "rollRange": "17-32",
+        "name": "Treant Guardian",
+        "creatureType": "Plant",
+        "creatureSubtype": "Sentient Tree",
+        "count": "2d3",
+        "challengeBand": 5
+      },
+      {
+        "rollRange": "33-48",
+        "name": "Dryad Envoy",
+        "creatureType": "Fey",
+        "creatureSubtype": "Nymph",
+        "count": "2d4",
+        "challengeBand": 5
+      },
+      {
+        "rollRange": "49-64",
+        "name": "Stone Giant",
+        "creatureType": "Giant",
+        "creatureSubtype": "Earthborn",
+        "count": "2d2",
+        "challengeBand": 5
+      },
+      {
+        "rollRange": "65-80",
+        "name": "Frost Giant",
+        "creatureType": "Giant",
+        "creatureSubtype": "Iceborn",
+        "count": "2d3",
+        "challengeBand": 5
+      },
+      {
+        "rollRange": "81-96",
+        "name": "Goblin Raider",
+        "creatureType": "Humanoid",
+        "creatureSubtype": "Goblinoid",
+        "count": "2d4",
+        "challengeBand": 5
+      }
+    ]
+  },
+  {
+    "biomeClass": "Arid",
+    "biomeSubclass": "Savanna",
+    "biomeType": "Savanna",
+    "dangerTier": 1,
+    "entries": [
+      {
+        "rollRange": "1-16",
+        "name": "Orc Berserker",
+        "creatureType": "Humanoid",
+        "creatureSubtype": "Orc",
+        "count": "2d2",
+        "challengeBand": 1
+      },
+      {
+        "rollRange": "17-32",
+        "name": "Kobold Trapper",
+        "creatureType": "Humanoid",
+        "creatureSubtype": "Reptilian",
+        "count": "2d3",
+        "challengeBand": 1
+      },
+      {
+        "rollRange": "33-48",
+        "name": "Skeleton Legionnaire",
+        "creatureType": "Undead",
+        "creatureSubtype": "Skeleton",
+        "count": "2d4",
+        "challengeBand": 1
+      },
+      {
+        "rollRange": "49-64",
+        "name": "Ghoul Stalker",
+        "creatureType": "Undead",
+        "creatureSubtype": "Ghoul",
+        "count": "2d2",
+        "challengeBand": 1
+      },
+      {
+        "rollRange": "65-80",
+        "name": "Wraith of the Rift",
+        "creatureType": "Undead",
+        "creatureSubtype": "Incorporeal",
+        "count": "2d3",
+        "challengeBand": 1
+      },
+      {
+        "rollRange": "81-96",
+        "name": "Owlbear",
+        "creatureType": "Monstrosity",
+        "creatureSubtype": "Hybrid Beast",
+        "count": "2d4",
+        "challengeBand": 1
+      }
+    ]
+  },
+  {
+    "biomeClass": "Arid",
+    "biomeSubclass": "Savanna",
+    "biomeType": "Savanna",
+    "dangerTier": 2,
+    "entries": [
+      {
+        "rollRange": "1-16",
+        "name": "Ghoul Stalker",
+        "creatureType": "Undead",
+        "creatureSubtype": "Ghoul",
+        "count": "1d2",
+        "challengeBand": 2
+      },
+      {
+        "rollRange": "17-32",
+        "name": "Wraith of the Rift",
+        "creatureType": "Undead",
+        "creatureSubtype": "Incorporeal",
+        "count": "1d3",
+        "challengeBand": 2
+      },
+      {
+        "rollRange": "33-48",
+        "name": "Owlbear",
+        "creatureType": "Monstrosity",
+        "creatureSubtype": "Hybrid Beast",
+        "count": "1d4",
+        "challengeBand": 2
+      },
+      {
+        "rollRange": "49-64",
+        "name": "Displacer Beast",
+        "creatureType": "Monstrosity",
+        "creatureSubtype": "Fey-Touched",
+        "count": "1d2",
+        "challengeBand": 2
+      },
+      {
+        "rollRange": "65-80",
+        "name": "Gelatinous Cube",
+        "creatureType": "Ooze",
+        "creatureSubtype": "Cube",
+        "count": "1d3",
+        "challengeBand": 2
+      },
+      {
+        "rollRange": "81-96",
+        "name": "Mind Flayer",
+        "creatureType": "Aberration",
+        "creatureSubtype": "Psionic",
+        "count": "1d4",
+        "challengeBand": 2
+      }
+    ]
+  },
+  {
+    "biomeClass": "Arid",
+    "biomeSubclass": "Savanna",
+    "biomeType": "Savanna",
+    "dangerTier": 3,
+    "entries": [
+      {
+        "rollRange": "1-16",
+        "name": "Displacer Beast",
+        "creatureType": "Monstrosity",
+        "creatureSubtype": "Fey-Touched",
+        "count": "2d2",
+        "challengeBand": 3
+      },
+      {
+        "rollRange": "17-32",
+        "name": "Gelatinous Cube",
+        "creatureType": "Ooze",
+        "creatureSubtype": "Cube",
+        "count": "2d3",
+        "challengeBand": 3
+      },
+      {
+        "rollRange": "33-48",
+        "name": "Mind Flayer",
+        "creatureType": "Aberration",
+        "creatureSubtype": "Psionic",
+        "count": "2d4",
+        "challengeBand": 3
+      },
+      {
+        "rollRange": "49-64",
+        "name": "Beholder",
+        "creatureType": "Aberration",
+        "creatureSubtype": "Eye Tyrant",
+        "count": "2d2",
+        "challengeBand": 3
+      },
+      {
+        "rollRange": "65-80",
+        "name": "Young Red Dragon",
+        "creatureType": "Dragon",
+        "creatureSubtype": "Chromatic",
+        "count": "2d3",
+        "challengeBand": 3
+      },
+      {
+        "rollRange": "81-96",
+        "name": "Will-o-Wisp",
+        "creatureType": "Undead",
+        "creatureSubtype": "Spirit",
+        "count": "2d4",
+        "challengeBand": 3
+      }
+    ]
+  },
+  {
+    "biomeClass": "Arid",
+    "biomeSubclass": "Savanna",
+    "biomeType": "Savanna",
+    "dangerTier": 4,
+    "entries": [
+      {
+        "rollRange": "1-16",
+        "name": "Beholder",
+        "creatureType": "Aberration",
+        "creatureSubtype": "Eye Tyrant",
+        "count": "1d2",
+        "challengeBand": 4
+      },
+      {
+        "rollRange": "17-32",
+        "name": "Young Red Dragon",
+        "creatureType": "Dragon",
+        "creatureSubtype": "Chromatic",
+        "count": "1d3",
+        "challengeBand": 4
+      },
+      {
+        "rollRange": "33-48",
+        "name": "Will-o-Wisp",
+        "creatureType": "Undead",
+        "creatureSubtype": "Spirit",
+        "count": "1d4",
+        "challengeBand": 4
+      },
+      {
+        "rollRange": "49-64",
+        "name": "Basilisk",
+        "creatureType": "Monstrosity",
+        "creatureSubtype": "Petrifier",
+        "count": "1d2",
+        "challengeBand": 4
+      },
+      {
+        "rollRange": "65-80",
+        "name": "Treant Guardian",
+        "creatureType": "Plant",
+        "creatureSubtype": "Sentient Tree",
+        "count": "1d3",
+        "challengeBand": 4
+      },
+      {
+        "rollRange": "81-96",
+        "name": "Dryad Envoy",
+        "creatureType": "Fey",
+        "creatureSubtype": "Nymph",
+        "count": "1d4",
+        "challengeBand": 4
+      }
+    ]
+  },
+  {
+    "biomeClass": "Arid",
+    "biomeSubclass": "Savanna",
+    "biomeType": "Savanna",
+    "dangerTier": 5,
+    "entries": [
+      {
+        "rollRange": "1-16",
+        "name": "Basilisk",
+        "creatureType": "Monstrosity",
+        "creatureSubtype": "Petrifier",
+        "count": "2d2",
+        "challengeBand": 5
+      },
+      {
+        "rollRange": "17-32",
+        "name": "Treant Guardian",
+        "creatureType": "Plant",
+        "creatureSubtype": "Sentient Tree",
+        "count": "2d3",
+        "challengeBand": 5
+      },
+      {
+        "rollRange": "33-48",
+        "name": "Dryad Envoy",
+        "creatureType": "Fey",
+        "creatureSubtype": "Nymph",
+        "count": "2d4",
+        "challengeBand": 5
+      },
+      {
+        "rollRange": "49-64",
+        "name": "Stone Giant",
+        "creatureType": "Giant",
+        "creatureSubtype": "Earthborn",
+        "count": "2d2",
+        "challengeBand": 5
+      },
+      {
+        "rollRange": "65-80",
+        "name": "Frost Giant",
+        "creatureType": "Giant",
+        "creatureSubtype": "Iceborn",
+        "count": "2d3",
+        "challengeBand": 5
+      },
+      {
+        "rollRange": "81-96",
+        "name": "Dire Boar",
+        "creatureType": "Mammal",
+        "creatureSubtype": "Large Herbivore",
+        "count": "2d4",
+        "challengeBand": 5
+      }
+    ]
+  },
+  {
+    "biomeClass": "Tropical",
+    "biomeSubclass": "Rain Regions",
+    "biomeType": "Rainforest",
+    "dangerTier": 1,
+    "entries": [
+      {
+        "rollRange": "1-16",
+        "name": "Hobgoblin Captain",
+        "creatureType": "Humanoid",
+        "creatureSubtype": "Goblinoid",
+        "count": "2d2",
+        "challengeBand": 1
+      },
+      {
+        "rollRange": "17-32",
+        "name": "Orc Berserker",
+        "creatureType": "Humanoid",
+        "creatureSubtype": "Orc",
+        "count": "2d3",
+        "challengeBand": 1
+      },
+      {
+        "rollRange": "33-48",
+        "name": "Kobold Trapper",
+        "creatureType": "Humanoid",
+        "creatureSubtype": "Reptilian",
+        "count": "2d4",
+        "challengeBand": 1
+      },
+      {
+        "rollRange": "49-64",
+        "name": "Skeleton Legionnaire",
+        "creatureType": "Undead",
+        "creatureSubtype": "Skeleton",
+        "count": "2d2",
+        "challengeBand": 1
+      },
+      {
+        "rollRange": "65-80",
+        "name": "Ghoul Stalker",
+        "creatureType": "Undead",
+        "creatureSubtype": "Ghoul",
+        "count": "2d3",
+        "challengeBand": 1
+      },
+      {
+        "rollRange": "81-96",
+        "name": "Wraith of the Rift",
+        "creatureType": "Undead",
+        "creatureSubtype": "Incorporeal",
+        "count": "2d4",
+        "challengeBand": 1
+      }
+    ]
+  },
+  {
+    "biomeClass": "Tropical",
+    "biomeSubclass": "Rain Regions",
+    "biomeType": "Rainforest",
+    "dangerTier": 2,
+    "entries": [
+      {
+        "rollRange": "1-16",
+        "name": "Skeleton Legionnaire",
+        "creatureType": "Undead",
+        "creatureSubtype": "Skeleton",
+        "count": "1d2",
+        "challengeBand": 2
+      },
+      {
+        "rollRange": "17-32",
+        "name": "Ghoul Stalker",
+        "creatureType": "Undead",
+        "creatureSubtype": "Ghoul",
+        "count": "1d3",
+        "challengeBand": 2
+      },
+      {
+        "rollRange": "33-48",
+        "name": "Wraith of the Rift",
+        "creatureType": "Undead",
+        "creatureSubtype": "Incorporeal",
+        "count": "1d4",
+        "challengeBand": 2
+      },
+      {
+        "rollRange": "49-64",
+        "name": "Owlbear",
+        "creatureType": "Monstrosity",
+        "creatureSubtype": "Hybrid Beast",
+        "count": "1d2",
+        "challengeBand": 2
+      },
+      {
+        "rollRange": "65-80",
+        "name": "Gelatinous Cube",
+        "creatureType": "Ooze",
+        "creatureSubtype": "Cube",
+        "count": "1d3",
+        "challengeBand": 2
+      },
+      {
+        "rollRange": "81-96",
+        "name": "Mind Flayer",
+        "creatureType": "Aberration",
+        "creatureSubtype": "Psionic",
+        "count": "1d4",
+        "challengeBand": 2
+      }
+    ]
+  },
+  {
+    "biomeClass": "Tropical",
+    "biomeSubclass": "Rain Regions",
+    "biomeType": "Rainforest",
+    "dangerTier": 3,
+    "entries": [
+      {
+        "rollRange": "1-16",
+        "name": "Owlbear",
+        "creatureType": "Monstrosity",
+        "creatureSubtype": "Hybrid Beast",
+        "count": "2d2",
+        "challengeBand": 3
+      },
+      {
+        "rollRange": "17-32",
+        "name": "Gelatinous Cube",
+        "creatureType": "Ooze",
+        "creatureSubtype": "Cube",
+        "count": "2d3",
+        "challengeBand": 3
+      },
+      {
+        "rollRange": "33-48",
+        "name": "Mind Flayer",
+        "creatureType": "Aberration",
+        "creatureSubtype": "Psionic",
+        "count": "2d4",
+        "challengeBand": 3
+      },
+      {
+        "rollRange": "49-64",
+        "name": "Beholder",
+        "creatureType": "Aberration",
+        "creatureSubtype": "Eye Tyrant",
+        "count": "2d2",
+        "challengeBand": 3
+      },
+      {
+        "rollRange": "65-80",
+        "name": "Young Red Dragon",
+        "creatureType": "Dragon",
+        "creatureSubtype": "Chromatic",
+        "count": "2d3",
+        "challengeBand": 3
+      },
+      {
+        "rollRange": "81-96",
+        "name": "Will-o-Wisp",
+        "creatureType": "Undead",
+        "creatureSubtype": "Spirit",
+        "count": "2d4",
+        "challengeBand": 3
+      }
+    ]
+  },
+  {
+    "biomeClass": "Tropical",
+    "biomeSubclass": "Rain Regions",
+    "biomeType": "Rainforest",
+    "dangerTier": 4,
+    "entries": [
+      {
+        "rollRange": "1-16",
+        "name": "Beholder",
+        "creatureType": "Aberration",
+        "creatureSubtype": "Eye Tyrant",
+        "count": "1d2",
+        "challengeBand": 4
+      },
+      {
+        "rollRange": "17-32",
+        "name": "Young Red Dragon",
+        "creatureType": "Dragon",
+        "creatureSubtype": "Chromatic",
+        "count": "1d3",
+        "challengeBand": 4
+      },
+      {
+        "rollRange": "33-48",
+        "name": "Will-o-Wisp",
+        "creatureType": "Undead",
+        "creatureSubtype": "Spirit",
+        "count": "1d4",
+        "challengeBand": 4
+      },
+      {
+        "rollRange": "49-64",
+        "name": "Basilisk",
+        "creatureType": "Monstrosity",
+        "creatureSubtype": "Petrifier",
+        "count": "1d2",
+        "challengeBand": 4
+      },
+      {
+        "rollRange": "65-80",
+        "name": "Treant Guardian",
+        "creatureType": "Plant",
+        "creatureSubtype": "Sentient Tree",
+        "count": "1d3",
+        "challengeBand": 4
+      },
+      {
+        "rollRange": "81-96",
+        "name": "Dryad Envoy",
+        "creatureType": "Fey",
+        "creatureSubtype": "Nymph",
+        "count": "1d4",
+        "challengeBand": 4
+      }
+    ]
+  },
+  {
+    "biomeClass": "Tropical",
+    "biomeSubclass": "Rain Regions",
+    "biomeType": "Rainforest",
+    "dangerTier": 5,
+    "entries": [
+      {
+        "rollRange": "1-16",
+        "name": "Basilisk",
+        "creatureType": "Monstrosity",
+        "creatureSubtype": "Petrifier",
+        "count": "2d2",
+        "challengeBand": 5
+      },
+      {
+        "rollRange": "17-32",
+        "name": "Treant Guardian",
+        "creatureType": "Plant",
+        "creatureSubtype": "Sentient Tree",
+        "count": "2d3",
+        "challengeBand": 5
+      },
+      {
+        "rollRange": "33-48",
+        "name": "Dryad Envoy",
+        "creatureType": "Fey",
+        "creatureSubtype": "Nymph",
+        "count": "2d4",
+        "challengeBand": 5
+      },
+      {
+        "rollRange": "49-64",
+        "name": "Stone Giant",
+        "creatureType": "Giant",
+        "creatureSubtype": "Earthborn",
+        "count": "2d2",
+        "challengeBand": 5
+      },
+      {
+        "rollRange": "65-80",
+        "name": "Frost Giant",
+        "creatureType": "Giant",
+        "creatureSubtype": "Iceborn",
+        "count": "2d3",
+        "challengeBand": 5
+      },
+      {
+        "rollRange": "81-96",
+        "name": "Displacer Beast",
+        "creatureType": "Monstrosity",
+        "creatureSubtype": "Fey-Touched",
+        "count": "2d4",
+        "challengeBand": 5
+      }
+    ]
+  },
+  {
+    "biomeClass": "Tropical",
+    "biomeSubclass": "Rain Regions",
+    "biomeType": "Wetland",
+    "dangerTier": 1,
+    "entries": [
+      {
+        "rollRange": "1-16",
+        "name": "Orc Berserker",
+        "creatureType": "Humanoid",
+        "creatureSubtype": "Orc",
+        "count": "2d2",
+        "challengeBand": 1
+      },
+      {
+        "rollRange": "17-32",
+        "name": "Kobold Trapper",
+        "creatureType": "Humanoid",
+        "creatureSubtype": "Reptilian",
+        "count": "2d3",
+        "challengeBand": 1
+      },
+      {
+        "rollRange": "33-48",
+        "name": "Skeleton Legionnaire",
+        "creatureType": "Undead",
+        "creatureSubtype": "Skeleton",
+        "count": "2d4",
+        "challengeBand": 1
+      },
+      {
+        "rollRange": "49-64",
+        "name": "Ghoul Stalker",
+        "creatureType": "Undead",
+        "creatureSubtype": "Ghoul",
+        "count": "2d2",
+        "challengeBand": 1
+      },
+      {
+        "rollRange": "65-80",
+        "name": "Wraith of the Rift",
+        "creatureType": "Undead",
+        "creatureSubtype": "Incorporeal",
+        "count": "2d3",
+        "challengeBand": 1
+      },
+      {
+        "rollRange": "81-96",
+        "name": "Owlbear",
+        "creatureType": "Monstrosity",
+        "creatureSubtype": "Hybrid Beast",
+        "count": "2d4",
+        "challengeBand": 1
+      }
+    ]
+  },
+  {
+    "biomeClass": "Tropical",
+    "biomeSubclass": "Rain Regions",
+    "biomeType": "Wetland",
+    "dangerTier": 2,
+    "entries": [
+      {
+        "rollRange": "1-16",
+        "name": "Ghoul Stalker",
+        "creatureType": "Undead",
+        "creatureSubtype": "Ghoul",
+        "count": "1d2",
+        "challengeBand": 2
+      },
+      {
+        "rollRange": "17-32",
+        "name": "Wraith of the Rift",
+        "creatureType": "Undead",
+        "creatureSubtype": "Incorporeal",
+        "count": "1d3",
+        "challengeBand": 2
+      },
+      {
+        "rollRange": "33-48",
+        "name": "Owlbear",
+        "creatureType": "Monstrosity",
+        "creatureSubtype": "Hybrid Beast",
+        "count": "1d4",
+        "challengeBand": 2
+      },
+      {
+        "rollRange": "49-64",
+        "name": "Displacer Beast",
+        "creatureType": "Monstrosity",
+        "creatureSubtype": "Fey-Touched",
+        "count": "1d2",
+        "challengeBand": 2
+      },
+      {
+        "rollRange": "65-80",
+        "name": "Gelatinous Cube",
+        "creatureType": "Ooze",
+        "creatureSubtype": "Cube",
+        "count": "1d3",
+        "challengeBand": 2
+      },
+      {
+        "rollRange": "81-96",
+        "name": "Mind Flayer",
+        "creatureType": "Aberration",
+        "creatureSubtype": "Psionic",
+        "count": "1d4",
+        "challengeBand": 2
+      }
+    ]
+  },
+  {
+    "biomeClass": "Tropical",
+    "biomeSubclass": "Rain Regions",
+    "biomeType": "Wetland",
+    "dangerTier": 3,
+    "entries": [
+      {
+        "rollRange": "1-16",
+        "name": "Displacer Beast",
+        "creatureType": "Monstrosity",
+        "creatureSubtype": "Fey-Touched",
+        "count": "2d2",
+        "challengeBand": 3
+      },
+      {
+        "rollRange": "17-32",
+        "name": "Gelatinous Cube",
+        "creatureType": "Ooze",
+        "creatureSubtype": "Cube",
+        "count": "2d3",
+        "challengeBand": 3
+      },
+      {
+        "rollRange": "33-48",
+        "name": "Mind Flayer",
+        "creatureType": "Aberration",
+        "creatureSubtype": "Psionic",
+        "count": "2d4",
+        "challengeBand": 3
+      },
+      {
+        "rollRange": "49-64",
+        "name": "Beholder",
+        "creatureType": "Aberration",
+        "creatureSubtype": "Eye Tyrant",
+        "count": "2d2",
+        "challengeBand": 3
+      },
+      {
+        "rollRange": "65-80",
+        "name": "Young Red Dragon",
+        "creatureType": "Dragon",
+        "creatureSubtype": "Chromatic",
+        "count": "2d3",
+        "challengeBand": 3
+      },
+      {
+        "rollRange": "81-96",
+        "name": "Will-o-Wisp",
+        "creatureType": "Undead",
+        "creatureSubtype": "Spirit",
+        "count": "2d4",
+        "challengeBand": 3
+      }
+    ]
+  },
+  {
+    "biomeClass": "Tropical",
+    "biomeSubclass": "Rain Regions",
+    "biomeType": "Wetland",
+    "dangerTier": 4,
+    "entries": [
+      {
+        "rollRange": "1-16",
+        "name": "Beholder",
+        "creatureType": "Aberration",
+        "creatureSubtype": "Eye Tyrant",
+        "count": "1d2",
+        "challengeBand": 4
+      },
+      {
+        "rollRange": "17-32",
+        "name": "Young Red Dragon",
+        "creatureType": "Dragon",
+        "creatureSubtype": "Chromatic",
+        "count": "1d3",
+        "challengeBand": 4
+      },
+      {
+        "rollRange": "33-48",
+        "name": "Will-o-Wisp",
+        "creatureType": "Undead",
+        "creatureSubtype": "Spirit",
+        "count": "1d4",
+        "challengeBand": 4
+      },
+      {
+        "rollRange": "49-64",
+        "name": "Basilisk",
+        "creatureType": "Monstrosity",
+        "creatureSubtype": "Petrifier",
+        "count": "1d2",
+        "challengeBand": 4
+      },
+      {
+        "rollRange": "65-80",
+        "name": "Treant Guardian",
+        "creatureType": "Plant",
+        "creatureSubtype": "Sentient Tree",
+        "count": "1d3",
+        "challengeBand": 4
+      },
+      {
+        "rollRange": "81-96",
+        "name": "Dryad Envoy",
+        "creatureType": "Fey",
+        "creatureSubtype": "Nymph",
+        "count": "1d4",
+        "challengeBand": 4
+      }
+    ]
+  },
+  {
+    "biomeClass": "Tropical",
+    "biomeSubclass": "Rain Regions",
+    "biomeType": "Wetland",
+    "dangerTier": 5,
+    "entries": [
+      {
+        "rollRange": "1-16",
+        "name": "Basilisk",
+        "creatureType": "Monstrosity",
+        "creatureSubtype": "Petrifier",
+        "count": "2d2",
+        "challengeBand": 5
+      },
+      {
+        "rollRange": "17-32",
+        "name": "Treant Guardian",
+        "creatureType": "Plant",
+        "creatureSubtype": "Sentient Tree",
+        "count": "2d3",
+        "challengeBand": 5
+      },
+      {
+        "rollRange": "33-48",
+        "name": "Dryad Envoy",
+        "creatureType": "Fey",
+        "creatureSubtype": "Nymph",
+        "count": "2d4",
+        "challengeBand": 5
+      },
+      {
+        "rollRange": "49-64",
+        "name": "Stone Giant",
+        "creatureType": "Giant",
+        "creatureSubtype": "Earthborn",
+        "count": "2d2",
+        "challengeBand": 5
+      },
+      {
+        "rollRange": "65-80",
+        "name": "Frost Giant",
+        "creatureType": "Giant",
+        "creatureSubtype": "Iceborn",
+        "count": "2d3",
+        "challengeBand": 5
+      },
+      {
+        "rollRange": "81-96",
+        "name": "Merrow Hunter",
+        "creatureType": "Monstrosity",
+        "creatureSubtype": "Aquatic",
+        "count": "2d4",
+        "challengeBand": 5
+      }
+    ]
+  },
+  {
+    "biomeClass": "Cold",
+    "biomeSubclass": "Frozen",
+    "biomeType": "Tundra",
+    "dangerTier": 1,
+    "entries": [
+      {
+        "rollRange": "1-16",
+        "name": "Goblin Raider",
+        "creatureType": "Humanoid",
+        "creatureSubtype": "Goblinoid",
+        "count": "2d2",
+        "challengeBand": 1
+      },
+      {
+        "rollRange": "17-32",
+        "name": "Hobgoblin Captain",
+        "creatureType": "Humanoid",
+        "creatureSubtype": "Goblinoid",
+        "count": "2d3",
+        "challengeBand": 1
+      },
+      {
+        "rollRange": "33-48",
+        "name": "Orc Berserker",
+        "creatureType": "Humanoid",
+        "creatureSubtype": "Orc",
+        "count": "2d4",
+        "challengeBand": 1
+      },
+      {
+        "rollRange": "49-64",
+        "name": "Kobold Trapper",
+        "creatureType": "Humanoid",
+        "creatureSubtype": "Reptilian",
+        "count": "2d2",
+        "challengeBand": 1
+      },
+      {
+        "rollRange": "65-80",
+        "name": "Skeleton Legionnaire",
+        "creatureType": "Undead",
+        "creatureSubtype": "Skeleton",
+        "count": "2d3",
+        "challengeBand": 1
+      },
+      {
+        "rollRange": "81-96",
+        "name": "Ghoul Stalker",
+        "creatureType": "Undead",
+        "creatureSubtype": "Ghoul",
+        "count": "2d4",
+        "challengeBand": 1
+      }
+    ]
+  },
+  {
+    "biomeClass": "Cold",
+    "biomeSubclass": "Frozen",
+    "biomeType": "Tundra",
+    "dangerTier": 2,
+    "entries": [
+      {
+        "rollRange": "1-16",
+        "name": "Kobold Trapper",
+        "creatureType": "Humanoid",
+        "creatureSubtype": "Reptilian",
+        "count": "1d2",
+        "challengeBand": 2
+      },
+      {
+        "rollRange": "17-32",
+        "name": "Skeleton Legionnaire",
+        "creatureType": "Undead",
+        "creatureSubtype": "Skeleton",
+        "count": "1d3",
+        "challengeBand": 2
+      },
+      {
+        "rollRange": "33-48",
+        "name": "Ghoul Stalker",
+        "creatureType": "Undead",
+        "creatureSubtype": "Ghoul",
+        "count": "1d4",
+        "challengeBand": 2
+      },
+      {
+        "rollRange": "49-64",
+        "name": "Wraith of the Rift",
+        "creatureType": "Undead",
+        "creatureSubtype": "Incorporeal",
+        "count": "1d2",
+        "challengeBand": 2
+      },
+      {
+        "rollRange": "65-80",
+        "name": "Owlbear",
+        "creatureType": "Monstrosity",
+        "creatureSubtype": "Hybrid Beast",
+        "count": "1d3",
+        "challengeBand": 2
+      },
+      {
+        "rollRange": "81-96",
+        "name": "Displacer Beast",
+        "creatureType": "Monstrosity",
+        "creatureSubtype": "Fey-Touched",
+        "count": "1d4",
+        "challengeBand": 2
+      }
+    ]
+  },
+  {
+    "biomeClass": "Cold",
+    "biomeSubclass": "Frozen",
+    "biomeType": "Tundra",
+    "dangerTier": 3,
+    "entries": [
+      {
+        "rollRange": "1-16",
+        "name": "Wraith of the Rift",
+        "creatureType": "Undead",
+        "creatureSubtype": "Incorporeal",
+        "count": "2d2",
+        "challengeBand": 3
+      },
+      {
+        "rollRange": "17-32",
+        "name": "Owlbear",
+        "creatureType": "Monstrosity",
+        "creatureSubtype": "Hybrid Beast",
+        "count": "2d3",
+        "challengeBand": 3
+      },
+      {
+        "rollRange": "33-48",
+        "name": "Displacer Beast",
+        "creatureType": "Monstrosity",
+        "creatureSubtype": "Fey-Touched",
+        "count": "2d4",
+        "challengeBand": 3
+      },
+      {
+        "rollRange": "49-64",
+        "name": "Gelatinous Cube",
+        "creatureType": "Ooze",
+        "creatureSubtype": "Cube",
+        "count": "2d2",
+        "challengeBand": 3
+      },
+      {
+        "rollRange": "65-80",
+        "name": "Mind Flayer",
+        "creatureType": "Aberration",
+        "creatureSubtype": "Psionic",
+        "count": "2d3",
+        "challengeBand": 3
+      },
+      {
+        "rollRange": "81-96",
+        "name": "Beholder",
+        "creatureType": "Aberration",
+        "creatureSubtype": "Eye Tyrant",
+        "count": "2d4",
+        "challengeBand": 3
+      }
+    ]
+  },
+  {
+    "biomeClass": "Cold",
+    "biomeSubclass": "Frozen",
+    "biomeType": "Tundra",
+    "dangerTier": 4,
+    "entries": [
+      {
+        "rollRange": "1-16",
+        "name": "Gelatinous Cube",
+        "creatureType": "Ooze",
+        "creatureSubtype": "Cube",
+        "count": "1d2",
+        "challengeBand": 4
+      },
+      {
+        "rollRange": "17-32",
+        "name": "Mind Flayer",
+        "creatureType": "Aberration",
+        "creatureSubtype": "Psionic",
+        "count": "1d3",
+        "challengeBand": 4
+      },
+      {
+        "rollRange": "33-48",
+        "name": "Beholder",
+        "creatureType": "Aberration",
+        "creatureSubtype": "Eye Tyrant",
+        "count": "1d4",
+        "challengeBand": 4
+      },
+      {
+        "rollRange": "49-64",
+        "name": "Young Red Dragon",
+        "creatureType": "Dragon",
+        "creatureSubtype": "Chromatic",
+        "count": "1d2",
+        "challengeBand": 4
+      },
+      {
+        "rollRange": "65-80",
+        "name": "Will-o-Wisp",
+        "creatureType": "Undead",
+        "creatureSubtype": "Spirit",
+        "count": "1d3",
+        "challengeBand": 4
+      },
+      {
+        "rollRange": "81-96",
+        "name": "Basilisk",
+        "creatureType": "Monstrosity",
+        "creatureSubtype": "Petrifier",
+        "count": "1d4",
+        "challengeBand": 4
+      }
+    ]
+  },
+  {
+    "biomeClass": "Cold",
+    "biomeSubclass": "Frozen",
+    "biomeType": "Tundra",
+    "dangerTier": 5,
+    "entries": [
+      {
+        "rollRange": "1-16",
+        "name": "Young Red Dragon",
+        "creatureType": "Dragon",
+        "creatureSubtype": "Chromatic",
+        "count": "2d2",
+        "challengeBand": 5
+      },
+      {
+        "rollRange": "17-32",
+        "name": "Will-o-Wisp",
+        "creatureType": "Undead",
+        "creatureSubtype": "Spirit",
+        "count": "2d3",
+        "challengeBand": 5
+      },
+      {
+        "rollRange": "33-48",
+        "name": "Basilisk",
+        "creatureType": "Monstrosity",
+        "creatureSubtype": "Petrifier",
+        "count": "2d4",
+        "challengeBand": 5
+      },
+      {
+        "rollRange": "49-64",
+        "name": "Treant Guardian",
+        "creatureType": "Plant",
+        "creatureSubtype": "Sentient Tree",
+        "count": "2d2",
+        "challengeBand": 5
+      },
+      {
+        "rollRange": "65-80",
+        "name": "Dryad Envoy",
+        "creatureType": "Fey",
+        "creatureSubtype": "Nymph",
+        "count": "2d3",
+        "challengeBand": 5
+      },
+      {
+        "rollRange": "81-96",
+        "name": "Frost Giant",
+        "creatureType": "Giant",
+        "creatureSubtype": "Iceborn",
+        "count": "2d4",
+        "challengeBand": 5
+      }
+    ]
+  },
+  {
+    "biomeClass": "Cold",
+    "biomeSubclass": "Frozen",
+    "biomeType": "Glacier",
+    "dangerTier": 1,
+    "entries": [
+      {
+        "rollRange": "1-16",
+        "name": "Goblin Raider",
+        "creatureType": "Humanoid",
+        "creatureSubtype": "Goblinoid",
+        "count": "2d2",
+        "challengeBand": 1
+      },
+      {
+        "rollRange": "17-32",
+        "name": "Hobgoblin Captain",
+        "creatureType": "Humanoid",
+        "creatureSubtype": "Goblinoid",
+        "count": "2d3",
+        "challengeBand": 1
+      },
+      {
+        "rollRange": "33-48",
+        "name": "Orc Berserker",
+        "creatureType": "Humanoid",
+        "creatureSubtype": "Orc",
+        "count": "2d4",
+        "challengeBand": 1
+      },
+      {
+        "rollRange": "49-64",
+        "name": "Kobold Trapper",
+        "creatureType": "Humanoid",
+        "creatureSubtype": "Reptilian",
+        "count": "2d2",
+        "challengeBand": 1
+      },
+      {
+        "rollRange": "65-80",
+        "name": "Skeleton Legionnaire",
+        "creatureType": "Undead",
+        "creatureSubtype": "Skeleton",
+        "count": "2d3",
+        "challengeBand": 1
+      },
+      {
+        "rollRange": "81-96",
+        "name": "Ghoul Stalker",
+        "creatureType": "Undead",
+        "creatureSubtype": "Ghoul",
+        "count": "2d4",
+        "challengeBand": 1
+      }
+    ]
+  },
+  {
+    "biomeClass": "Cold",
+    "biomeSubclass": "Frozen",
+    "biomeType": "Glacier",
+    "dangerTier": 2,
+    "entries": [
+      {
+        "rollRange": "1-16",
+        "name": "Kobold Trapper",
+        "creatureType": "Humanoid",
+        "creatureSubtype": "Reptilian",
+        "count": "1d2",
+        "challengeBand": 2
+      },
+      {
+        "rollRange": "17-32",
+        "name": "Skeleton Legionnaire",
+        "creatureType": "Undead",
+        "creatureSubtype": "Skeleton",
+        "count": "1d3",
+        "challengeBand": 2
+      },
+      {
+        "rollRange": "33-48",
+        "name": "Ghoul Stalker",
+        "creatureType": "Undead",
+        "creatureSubtype": "Ghoul",
+        "count": "1d4",
+        "challengeBand": 2
+      },
+      {
+        "rollRange": "49-64",
+        "name": "Owlbear",
+        "creatureType": "Monstrosity",
+        "creatureSubtype": "Hybrid Beast",
+        "count": "1d2",
+        "challengeBand": 2
+      },
+      {
+        "rollRange": "65-80",
+        "name": "Displacer Beast",
+        "creatureType": "Monstrosity",
+        "creatureSubtype": "Fey-Touched",
+        "count": "1d3",
+        "challengeBand": 2
+      },
+      {
+        "rollRange": "81-96",
+        "name": "Gelatinous Cube",
+        "creatureType": "Ooze",
+        "creatureSubtype": "Cube",
+        "count": "1d4",
+        "challengeBand": 2
+      }
+    ]
+  },
+  {
+    "biomeClass": "Cold",
+    "biomeSubclass": "Frozen",
+    "biomeType": "Glacier",
+    "dangerTier": 3,
+    "entries": [
+      {
+        "rollRange": "1-16",
+        "name": "Owlbear",
+        "creatureType": "Monstrosity",
+        "creatureSubtype": "Hybrid Beast",
+        "count": "2d2",
+        "challengeBand": 3
+      },
+      {
+        "rollRange": "17-32",
+        "name": "Displacer Beast",
+        "creatureType": "Monstrosity",
+        "creatureSubtype": "Fey-Touched",
+        "count": "2d3",
+        "challengeBand": 3
+      },
+      {
+        "rollRange": "33-48",
+        "name": "Gelatinous Cube",
+        "creatureType": "Ooze",
+        "creatureSubtype": "Cube",
+        "count": "2d4",
+        "challengeBand": 3
+      },
+      {
+        "rollRange": "49-64",
+        "name": "Mind Flayer",
+        "creatureType": "Aberration",
+        "creatureSubtype": "Psionic",
+        "count": "2d2",
+        "challengeBand": 3
+      },
+      {
+        "rollRange": "65-80",
+        "name": "Beholder",
+        "creatureType": "Aberration",
+        "creatureSubtype": "Eye Tyrant",
+        "count": "2d3",
+        "challengeBand": 3
+      },
+      {
+        "rollRange": "81-96",
+        "name": "Young Red Dragon",
+        "creatureType": "Dragon",
+        "creatureSubtype": "Chromatic",
+        "count": "2d4",
+        "challengeBand": 3
+      }
+    ]
+  },
+  {
+    "biomeClass": "Cold",
+    "biomeSubclass": "Frozen",
+    "biomeType": "Glacier",
+    "dangerTier": 4,
+    "entries": [
+      {
+        "rollRange": "1-16",
+        "name": "Mind Flayer",
+        "creatureType": "Aberration",
+        "creatureSubtype": "Psionic",
+        "count": "1d2",
+        "challengeBand": 4
+      },
+      {
+        "rollRange": "17-32",
+        "name": "Beholder",
+        "creatureType": "Aberration",
+        "creatureSubtype": "Eye Tyrant",
+        "count": "1d3",
+        "challengeBand": 4
+      },
+      {
+        "rollRange": "33-48",
+        "name": "Young Red Dragon",
+        "creatureType": "Dragon",
+        "creatureSubtype": "Chromatic",
+        "count": "1d4",
+        "challengeBand": 4
+      },
+      {
+        "rollRange": "49-64",
+        "name": "Will-o-Wisp",
+        "creatureType": "Undead",
+        "creatureSubtype": "Spirit",
+        "count": "1d2",
+        "challengeBand": 4
+      },
+      {
+        "rollRange": "65-80",
+        "name": "Basilisk",
+        "creatureType": "Monstrosity",
+        "creatureSubtype": "Petrifier",
+        "count": "1d3",
+        "challengeBand": 4
+      },
+      {
+        "rollRange": "81-96",
+        "name": "Treant Guardian",
+        "creatureType": "Plant",
+        "creatureSubtype": "Sentient Tree",
+        "count": "1d4",
+        "challengeBand": 4
+      }
+    ]
+  },
+  {
+    "biomeClass": "Cold",
+    "biomeSubclass": "Frozen",
+    "biomeType": "Glacier",
+    "dangerTier": 5,
+    "entries": [
+      {
+        "rollRange": "1-16",
+        "name": "Will-o-Wisp",
+        "creatureType": "Undead",
+        "creatureSubtype": "Spirit",
+        "count": "2d2",
+        "challengeBand": 5
+      },
+      {
+        "rollRange": "17-32",
+        "name": "Basilisk",
+        "creatureType": "Monstrosity",
+        "creatureSubtype": "Petrifier",
+        "count": "2d3",
+        "challengeBand": 5
+      },
+      {
+        "rollRange": "33-48",
+        "name": "Treant Guardian",
+        "creatureType": "Plant",
+        "creatureSubtype": "Sentient Tree",
+        "count": "2d4",
+        "challengeBand": 5
+      },
+      {
+        "rollRange": "49-64",
+        "name": "Dryad Envoy",
+        "creatureType": "Fey",
+        "creatureSubtype": "Nymph",
+        "count": "2d2",
+        "challengeBand": 5
+      },
+      {
+        "rollRange": "65-80",
+        "name": "Stone Giant",
+        "creatureType": "Giant",
+        "creatureSubtype": "Earthborn",
+        "count": "2d3",
+        "challengeBand": 5
+      },
+      {
+        "rollRange": "81-96",
+        "name": "Wraith of the Rift",
+        "creatureType": "Undead",
+        "creatureSubtype": "Incorporeal",
+        "count": "2d4",
+        "challengeBand": 5
+      }
+    ]
+  },
+  {
+    "biomeClass": "Subterranean",
+    "biomeSubclass": "Deep Earth",
+    "biomeType": "Cavern",
+    "dangerTier": 1,
+    "entries": [
+      {
+        "rollRange": "1-16",
+        "name": "Stone Giant",
+        "creatureType": "Giant",
+        "creatureSubtype": "Earthborn",
+        "count": "2d2",
+        "challengeBand": 1
+      },
+      {
+        "rollRange": "17-32",
+        "name": "Cave Bat",
+        "creatureType": "Mammal",
+        "creatureSubtype": "Nocturnal",
+        "count": "2d3",
+        "challengeBand": 1
+      },
+      {
+        "rollRange": "33-48",
+        "name": "Goblin Raider",
+        "creatureType": "Humanoid",
+        "creatureSubtype": "Goblinoid",
+        "count": "2d4",
+        "challengeBand": 1
+      },
+      {
+        "rollRange": "49-64",
+        "name": "Hobgoblin Captain",
+        "creatureType": "Humanoid",
+        "creatureSubtype": "Goblinoid",
+        "count": "2d2",
+        "challengeBand": 1
+      },
+      {
+        "rollRange": "65-80",
+        "name": "Orc Berserker",
+        "creatureType": "Humanoid",
+        "creatureSubtype": "Orc",
+        "count": "2d3",
+        "challengeBand": 1
+      },
+      {
+        "rollRange": "81-96",
+        "name": "Skeleton Legionnaire",
+        "creatureType": "Undead",
+        "creatureSubtype": "Skeleton",
+        "count": "2d4",
+        "challengeBand": 1
+      }
+    ]
+  },
+  {
+    "biomeClass": "Subterranean",
+    "biomeSubclass": "Deep Earth",
+    "biomeType": "Cavern",
+    "dangerTier": 2,
+    "entries": [
+      {
+        "rollRange": "1-16",
+        "name": "Hobgoblin Captain",
+        "creatureType": "Humanoid",
+        "creatureSubtype": "Goblinoid",
+        "count": "1d2",
+        "challengeBand": 2
+      },
+      {
+        "rollRange": "17-32",
+        "name": "Orc Berserker",
+        "creatureType": "Humanoid",
+        "creatureSubtype": "Orc",
+        "count": "1d3",
+        "challengeBand": 2
+      },
+      {
+        "rollRange": "33-48",
+        "name": "Skeleton Legionnaire",
+        "creatureType": "Undead",
+        "creatureSubtype": "Skeleton",
+        "count": "1d4",
+        "challengeBand": 2
+      },
+      {
+        "rollRange": "49-64",
+        "name": "Ghoul Stalker",
+        "creatureType": "Undead",
+        "creatureSubtype": "Ghoul",
+        "count": "1d2",
+        "challengeBand": 2
+      },
+      {
+        "rollRange": "65-80",
+        "name": "Wraith of the Rift",
+        "creatureType": "Undead",
+        "creatureSubtype": "Incorporeal",
+        "count": "1d3",
+        "challengeBand": 2
+      },
+      {
+        "rollRange": "81-96",
+        "name": "Owlbear",
+        "creatureType": "Monstrosity",
+        "creatureSubtype": "Hybrid Beast",
+        "count": "1d4",
+        "challengeBand": 2
+      }
+    ]
+  },
+  {
+    "biomeClass": "Subterranean",
+    "biomeSubclass": "Deep Earth",
+    "biomeType": "Cavern",
+    "dangerTier": 3,
+    "entries": [
+      {
+        "rollRange": "1-16",
+        "name": "Ghoul Stalker",
+        "creatureType": "Undead",
+        "creatureSubtype": "Ghoul",
+        "count": "2d2",
+        "challengeBand": 3
+      },
+      {
+        "rollRange": "17-32",
+        "name": "Wraith of the Rift",
+        "creatureType": "Undead",
+        "creatureSubtype": "Incorporeal",
+        "count": "2d3",
+        "challengeBand": 3
+      },
+      {
+        "rollRange": "33-48",
+        "name": "Owlbear",
+        "creatureType": "Monstrosity",
+        "creatureSubtype": "Hybrid Beast",
+        "count": "2d4",
+        "challengeBand": 3
+      },
+      {
+        "rollRange": "49-64",
+        "name": "Displacer Beast",
+        "creatureType": "Monstrosity",
+        "creatureSubtype": "Fey-Touched",
+        "count": "2d2",
+        "challengeBand": 3
+      },
+      {
+        "rollRange": "65-80",
+        "name": "Mind Flayer",
+        "creatureType": "Aberration",
+        "creatureSubtype": "Psionic",
+        "count": "2d3",
+        "challengeBand": 3
+      },
+      {
+        "rollRange": "81-96",
+        "name": "Young Red Dragon",
+        "creatureType": "Dragon",
+        "creatureSubtype": "Chromatic",
+        "count": "2d4",
+        "challengeBand": 3
+      }
+    ]
+  },
+  {
+    "biomeClass": "Subterranean",
+    "biomeSubclass": "Deep Earth",
+    "biomeType": "Cavern",
+    "dangerTier": 4,
+    "entries": [
+      {
+        "rollRange": "1-16",
+        "name": "Displacer Beast",
+        "creatureType": "Monstrosity",
+        "creatureSubtype": "Fey-Touched",
+        "count": "1d2",
+        "challengeBand": 4
+      },
+      {
+        "rollRange": "17-32",
+        "name": "Mind Flayer",
+        "creatureType": "Aberration",
+        "creatureSubtype": "Psionic",
+        "count": "1d3",
+        "challengeBand": 4
+      },
+      {
+        "rollRange": "33-48",
+        "name": "Young Red Dragon",
+        "creatureType": "Dragon",
+        "creatureSubtype": "Chromatic",
+        "count": "1d4",
+        "challengeBand": 4
+      },
+      {
+        "rollRange": "49-64",
+        "name": "Will-o-Wisp",
+        "creatureType": "Undead",
+        "creatureSubtype": "Spirit",
+        "count": "1d2",
+        "challengeBand": 4
+      },
+      {
+        "rollRange": "65-80",
+        "name": "Basilisk",
+        "creatureType": "Monstrosity",
+        "creatureSubtype": "Petrifier",
+        "count": "1d3",
+        "challengeBand": 4
+      },
+      {
+        "rollRange": "81-96",
+        "name": "Treant Guardian",
+        "creatureType": "Plant",
+        "creatureSubtype": "Sentient Tree",
+        "count": "1d4",
+        "challengeBand": 4
+      }
+    ]
+  },
+  {
+    "biomeClass": "Subterranean",
+    "biomeSubclass": "Deep Earth",
+    "biomeType": "Cavern",
+    "dangerTier": 5,
+    "entries": [
+      {
+        "rollRange": "1-16",
+        "name": "Will-o-Wisp",
+        "creatureType": "Undead",
+        "creatureSubtype": "Spirit",
+        "count": "2d2",
+        "challengeBand": 5
+      },
+      {
+        "rollRange": "17-32",
+        "name": "Basilisk",
+        "creatureType": "Monstrosity",
+        "creatureSubtype": "Petrifier",
+        "count": "2d3",
+        "challengeBand": 5
+      },
+      {
+        "rollRange": "33-48",
+        "name": "Treant Guardian",
+        "creatureType": "Plant",
+        "creatureSubtype": "Sentient Tree",
+        "count": "2d4",
+        "challengeBand": 5
+      },
+      {
+        "rollRange": "49-64",
+        "name": "Dryad Envoy",
+        "creatureType": "Fey",
+        "creatureSubtype": "Nymph",
+        "count": "2d2",
+        "challengeBand": 5
+      },
+      {
+        "rollRange": "65-80",
+        "name": "Frost Giant",
+        "creatureType": "Giant",
+        "creatureSubtype": "Iceborn",
+        "count": "2d3",
+        "challengeBand": 5
+      },
+      {
+        "rollRange": "81-96",
+        "name": "Kobold Trapper",
+        "creatureType": "Humanoid",
+        "creatureSubtype": "Reptilian",
+        "count": "2d4",
+        "challengeBand": 5
+      }
+    ]
+  },
+  {
+    "biomeClass": "Subterranean",
+    "biomeSubclass": "Deep Earth",
+    "biomeType": "Underdark",
+    "dangerTier": 1,
+    "entries": [
+      {
+        "rollRange": "1-16",
+        "name": "Cave Bat",
+        "creatureType": "Mammal",
+        "creatureSubtype": "Nocturnal",
+        "count": "2d2",
+        "challengeBand": 1
+      },
+      {
+        "rollRange": "17-32",
+        "name": "Goblin Raider",
+        "creatureType": "Humanoid",
+        "creatureSubtype": "Goblinoid",
+        "count": "2d3",
+        "challengeBand": 1
+      },
+      {
+        "rollRange": "33-48",
+        "name": "Hobgoblin Captain",
+        "creatureType": "Humanoid",
+        "creatureSubtype": "Goblinoid",
+        "count": "2d4",
+        "challengeBand": 1
+      },
+      {
+        "rollRange": "49-64",
+        "name": "Orc Berserker",
+        "creatureType": "Humanoid",
+        "creatureSubtype": "Orc",
+        "count": "2d2",
+        "challengeBand": 1
+      },
+      {
+        "rollRange": "65-80",
+        "name": "Kobold Trapper",
+        "creatureType": "Humanoid",
+        "creatureSubtype": "Reptilian",
+        "count": "2d3",
+        "challengeBand": 1
+      },
+      {
+        "rollRange": "81-96",
+        "name": "Skeleton Legionnaire",
+        "creatureType": "Undead",
+        "creatureSubtype": "Skeleton",
+        "count": "2d4",
+        "challengeBand": 1
+      }
+    ]
+  },
+  {
+    "biomeClass": "Subterranean",
+    "biomeSubclass": "Deep Earth",
+    "biomeType": "Underdark",
+    "dangerTier": 2,
+    "entries": [
+      {
+        "rollRange": "1-16",
+        "name": "Orc Berserker",
+        "creatureType": "Humanoid",
+        "creatureSubtype": "Orc",
+        "count": "1d2",
+        "challengeBand": 2
+      },
+      {
+        "rollRange": "17-32",
+        "name": "Kobold Trapper",
+        "creatureType": "Humanoid",
+        "creatureSubtype": "Reptilian",
+        "count": "1d3",
+        "challengeBand": 2
+      },
+      {
+        "rollRange": "33-48",
+        "name": "Skeleton Legionnaire",
+        "creatureType": "Undead",
+        "creatureSubtype": "Skeleton",
+        "count": "1d4",
+        "challengeBand": 2
+      },
+      {
+        "rollRange": "49-64",
+        "name": "Ghoul Stalker",
+        "creatureType": "Undead",
+        "creatureSubtype": "Ghoul",
+        "count": "1d2",
+        "challengeBand": 2
+      },
+      {
+        "rollRange": "65-80",
+        "name": "Wraith of the Rift",
+        "creatureType": "Undead",
+        "creatureSubtype": "Incorporeal",
+        "count": "1d3",
+        "challengeBand": 2
+      },
+      {
+        "rollRange": "81-96",
+        "name": "Owlbear",
+        "creatureType": "Monstrosity",
+        "creatureSubtype": "Hybrid Beast",
+        "count": "1d4",
+        "challengeBand": 2
+      }
+    ]
+  },
+  {
+    "biomeClass": "Subterranean",
+    "biomeSubclass": "Deep Earth",
+    "biomeType": "Underdark",
+    "dangerTier": 3,
+    "entries": [
+      {
+        "rollRange": "1-16",
+        "name": "Ghoul Stalker",
+        "creatureType": "Undead",
+        "creatureSubtype": "Ghoul",
+        "count": "2d2",
+        "challengeBand": 3
+      },
+      {
+        "rollRange": "17-32",
+        "name": "Wraith of the Rift",
+        "creatureType": "Undead",
+        "creatureSubtype": "Incorporeal",
+        "count": "2d3",
+        "challengeBand": 3
+      },
+      {
+        "rollRange": "33-48",
+        "name": "Owlbear",
+        "creatureType": "Monstrosity",
+        "creatureSubtype": "Hybrid Beast",
+        "count": "2d4",
+        "challengeBand": 3
+      },
+      {
+        "rollRange": "49-64",
+        "name": "Beholder",
+        "creatureType": "Aberration",
+        "creatureSubtype": "Eye Tyrant",
+        "count": "2d2",
+        "challengeBand": 3
+      },
+      {
+        "rollRange": "65-80",
+        "name": "Young Red Dragon",
+        "creatureType": "Dragon",
+        "creatureSubtype": "Chromatic",
+        "count": "2d3",
+        "challengeBand": 3
+      },
+      {
+        "rollRange": "81-96",
+        "name": "Will-o-Wisp",
+        "creatureType": "Undead",
+        "creatureSubtype": "Spirit",
+        "count": "2d4",
+        "challengeBand": 3
+      }
+    ]
+  },
+  {
+    "biomeClass": "Subterranean",
+    "biomeSubclass": "Deep Earth",
+    "biomeType": "Underdark",
+    "dangerTier": 4,
+    "entries": [
+      {
+        "rollRange": "1-16",
+        "name": "Beholder",
+        "creatureType": "Aberration",
+        "creatureSubtype": "Eye Tyrant",
+        "count": "1d2",
+        "challengeBand": 4
+      },
+      {
+        "rollRange": "17-32",
+        "name": "Young Red Dragon",
+        "creatureType": "Dragon",
+        "creatureSubtype": "Chromatic",
+        "count": "1d3",
+        "challengeBand": 4
+      },
+      {
+        "rollRange": "33-48",
+        "name": "Will-o-Wisp",
+        "creatureType": "Undead",
+        "creatureSubtype": "Spirit",
+        "count": "1d4",
+        "challengeBand": 4
+      },
+      {
+        "rollRange": "49-64",
+        "name": "Basilisk",
+        "creatureType": "Monstrosity",
+        "creatureSubtype": "Petrifier",
+        "count": "1d2",
+        "challengeBand": 4
+      },
+      {
+        "rollRange": "65-80",
+        "name": "Treant Guardian",
+        "creatureType": "Plant",
+        "creatureSubtype": "Sentient Tree",
+        "count": "1d3",
+        "challengeBand": 4
+      },
+      {
+        "rollRange": "81-96",
+        "name": "Dryad Envoy",
+        "creatureType": "Fey",
+        "creatureSubtype": "Nymph",
+        "count": "1d4",
+        "challengeBand": 4
+      }
+    ]
+  },
+  {
+    "biomeClass": "Subterranean",
+    "biomeSubclass": "Deep Earth",
+    "biomeType": "Underdark",
+    "dangerTier": 5,
+    "entries": [
+      {
+        "rollRange": "1-16",
+        "name": "Basilisk",
+        "creatureType": "Monstrosity",
+        "creatureSubtype": "Petrifier",
+        "count": "2d2",
+        "challengeBand": 5
+      },
+      {
+        "rollRange": "17-32",
+        "name": "Treant Guardian",
+        "creatureType": "Plant",
+        "creatureSubtype": "Sentient Tree",
+        "count": "2d3",
+        "challengeBand": 5
+      },
+      {
+        "rollRange": "33-48",
+        "name": "Dryad Envoy",
+        "creatureType": "Fey",
+        "creatureSubtype": "Nymph",
+        "count": "2d4",
+        "challengeBand": 5
+      },
+      {
+        "rollRange": "49-64",
+        "name": "Stone Giant",
+        "creatureType": "Giant",
+        "creatureSubtype": "Earthborn",
+        "count": "2d2",
+        "challengeBand": 5
+      },
+      {
+        "rollRange": "65-80",
+        "name": "Frost Giant",
+        "creatureType": "Giant",
+        "creatureSubtype": "Iceborn",
+        "count": "2d3",
+        "challengeBand": 5
+      },
+      {
+        "rollRange": "81-96",
+        "name": "Displacer Beast",
+        "creatureType": "Monstrosity",
+        "creatureSubtype": "Fey-Touched",
+        "count": "2d4",
+        "challengeBand": 5
+      }
+    ]
+  }
+]

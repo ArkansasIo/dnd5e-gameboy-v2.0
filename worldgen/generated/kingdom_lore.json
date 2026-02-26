@@ -1,0 +1,146 @@
+[
+  {
+    "kingdomId": "kg01",
+    "kingdom": "Kingdom of Highcrest",
+    "title": "Kingdom of Highcrest Gazetteer",
+    "summary": "Kingdom of Highcrest centers on Arhaven and projects influence through nine cities across Valemer.",
+    "keyThemes": [
+      "hospitality",
+      "Monarchy",
+      "Lawful"
+    ],
+    "currentThreat": "cult of the rift"
+  },
+  {
+    "kingdomId": "kg02",
+    "kingdom": "Kingdom of Emberfall",
+    "title": "Kingdom of Emberfall Gazetteer",
+    "summary": "Kingdom of Emberfall centers on Belspire and projects influence through nine cities across Valemer.",
+    "keyThemes": [
+      "discipline",
+      "Council Realm",
+      "Neutral"
+    ],
+    "currentThreat": "wyvern migration"
+  },
+  {
+    "kingdomId": "kg03",
+    "kingdom": "Kingdom of Dawnmere",
+    "title": "Kingdom of Dawnmere Gazetteer",
+    "summary": "Kingdom of Dawnmere centers on Corford and projects influence through nine cities across Duskhal.",
+    "keyThemes": [
+      "piety",
+      "Mage Regency",
+      "Chaotic"
+    ],
+    "currentThreat": "orc warbands"
+  },
+  {
+    "kingdomId": "kg04",
+    "kingdom": "Kingdom of Blackfen",
+    "title": "Kingdom of Blackfen Gazetteer",
+    "summary": "Kingdom of Blackfen centers on Drakmere and projects influence through nine cities across Duskhal.",
+    "keyThemes": [
+      "honor",
+      "Theocratic Crown",
+      "Lawful"
+    ],
+    "currentThreat": "arcane blight"
+  },
+  {
+    "kingdomId": "kg05",
+    "kingdom": "Kingdom of Ironroot",
+    "title": "Kingdom of Ironroot Gazetteer",
+    "summary": "Kingdom of Ironroot centers on Eldcrest and projects influence through nine cities across Ironveil.",
+    "keyThemes": [
+      "innovation",
+      "Monarchy",
+      "Neutral"
+    ],
+    "currentThreat": "undead uprising"
+  },
+  {
+    "kingdomId": "kg06",
+    "kingdom": "Kingdom of Goldhaven",
+    "title": "Kingdom of Goldhaven Gazetteer",
+    "summary": "Kingdom of Goldhaven centers on Falvale and projects influence through nine cities across Ironveil.",
+    "keyThemes": [
+      "hospitality",
+      "Council Realm",
+      "Chaotic"
+    ],
+    "currentThreat": "cult of the rift"
+  },
+  {
+    "kingdomId": "kg07",
+    "kingdom": "Kingdom of Mistbarrow",
+    "title": "Kingdom of Mistbarrow Gazetteer",
+    "summary": "Kingdom of Mistbarrow centers on Galhaven and projects influence through nine cities across Verdanor.",
+    "keyThemes": [
+      "discipline",
+      "Mage Regency",
+      "Lawful"
+    ],
+    "currentThreat": "wyvern migration"
+  },
+  {
+    "kingdomId": "kg08",
+    "kingdom": "Kingdom of Stonewake",
+    "title": "Kingdom of Stonewake Gazetteer",
+    "summary": "Kingdom of Stonewake centers on Halspire and projects influence through nine cities across Verdanor.",
+    "keyThemes": [
+      "piety",
+      "Theocratic Crown",
+      "Neutral"
+    ],
+    "currentThreat": "orc warbands"
+  },
+  {
+    "kingdomId": "kg09",
+    "kingdom": "Kingdom of Sunscar",
+    "title": "Kingdom of Sunscar Gazetteer",
+    "summary": "Kingdom of Sunscar centers on Ithford and projects influence through nine cities across Sablemere.",
+    "keyThemes": [
+      "honor",
+      "Monarchy",
+      "Chaotic"
+    ],
+    "currentThreat": "arcane blight"
+  },
+  {
+    "kingdomId": "kg10",
+    "kingdom": "Kingdom of Frosthelm",
+    "title": "Kingdom of Frosthelm Gazetteer",
+    "summary": "Kingdom of Frosthelm centers on Jormere and projects influence through nine cities across Sablemere.",
+    "keyThemes": [
+      "innovation",
+      "Council Realm",
+      "Lawful"
+    ],
+    "currentThreat": "undead uprising"
+  },
+  {
+    "kingdomId": "kg11",
+    "kingdom": "Kingdom of Moonreach",
+    "title": "Kingdom of Moonreach Gazetteer",
+    "summary": "Kingdom of Moonreach centers on Kelcrest and projects influence through nine cities across Stormmarch.",
+    "keyThemes": [
+      "hospitality",
+      "Mage Regency",
+      "Neutral"
+    ],
+    "currentThreat": "cult of the rift"
+  },
+  {
+    "kingdomId": "kg12",
+    "kingdom": "Kingdom of Riftgard",
+    "title": "Kingdom of Riftgard Gazetteer",
+    "summary": "Kingdom of Riftgard centers on Lorvale and projects influence through nine cities across Stormmarch.",
+    "keyThemes": [
+      "discipline",
+      "Theocratic Crown",
+      "Chaotic"
+    ],
+    "currentThreat": "wyvern migration"
+  }
+]

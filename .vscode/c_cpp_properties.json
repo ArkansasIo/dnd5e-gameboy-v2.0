@@ -1,0 +1,34 @@
+﻿{
+  "configurations": [
+    {
+      "name": "Win32-GBDK",
+      "includePath": [
+        "${workspaceFolder}/**",
+        "${env:GBDK_HOME}/include",
+        "D:/gbdk/gbdk/include",
+        "${env:USERPROFILE}/gbdk/include",
+        "D:/gbdk/include",
+        "C:/gbdk/include"
+      ],
+      "defines": [
+        "__PORT_sm83"
+      ],
+      "compilerPath": "D:/llvm-mingw-20260224-msvcrt-i686/llvm-mingw-20260224-msvcrt-i686/bin/gcc.exe",
+      "cStandard": "c11",
+      "cppStandard": "c++17",
+      "intelliSenseMode": "windows-gcc-x64",
+      "browse": {
+        "path": [
+          "${workspaceFolder}",
+          "${env:GBDK_HOME}/include",
+          "D:/gbdk/gbdk/include",
+          "${env:USERPROFILE}/gbdk/include",
+          "D:/gbdk/include",
+          "C:/gbdk/include"
+        ],
+        "limitSymbolsToIncludedHeaders": true
+      }
+    }
+  ],
+  "version": 4
+}

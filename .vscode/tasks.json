@@ -1,0 +1,57 @@
+{
+  "version": "2.0.0",
+  "tasks": [
+    {
+      "label": "Build IDE Editor (x86)",
+      "type": "shell",
+      "command": "cmd",
+      "args": [
+        "/c",
+        "build.bat"
+      ],
+      "options": {
+        "cwd": "${workspaceFolder}/ide_editor"
+      },
+      "problemMatcher": [
+        "$gcc"
+      ],
+      "group": {
+        "kind": "build",
+        "isDefault": true
+      }
+    },
+    {
+      "label": "Build IDE Editor (x64)",
+      "type": "shell",
+      "command": "cmd",
+      "args": [
+        "/c",
+        "build_x64.bat"
+      ],
+      "options": {
+        "cwd": "${workspaceFolder}/ide_editor"
+      },
+      "problemMatcher": [
+        "$gcc"
+      ]
+    },
+    {
+      "label": "Build Active C File (GCC)",
+      "type": "shell",
+      "command": "D:/llvm-mingw-20260224-msvcrt-i686/llvm-mingw-20260224-msvcrt-i686/bin/gcc.exe",
+      "args": [
+        "-std=c99",
+        "-Wall",
+        "-Wextra",
+        "-I",
+        "${workspaceFolder}/src",
+        "${file}",
+        "-o",
+        "${fileDirname}/${fileBasenameNoExtension}.exe"
+      ],
+      "problemMatcher": [
+        "$gcc"
+      ]
+    }
+  ]
+}

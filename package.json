@@ -1,0 +1,13 @@
+﻿{
+    "dependencies":  {
+                         "pngjs":  "^7.0.0"
+                     },
+    "scripts":  {
+                    "worldgen":  "node worldgen/src/generate_world.js",
+                    "worldgen:monsters":  "node worldgen/src/generate_monster_compendium.js",
+                    "worldgen:classes":  "node worldgen/src/generate_player_classes_5e.js",
+                    "rpg5e:demo":  "node rpg5e/demo.js",
+                    "worldgen:story":  "node worldgen/src/generate_story_mode_og.js",
+                    "worldgen:elden":  "node worldgen/src/generate_elden_dnd5e_compendium.js"
+                }
+}

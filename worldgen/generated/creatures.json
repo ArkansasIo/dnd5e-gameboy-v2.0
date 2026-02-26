@@ -1,0 +1,305 @@
+{
+  "monsters": [
+    {
+      "name": "Goblin Raider",
+      "type": "Humanoid",
+      "subtype": "Goblinoid",
+      "biomes": [
+        "Forest",
+        "Badlands"
+      ]
+    },
+    {
+      "name": "Hobgoblin Captain",
+      "type": "Humanoid",
+      "subtype": "Goblinoid",
+      "biomes": [
+        "Hills",
+        "Mountain"
+      ]
+    },
+    {
+      "name": "Orc Berserker",
+      "type": "Humanoid",
+      "subtype": "Orc",
+      "biomes": [
+        "Mountain",
+        "Steppe"
+      ]
+    },
+    {
+      "name": "Kobold Trapper",
+      "type": "Humanoid",
+      "subtype": "Reptilian",
+      "biomes": [
+        "Cavern",
+        "Badlands"
+      ]
+    },
+    {
+      "name": "Skeleton Legionnaire",
+      "type": "Undead",
+      "subtype": "Skeleton",
+      "biomes": [
+        "Catacomb",
+        "Ruins"
+      ]
+    },
+    {
+      "name": "Ghoul Stalker",
+      "type": "Undead",
+      "subtype": "Ghoul",
+      "biomes": [
+        "Swamp",
+        "Catacomb"
+      ]
+    },
+    {
+      "name": "Wraith of the Rift",
+      "type": "Undead",
+      "subtype": "Incorporeal",
+      "biomes": [
+        "Shadow Rift",
+        "Glacier"
+      ]
+    },
+    {
+      "name": "Owlbear",
+      "type": "Monstrosity",
+      "subtype": "Hybrid Beast",
+      "biomes": [
+        "Forest",
+        "Prairie"
+      ]
+    },
+    {
+      "name": "Displacer Beast",
+      "type": "Monstrosity",
+      "subtype": "Fey-Touched",
+      "biomes": [
+        "Rainforest",
+        "Underdark"
+      ]
+    },
+    {
+      "name": "Gelatinous Cube",
+      "type": "Ooze",
+      "subtype": "Cube",
+      "biomes": [
+        "Cavern",
+        "Underdark"
+      ]
+    },
+    {
+      "name": "Mind Flayer",
+      "type": "Aberration",
+      "subtype": "Psionic",
+      "biomes": [
+        "Underdark",
+        "Shadow Rift"
+      ]
+    },
+    {
+      "name": "Beholder",
+      "type": "Aberration",
+      "subtype": "Eye Tyrant",
+      "biomes": [
+        "Cavern",
+        "Obsidian Deeps"
+      ]
+    },
+    {
+      "name": "Young Red Dragon",
+      "type": "Dragon",
+      "subtype": "Chromatic",
+      "biomes": [
+        "Mountain",
+        "Magma Hollow"
+      ]
+    },
+    {
+      "name": "Will-o-Wisp",
+      "type": "Undead",
+      "subtype": "Spirit",
+      "biomes": [
+        "Swamp",
+        "Fen"
+      ]
+    },
+    {
+      "name": "Basilisk",
+      "type": "Monstrosity",
+      "subtype": "Petrifier",
+      "biomes": [
+        "Badlands",
+        "Canyon"
+      ]
+    }
+  ],
+  "creatures": [
+    {
+      "name": "Treant Guardian",
+      "type": "Plant",
+      "subtype": "Sentient Tree",
+      "biomes": [
+        "Old-Growth",
+        "Forest"
+      ]
+    },
+    {
+      "name": "Dryad Envoy",
+      "type": "Fey",
+      "subtype": "Nymph",
+      "biomes": [
+        "Forest",
+        "Wildflower Meadow"
+      ]
+    },
+    {
+      "name": "Stone Giant",
+      "type": "Giant",
+      "subtype": "Earthborn",
+      "biomes": [
+        "Mountain",
+        "Cavern"
+      ]
+    },
+    {
+      "name": "Frost Giant",
+      "type": "Giant",
+      "subtype": "Iceborn",
+      "biomes": [
+        "Tundra",
+        "Glacier"
+      ]
+    },
+    {
+      "name": "Merrow Hunter",
+      "type": "Monstrosity",
+      "subtype": "Aquatic",
+      "biomes": [
+        "Mangrove",
+        "Wetland"
+      ]
+    },
+    {
+      "name": "Pegasus",
+      "type": "Celestial",
+      "subtype": "Winged Equine",
+      "biomes": [
+        "Prairie",
+        "Alpine"
+      ]
+    },
+    {
+      "name": "Griffon",
+      "type": "Monstrosity",
+      "subtype": "Sky Predator",
+      "biomes": [
+        "Mountain",
+        "Steppe"
+      ]
+    },
+    {
+      "name": "Naga Oracle",
+      "type": "Monstrosity",
+      "subtype": "Serpentine",
+      "biomes": [
+        "Rainforest",
+        "River Jungle"
+      ]
+    }
+  ],
+  "animals": [
+    {
+      "name": "Wolf",
+      "type": "Mammal",
+      "subtype": "Pack Hunter",
+      "biomes": [
+        "Forest",
+        "Tundra"
+      ]
+    },
+    {
+      "name": "Dire Boar",
+      "type": "Mammal",
+      "subtype": "Large Herbivore",
+      "biomes": [
+        "Forest",
+        "Savanna"
+      ]
+    },
+    {
+      "name": "Brown Bear",
+      "type": "Mammal",
+      "subtype": "Omnivore",
+      "biomes": [
+        "Forest",
+        "Alpine"
+      ]
+    },
+    {
+      "name": "Mountain Goat",
+      "type": "Mammal",
+      "subtype": "Climber",
+      "biomes": [
+        "Mountain",
+        "Hills"
+      ]
+    },
+    {
+      "name": "Snow Hare",
+      "type": "Mammal",
+      "subtype": "Forager",
+      "biomes": [
+        "Tundra",
+        "Glacier"
+      ]
+    },
+    {
+      "name": "Giant Eagle",
+      "type": "Bird",
+      "subtype": "Raptor",
+      "biomes": [
+        "Mountain",
+        "Prairie"
+      ]
+    },
+    {
+      "name": "Crocodile",
+      "type": "Reptile",
+      "subtype": "Ambush Predator",
+      "biomes": [
+        "Swamp",
+        "Mangrove"
+      ]
+    },
+    {
+      "name": "Desert Viper",
+      "type": "Reptile",
+      "subtype": "Venomous",
+      "biomes": [
+        "Desert",
+        "Badlands"
+      ]
+    },
+    {
+      "name": "River Salmon",
+      "type": "Fish",
+      "subtype": "Migratory",
+      "biomes": [
+        "River Jungle",
+        "Fen"
+      ]
+    },
+    {
+      "name": "Cave Bat",
+      "type": "Mammal",
+      "subtype": "Nocturnal",
+      "biomes": [
+        "Cavern",
+        "Underdark"
+      ]
+    }
+  ]
+}

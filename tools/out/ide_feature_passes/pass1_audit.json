@@ -1,0 +1,17 @@
+{
+    "generated_at":  "2026-02-25T19:23:35",
+    "source_file":  "ide_editor/ide_editor.c",
+    "totals":  {
+                   "registered":  85,
+                   "handled":  85,
+                   "menu_commands":  85,
+                   "missing_handlers":  0,
+                   "unregistered_menu_commands":  0
+               },
+    "missing_handlers":  [
+
+                         ],
+    "unregistered_menu_commands":  [
+
+                                   ]
+}

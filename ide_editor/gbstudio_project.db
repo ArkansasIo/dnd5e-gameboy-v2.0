@@ -1,0 +1,23 @@
+[meta]
+scene_count=1
+actor_count=2
+trigger_count=1
+script_event_count=1
+active_scene_id=1
+player_hp=20
+player_hp_max=20
+player_gold=0
+world_tick=0
+
+[scenes]
+1|Forest Entry|32|24|1
+
+[actors]
+1|1|Guide NPC|npc_guide|4|6|1|0
+2|1|Wolf|enemy_wolf|18|9|1|1
+
+[triggers]
+1|1|Chest Trigger|10|10|2|2|1
+
+[scripts]
+1|2|10|0|0

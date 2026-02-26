@@ -15,7 +15,7 @@ if errorlevel 1 (
   )
 )
 set CFLAGS=-Wall -Wextra -std=c99 -I.
-set SRC=*.c
+set SRC=*.c feature_autogen\*.c
 set LDFLAGS=-luser32 -lgdi32
 set TMP=%CD%\build_tmp
 set TEMP=%CD%\build_tmp

@@ -1,0 +1,8 @@
+{
+  "id": "example.gbvm.extension",
+  "version": 1,
+  "commands": [
+    { "name": "SET_CAMERA_BOUNDS", "opcode": 224 },
+    { "name": "SET_GRAVITY", "opcode": 225 }
+  ]
+}

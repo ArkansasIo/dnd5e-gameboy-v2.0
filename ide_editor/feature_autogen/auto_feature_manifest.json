@@ -1,0 +1,281 @@
+{
+    "generated_at":  "2026-02-25T19:34:49",
+    "modules":  [
+                    {
+                        "title":  "Visual Game Builder",
+                        "description":  "Drag-drop construction tools and scene graph authoring.",
+                        "id":  "visual_game_builder",
+                        "tags":  [
+                                     "builder",
+                                     "ui",
+                                     "events"
+                                 ]
+                    },
+                    {
+                        "title":  "Built-in Debugger",
+                        "description":  "Breakpoints, watch values, event trace, and step execution.",
+                        "id":  "visual_debugger",
+                        "tags":  [
+                                     "debug",
+                                     "events"
+                                 ]
+                    },
+                    {
+                        "title":  "RPG-style Event Logic",
+                        "description":  "Event-driven flow similar to RPG Maker command chains.",
+                        "id":  "event_logic_rpg",
+                        "tags":  [
+                                     "events",
+                                     "logic"
+                                 ]
+                    },
+                    {
+                        "title":  "Top-down Scene",
+                        "description":  "Top-down adventure scene runtime and navigation rules.",
+                        "id":  "scene_topdown",
+                        "tags":  [
+                                     "scene",
+                                     "adventure"
+                                 ]
+                    },
+                    {
+                        "title":  "Platformer Scene",
+                        "description":  "Platformer runtime with jump and collision movement rules.",
+                        "id":  "scene_platformer",
+                        "tags":  [
+                                     "scene",
+                                     "platformer"
+                                 ]
+                    },
+                    {
+                        "title":  "Shooter Scene",
+                        "description":  "Shooter runtime with projectile and enemy pattern support.",
+                        "id":  "scene_shooter",
+                        "tags":  [
+                                     "scene",
+                                     "shooter"
+                                 ]
+                    },
+                    {
+                        "title":  "Scene Type Mixer",
+                        "description":  "Combine multiple scene types within a single game project.",
+                        "id":  "scene_mixer",
+                        "tags":  [
+                                     "scene",
+                                     "routing"
+                                 ]
+                    },
+                    {
+                        "title":  "Scene Physics and Grid",
+                        "description":  "Per-scene gravity, collisions, and grid snapping controls.",
+                        "id":  "scene_physics_grid",
+                        "tags":  [
+                                     "scene",
+                                     "physics",
+                                     "grid"
+                                 ]
+                    },
+                    {
+                        "title":  "Platformer Advanced Moves",
+                        "description":  "Wall jump, dash, and fall-through platform logic.",
+                        "id":  "platformer_advanced_moves",
+                        "tags":  [
+                                     "platformer",
+                                     "movement"
+                                 ]
+                    },
+                    {
+                        "title":  "Tile Level Editor",
+                        "description":  "Tilemap painting, brush operations, and layer management.",
+                        "id":  "tile_level_editor",
+                        "tags":  [
+                                     "graphics",
+                                     "tilemap"
+                                 ]
+                    },
+                    {
+                        "title":  "Sprite and Animation Editor",
+                        "description":  "Sprite sheet slicing and timeline animation editing.",
+                        "id":  "sprite_animation_editor",
+                        "tags":  [
+                                     "graphics",
+                                     "animation"
+                                 ]
+                    },
+                    {
+                        "title":  "Custom UI Skin Editor",
+                        "description":  "Dialog frames, cursor assets, and UI style composition.",
+                        "id":  "ui_skin_editor",
+                        "tags":  [
+                                     "graphics",
+                                     "ui"
+                                 ]
+                    },
+                    {
+                        "title":  "PNG+JSON Font Mapper",
+                        "description":  "Bitmap font atlas loading and glyph mapping by JSON.",
+                        "id":  "font_png_json",
+                        "tags":  [
+                                     "graphics",
+                                     "font"
+                                 ]
+                    },
+                    {
+                        "title":  "Super Game Boy Border and Palette",
+                        "description":  "SGB border metadata and palette assignment system.",
+                        "id":  "sgb_palette_border",
+                        "tags":  [
+                                     "graphics",
+                                     "sgb"
+                                 ]
+                    },
+                    {
+                        "title":  "Music Editor Piano Roll",
+                        "description":  "Note lane editing with timing and instrument tracks.",
+                        "id":  "music_editor_pianoroll",
+                        "tags":  [
+                                     "audio",
+                                     "music"
+                                 ]
+                    },
+                    {
+                        "title":  "Music Editor Tracker",
+                        "description":  "Tracker pattern editing and sequence arrangement.",
+                        "id":  "music_editor_tracker",
+                        "tags":  [
+                                     "audio",
+                                     "music"
+                                 ]
+                    },
+                    {
+                        "title":  "hUGETracker Bridge",
+                        "description":  "Import-export bridge compatible with hUGETracker workflow.",
+                        "id":  "huge_tracker_bridge",
+                        "tags":  [
+                                     "audio",
+                                     "interop"
+                                 ]
+                    },
+                    {
+                        "title":  "Triggers and Conditions",
+                        "description":  "Trigger dispatch and condition evaluation runtime.",
+                        "id":  "logic_triggers_conditions",
+                        "tags":  [
+                                     "logic",
+                                     "events"
+                                 ]
+                    },
+                    {
+                        "title":  "Variables and Flags",
+                        "description":  "Global/local variable storage and bit-flag operations.",
+                        "id":  "logic_variables_flags",
+                        "tags":  [
+                                     "logic",
+                                     "state"
+                                 ]
+                    },
+                    {
+                        "title":  "Dialogue and Branching",
+                        "description":  "Branching conversation nodes and conditional choices.",
+                        "id":  "dialogue_branching",
+                        "tags":  [
+                                     "logic",
+                                     "dialogue"
+                                 ]
+                    },
+                    {
+                        "title":  "Inventory and Quest",
+                        "description":  "Item inventory, quest state machine, and rewards.",
+                        "id":  "inventory_quest",
+                        "tags":  [
+                                     "logic",
+                                     "rpg"
+                                 ]
+                    },
+                    {
+                        "title":  "Actor Behavior and Collision",
+                        "description":  "Actor movement models, collision channels, and AI hooks.",
+                        "id":  "actor_collision_ai",
+                        "tags":  [
+                                     "logic",
+                                     "collision",
+                                     "ai"
+                                 ]
+                    },
+                    {
+                        "title":  "Plugin API JS+GBVM",
+                        "description":  "Script plugin extension points for JS and GBVM modules.",
+                        "id":  "plugin_js_gbvm",
+                        "tags":  [
+                                     "extensibility",
+                                     "plugin"
+                                 ]
+                    },
+                    {
+                        "title":  "Plugin Manager",
+                        "description":  "Plugin discovery, installation, and lifecycle management.",
+                        "id":  "plugin_manager_ext",
+                        "tags":  [
+                                     "extensibility",
+                                     "plugin"
+                                 ]
+                    },
+                    {
+                        "title":  "Engine Source Extension",
+                        "description":  "C/ASM extension seam registration and export helpers.",
+                        "id":  "engine_source_extension",
+                        "tags":  [
+                                     "extensibility",
+                                     "engine"
+                                 ]
+                    },
+                    {
+                        "title":  "Build and ROM Export",
+                        "description":  "Build .gb/.gbc targets and package distribution outputs.",
+                        "id":  "build_export_rom",
+                        "tags":  [
+                                     "build",
+                                     "export"
+                                 ]
+                    },
+                    {
+                        "title":  "Runtime Targets",
+                        "description":  "Launch and packaging targets for emulator, hardware, and web.",
+                        "id":  "runtime_targets",
+                        "tags":  [
+                                     "build",
+                                     "runtime"
+                                 ]
+                    },
+                    {
+                        "title":  "Camera and Scrolling",
+                        "description":  "Camera bounds, follow behavior, and scrolling policies.",
+                        "id":  "camera_scrolling",
+                        "tags":  [
+                                     "engine",
+                                     "camera"
+                                 ]
+                    },
+                    {
+                        "title":  "Runtime Optimization",
+                        "description":  "Frame budget management and performance instrumentation.",
+                        "id":  "runtime_optimization",
+                        "tags":  [
+                                     "engine",
+                                     "performance"
+                                 ]
+                    },
+                    {
+                        "title":  "Gravity and Tuning",
+                        "description":  "Configurable gravity and gameplay tuning profiles.",
+                        "id":  "gravity_tuning",
+                        "tags":  [
+                                     "engine",
+                                     "tuning"
+                                 ]
+                    }
+                ],
+    "version":  1,
+    "feature_pack":  "ide_editor_mass_autogen",
+    "module_count":  30
+}

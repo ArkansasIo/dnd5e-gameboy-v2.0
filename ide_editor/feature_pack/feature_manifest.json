@@ -1,0 +1,25 @@
+{
+  "feature_pack": "ide_editor_full_stack",
+  "version": 1,
+  "modules": [
+    "visual_game_builder",
+    "scene_system",
+    "platformer_physics",
+    "asset_pipeline",
+    "sprite_animation_editor",
+    "ui_skin_system",
+    "font_mapping",
+    "sgb_support",
+    "music_editor",
+    "event_system",
+    "dialogue_system",
+    "inventory_quest",
+    "actor_collision",
+    "plugin_manager",
+    "extension_api",
+    "build_export",
+    "web_export_bridge",
+    "camera_system",
+    "engine_runtime_tuning"
+  ]
+}

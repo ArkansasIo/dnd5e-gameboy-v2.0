@@ -252,7 +252,10 @@ static LRESULT CALLBACK editor_window_proc(HWND hwnd, UINT msg, WPARAM wparam, L
                     const WindowUIAction *a = &win->actions[i];
                     if (mx >= a->x && mx < (a->x + a->w) && my >= a->y && my < (a->y + a->h)) {
                         win->pressed_action = i;
+                        strncpy(win->pending_command, a->command_id, sizeof(win->pending_command) - 1);
+                        win->pending_command[sizeof(win->pending_command) - 1] = '\0';
                         SetCapture(hwnd);
+                        InvalidateRect(hwnd, NULL, FALSE);
                         break;
                     }
                 }
@@ -274,7 +277,7 @@ static LRESULT CALLBACK editor_window_proc(HWND hwnd, UINT msg, WPARAM wparam, L
                         break;
                     }
                 }
-                if (released_action >= 0 && released_action == win->pressed_action) {
+                if (released_action >= 0 && released_action == win->pressed_action && !win->pending_command[0]) {
                     const WindowUIAction *a = &win->actions[released_action];
                     strncpy(win->pending_command, a->command_id, sizeof(win->pending_command) - 1);
                     win->pending_command[sizeof(win->pending_command) - 1] = '\0';

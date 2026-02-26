@@ -1,0 +1,9 @@
+{
+  "id": "autogen.fullstack.gbvm",
+  "version": 1,
+  "commands": [
+    { "name": "AUTOGEN_SET_CAMERA_BOUNDS", "opcode": 224 },
+    { "name": "AUTOGEN_SET_GRAVITY_PROFILE", "opcode": 225 },
+    { "name": "AUTOGEN_EVENT_TRACE_MARK", "opcode": 226 }
+  ]
+}

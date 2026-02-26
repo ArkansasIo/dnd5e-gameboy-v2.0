@@ -11,6 +11,7 @@
 #include "settings_ui.h"
 #include "help_about.h"
 #include "source_tools.h"
+#include "feature_autogen/auto_feature_registry.h"
 #include <stdlib.h>
 #include <stdio.h>
 #include <string.h>
@@ -34,6 +35,8 @@
 #define KEY_F8 (KEY_EXT_BASE + 66)
 #define KEY_F9 (KEY_EXT_BASE + 67)
 #define KEY_F10 (KEY_EXT_BASE + 68)
+
+static auto_feature_registry g_auto_features;
 
 static void register_commands(IDEEditorApp *app) {
     command_registry_add(&app->command_registry, "file.new_project", "Create a new project workspace");
@@ -128,6 +131,24 @@ static void register_commands(IDEEditorApp *app) {
     command_registry_add(&app->command_registry, "editor.command_palette.next", "Select next command in palette");
     command_registry_add(&app->command_registry, "editor.command_palette.prev", "Select previous command in palette");
     command_registry_add(&app->command_registry, "editor.command_palette.run", "Run selected command palette item");
+
+    {
+        int i;
+        int n = 0;
+        const auto_feature_descriptor *defs = auto_feature_descriptors(&n);
+        for (i = 0; i < n; ++i) {
+            char cmd_enable[96];
+            char cmd_disable[96];
+            char desc_enable[128];
+            char desc_disable[128];
+            snprintf(cmd_enable, sizeof(cmd_enable), "%s.enable", defs[i].id);
+            snprintf(cmd_disable, sizeof(cmd_disable), "%s.disable", defs[i].id);
+            snprintf(desc_enable, sizeof(desc_enable), "Enable module: %s", defs[i].title);
+            snprintf(desc_disable, sizeof(desc_disable), "Disable module: %s", defs[i].title);
+            command_registry_add(&app->command_registry, cmd_enable, desc_enable);
+            command_registry_add(&app->command_registry, cmd_disable, desc_disable);
+        }
+    }
 }
 
 static void add_menu(IDEEditorApp *app, const char *path, const char *command_id) {
@@ -968,6 +989,7 @@ static void handle_ui_action(IDEEditorApp *app, const char *command_id) {
     normalize_command_id(command_id, normalized, (int)sizeof(normalized));
     resolved = resolve_button_command_alias(normalized);
     if (!resolved || !resolved[0]) return;
+    printf("[UI] command=%s\n", resolved);
     if (strncmp(resolved, "ui.menu.top.", 12) == 0) {
         int idx = atoi(resolved + 12);
         if (idx >= 0 && idx < app->interactive_menu.top_count) {
@@ -990,6 +1012,15 @@ static void handle_ui_action(IDEEditorApp *app, const char *command_id) {
 
 static void execute_command(IDEEditorApp *app, const char *command_id) {
     if (!app || !command_id) return;
+    if (auto_feature_registry_dispatch(&g_auto_features, command_id)) {
+        char reason[128];
+        if (auto_feature_registry_validate(&g_auto_features, reason, (int)sizeof(reason))) {
+            ui_api_push_notification(&app->ui, UI_NOTIFY_INFO, reason, 120);
+        } else {
+            ui_api_push_notification(&app->ui, UI_NOTIFY_WARN, "Feature module validation failed", 140);
+        }
+        return;
+    }
 
     if (strcmp(command_id, "file.new_project") == 0) {
         reset_project_workspace(app);
@@ -1706,6 +1737,7 @@ IDEEditorApp *ide_editor_create_with_backend(EditorBackendMode mode) {
     source_workspace_init(&app->sources, "..\\src");
     engine_runtime_init(&app->runtime);
     engine_runtime_seed_defaults(&app->runtime);
+    auto_feature_registry_init(&g_auto_features);
 
     register_commands(app);
     build_menus(app);
@@ -1715,6 +1747,12 @@ IDEEditorApp *ide_editor_create_with_backend(EditorBackendMode mode) {
     register_tools(app);
     editor_seed_default_content(app);
     gbstudio_seed_default_content(app);
+    {
+        char reason[128];
+        if (!auto_feature_registry_validate(&g_auto_features, reason, (int)sizeof(reason))) {
+            ui_api_push_notification(&app->ui, UI_NOTIFY_WARN, reason, 180);
+        }
+    }
     editor_demo_apply_tools(app);
     source_workspace_scan(&app->sources);
     source_workspace_open_active(&app->sources);
@@ -1785,6 +1823,7 @@ void ide_editor_run(IDEEditorApp *app) {
                 engine_runtime_tick(&app->runtime);
             }
         }
+        auto_feature_registry_tick(&g_auto_features);
         ui_api_tick(&app->ui);
 
         if (_kbhit()) {
